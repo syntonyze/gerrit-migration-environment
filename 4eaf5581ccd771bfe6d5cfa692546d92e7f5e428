@@ -1,0 +1,152 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "298a14f1_fe3ee1ce",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-05-12T18:09:25Z",
+      "side": 1,
+      "message": "not only for backup you also doing the upgrade and init when RO? is this necessary? Could we have RW while we are doing upgrade?",
+      "revId": "4eaf5581ccd771bfe6d5cfa692546d92e7f5e428",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a4e9b1a7_aef0592f",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-05-12T18:09:25Z",
+      "side": 1,
+      "message": "gerrit.war?",
+      "range": {
+        "startLine": 24,
+        "startChar": 51,
+        "endLine": 24,
+        "endChar": 71
+      },
+      "revId": "4eaf5581ccd771bfe6d5cfa692546d92e7f5e428",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9f8bd6be_8d1c15d5",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-05-12T18:09:25Z",
+      "side": 1,
+      "message": "I\u0027m not sure if we are able to run init when Gerrit is up and running",
+      "revId": "4eaf5581ccd771bfe6d5cfa692546d92e7f5e428",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "228124e2_db19853c",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-05-12T18:09:25Z",
+      "side": 1,
+      "message": "should we wait for all indexes not only changes?",
+      "revId": "4eaf5581ccd771bfe6d5cfa692546d92e7f5e428",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9807a041_bd8f3125",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-05-12T18:09:25Z",
+      "side": 1,
+      "message": "if we have RO while we are upgrading secondary node should we put RO again when we do primary? plus we should have detailed steps how to upgrade primary node",
+      "revId": "4eaf5581ccd771bfe6d5cfa692546d92e7f5e428",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3c933504_cf072ae6",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-05-12T18:09:25Z",
+      "side": 1,
+      "message": "how to run delta reindexing?",
+      "range": {
+        "startLine": 39,
+        "startChar": 117,
+        "endLine": 39,
+        "endChar": 130
+      },
+      "revId": "4eaf5581ccd771bfe6d5cfa692546d92e7f5e428",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3e8acccf_d42ce170",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-05-12T18:09:25Z",
+      "side": 1,
+      "message": "are we able to restore the files when Gerrit is up and running? I think some of them are locked",
+      "revId": "4eaf5581ccd771bfe6d5cfa692546d92e7f5e428",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "512715fe_98626ce8",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-05-12T18:09:25Z",
+      "side": 1,
+      "message": "should we give more details why we do not recommend?",
+      "revId": "4eaf5581ccd771bfe6d5cfa692546d92e7f5e428",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
