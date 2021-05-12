@@ -20,6 +20,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2d28a072_49e6da74",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-05-12T18:13:39Z",
+      "side": 1,
+      "message": "what about making the secondary node unhealthy to make sure that it will not receive any traffic",
+      "revId": "4eaf5581ccd771bfe6d5cfa692546d92e7f5e428",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a4e9b1a7_aef0592f",
         "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
         "patchSetId": 2
@@ -88,6 +105,23 @@
       "writtenOn": "2021-05-12T18:09:25Z",
       "side": 1,
       "message": "if we have RO while we are upgrading secondary node should we put RO again when we do primary? plus we should have detailed steps how to upgrade primary node",
+      "revId": "4eaf5581ccd771bfe6d5cfa692546d92e7f5e428",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "615f8021_554ddebd",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-05-12T18:13:39Z",
+      "side": 1,
+      "message": "should we make primary node unhealthy to redirect the traffic?",
       "revId": "4eaf5581ccd771bfe6d5cfa692546d92e7f5e428",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
