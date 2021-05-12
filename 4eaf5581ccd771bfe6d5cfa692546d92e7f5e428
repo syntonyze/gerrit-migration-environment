@@ -429,6 +429,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "3bc5cffa_559cb4ec",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-12T20:40:37Z",
+      "side": 1,
+      "message": "Nope you are right. I need to elaborate more this section. Probably here we shouldn\u0027t consider \"disaster recovery situations\", that should be something already in place as a general workflow.\n\nI think I should just mention how to rollback, for example a single node, in case something wen wrong.",
+      "parentUuid": "3e8acccf_d42ce170",
+      "revId": "4eaf5581ccd771bfe6d5cfa692546d92e7f5e428",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "512715fe_98626ce8",
         "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
         "patchSetId": 2
