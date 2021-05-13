@@ -1,0 +1,176 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "96d32486_43c0b39a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-05-13T17:17:59Z",
+      "side": 1,
+      "message": "Should we add section for slaves as well?",
+      "revId": "64e229d9eaa187cd950e31ec3a6787afe0b77db3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "31c4da7e_c76acbc7",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.16-reviewb-TO-2.16-notedb.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-05-13T17:17:59Z",
+      "side": 1,
+      "message": "In 2.14-\u003e2.15 cut-over Luca suggested that we can avoid this read only if we accept some inconsistency",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 26
+      },
+      "revId": "64e229d9eaa187cd950e31ec3a6787afe0b77db3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2029c424_5e229645",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.16-reviewb-TO-2.16-notedb.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-05-13T17:17:59Z",
+      "side": 1,
+      "message": "it\u0027s not clear if changing this settings require gerrit restart. I think yes and we should mention it to be clear",
+      "range": {
+        "startLine": 80,
+        "startChar": 0,
+        "endLine": 82,
+        "endChar": 45
+      },
+      "revId": "64e229d9eaa187cd950e31ec3a6787afe0b77db3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fd3baf00_e96a9677",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.16-reviewb-TO-2.16-notedb.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-05-13T17:17:59Z",
+      "side": 1,
+      "message": "project1?",
+      "range": {
+        "startLine": 160,
+        "startChar": 14,
+        "endLine": 160,
+        "endChar": 21
+      },
+      "revId": "64e229d9eaa187cd950e31ec3a6787afe0b77db3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "da4390f9_453c5a18",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.16-reviewb-TO-2.16-notedb.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-05-13T17:17:59Z",
+      "side": 1,
+      "message": "do we have to restart secondary node?",
+      "range": {
+        "startLine": 176,
+        "startChar": 40,
+        "endLine": 176,
+        "endChar": 51
+      },
+      "revId": "64e229d9eaa187cd950e31ec3a6787afe0b77db3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b51830b0_e9c2ee38",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.16-reviewb-TO-2.16-notedb.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 216,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-05-13T17:17:59Z",
+      "side": 1,
+      "message": "project1?",
+      "range": {
+        "startLine": 216,
+        "startChar": 14,
+        "endLine": 216,
+        "endChar": 21
+      },
+      "revId": "64e229d9eaa187cd950e31ec3a6787afe0b77db3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "16763840_06dcbf49",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.16-reviewb-TO-2.16-notedb.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 263,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-05-13T17:17:59Z",
+      "side": 1,
+      "message": "same is the restart needed?",
+      "range": {
+        "startLine": 263,
+        "startChar": 5,
+        "endLine": 263,
+        "endChar": 13
+      },
+      "revId": "64e229d9eaa187cd950e31ec3a6787afe0b77db3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cc1b6a1a_90d930ff",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.16-reviewb-TO-2.16-notedb.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 313,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-05-13T17:17:59Z",
+      "side": 1,
+      "message": "Should we also have extra step to replace postgresql with H2 file withe the schema version?",
+      "revId": "64e229d9eaa187cd950e31ec3a6787afe0b77db3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
