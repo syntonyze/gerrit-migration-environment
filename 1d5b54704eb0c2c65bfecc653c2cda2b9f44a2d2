@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fc111f59_8f53594b",
+        "filename": "docker-compose.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-13T23:56:13Z",
+      "side": 1,
+      "message": "unrelated: version?",
+      "revId": "1d5b54704eb0c2c65bfecc653c2cda2b9f44a2d2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1c91b291_6d0d0ab3",
+        "filename": "docker-compose.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-13T23:56:13Z",
+      "side": 1,
+      "message": "unrelated: version?",
+      "revId": "1d5b54704eb0c2c65bfecc653c2cda2b9f44a2d2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
