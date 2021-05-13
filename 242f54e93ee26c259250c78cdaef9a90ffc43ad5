@@ -1,0 +1,274 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d5e60026_15664a63",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-13T00:34:40Z",
+      "side": 1,
+      "message": "This can also be avoided by tolerating a small inconsistency upon restore:\n1. Backup reviewdb\n2. Backup Git repositories\n\nAll the changes and new patchsets added at step 2 but not in step 1 can be removed upon restore.\n\nAlso, the backup of Git repositories can happen via rsync (during read/write) and with a last rsync in RO, reducing the window to just a few seconds.",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 26
+      },
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "840d348e_1f267152",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-13T00:34:40Z",
+      "side": 1,
+      "message": "+ tested and measured in staging",
+      "range": {
+        "startLine": 10,
+        "startChar": 33,
+        "endLine": 10,
+        "endChar": 52
+      },
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2e5ecea4_97ee5036",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-13T00:34:40Z",
+      "side": 1,
+      "message": "See above: it may not be needed",
+      "range": {
+        "startLine": 17,
+        "startChar": 3,
+        "endLine": 17,
+        "endChar": 58
+      },
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "faed66fc_61546eb1",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-13T00:34:40Z",
+      "side": 1,
+      "message": "Those do not need to be super-fresh: we can always do a delta-reindex upon restore.",
+      "range": {
+        "startLine": 18,
+        "startChar": 41,
+        "endLine": 18,
+        "endChar": 56
+      },
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ac022199_e8211563",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-13T00:34:40Z",
+      "side": 1,
+      "message": "Do we need to install all plugins?",
+      "range": {
+        "startLine": 25,
+        "startChar": 92,
+        "endLine": 25,
+        "endChar": 113
+      },
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "19bce81c_10853fa8",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-13T00:34:40Z",
+      "side": 1,
+      "message": "This isn\u0027t needed, because it should have already been in RW",
+      "range": {
+        "startLine": 34,
+        "startChar": 0,
+        "endLine": 34,
+        "endChar": 24
+      },
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ef429bc7_5d9df8a4",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-13T00:34:40Z",
+      "side": 1,
+      "message": "Can you suggest some validation tests?",
+      "range": {
+        "startLine": 54,
+        "startChar": 0,
+        "endLine": 54,
+        "endChar": 40
+      },
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "934daace_2cad241a",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-13T00:34:40Z",
+      "side": 1,
+      "message": "You mean loading the healthcheck plugin? Do we also need to set it as disabled just before starting the Gerrit v2.15 upgraded?",
+      "range": {
+        "startLine": 55,
+        "startChar": 0,
+        "endLine": 55,
+        "endChar": 23
+      },
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ddad25f2_359aa6d4",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-13T00:34:40Z",
+      "side": 1,
+      "message": "The steps for the primary node are a bit shorter because:\n1. You do not need to run the init (reviewdb schema has been already updated)\n2. You need to copy indexes from secondary to primary\n3. You need to set the data/high-availability files for delta-reindex",
+      "range": {
+        "startLine": 56,
+        "startChar": 0,
+        "endLine": 57,
+        "endChar": 153
+      },
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bb9cf8b3_341e14f9",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-13T00:34:40Z",
+      "side": 1,
+      "message": "What are the schema changes that are impacting the Git repositories in v2.15?",
+      "range": {
+        "startLine": 62,
+        "startChar": 62,
+        "endLine": 62,
+        "endChar": 78
+      },
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dcc5747d_809f86e5",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-13T00:34:40Z",
+      "side": 1,
+      "message": "+ delta-reindex for the time of the upgrade that the new index has received data.",
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "86181b52_860da347",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-13T00:34:40Z",
+      "side": 1,
+      "message": "from which exact version?",
+      "range": {
+        "startLine": 86,
+        "startChar": 69,
+        "endLine": 86,
+        "endChar": 71
+      },
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
