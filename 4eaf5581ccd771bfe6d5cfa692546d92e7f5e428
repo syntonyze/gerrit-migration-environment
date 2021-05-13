@@ -489,6 +489,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ee0ccda4_fff791cd",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-05-13T07:55:38Z",
+      "side": 1,
+      "message": "We should have strategy how to rollback full system in case of some issues discovered after the migration is completed for all nodes",
+      "parentUuid": "3bc5cffa_559cb4ec",
+      "revId": "4eaf5581ccd771bfe6d5cfa692546d92e7f5e428",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "512715fe_98626ce8",
         "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
         "patchSetId": 2
