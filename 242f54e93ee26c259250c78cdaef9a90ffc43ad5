@@ -102,6 +102,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "48ccf353_0f6b3e89",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-13T23:51:37Z",
+      "side": 1,
+      "message": "- Disable draft changes and patch-sets and notify a deadline for the people to publish their drafts\n- Disable the creation of new changes through inline edit (REST-API block)\n- Disable the WIP workflow (REST-API block)",
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "2e5ecea4_97ee5036",
         "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
         "patchSetId": 5
@@ -211,6 +228,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "c2f4ab9b_f77aac88",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-13T23:51:37Z",
+      "side": 1,
+      "message": "The groups index hasn\u0027t changed from v2.14",
+      "range": {
+        "startLine": 48,
+        "startChar": 0,
+        "endLine": 49,
+        "endChar": 13
+      },
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "ef429bc7_5d9df8a4",
         "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
         "patchSetId": 5
@@ -299,6 +339,23 @@
         "endLine": 55,
         "endChar": 23
       },
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dcd1df5b_a4b1516f",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-13T23:51:37Z",
+      "side": 1,
+      "message": "Do we want to introduce an observation period where one node is kept on Gerrit v2.14 \"just-in-case\" we need to rollback quickly?\n\nThe observation period should be enough to have *real traffic* going through the system for a number of hours and see the real E2E flow going.\n\nHaving one node still with v2.14 allows to rollback very quickly by just:\n- make the v2.15 unhealthy\n- force a delta-reindex by changing the data/high-availability/change file\n- bump back the schema-version in ReviewDb to the old value",
       "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
@@ -408,6 +465,23 @@
         "endLine": 86,
         "endChar": 71
       },
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "770d7d5c_7f7f87c1",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-13T23:51:37Z",
+      "side": 1,
+      "message": "Where is the rollback plan?",
       "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
