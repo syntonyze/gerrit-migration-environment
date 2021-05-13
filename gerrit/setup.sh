@@ -31,10 +31,14 @@ export LOCATION_TEST_SITE_1=$COMMON_LOCATION/instance-1
 export LOCATION_TEST_SITE_2=$COMMON_LOCATION/instance-2
 export FAKE_NFS=$COMMON_LOCATION/fake_nfs
 export RELEASE_WAR_FILE_LOCATION=${COMMON_LOCATION}/gerrit.war
+
 export CONF_TEST_SITE_1=${LOCATION_TEST_SITE_1}/etc/gerrit.config
 export CONF_HA_TEST_SITE_1=${LOCATION_TEST_SITE_1}/etc/high-availability.config
+export CONF_HEALTHCHECK_TEST_SITE_1=${LOCATION_TEST_SITE_1}/etc/healthcheck.config
+
 export CONF_TEST_SITE_2=${LOCATION_TEST_SITE_2}/etc/gerrit.config
 export CONF_HA_TEST_SITE_2=${LOCATION_TEST_SITE_2}/etc/high-availability.config
+export CONF_HEALTHCHECK_TEST_SITE_2=${LOCATION_TEST_SITE_2}/etc/healthcheck.config
 
 function install_plugins() {
   local dir=$1
@@ -48,6 +52,17 @@ wget ${CI_BASE}/${GROOVY_PROVIDER_BASE}/lastSuccessfulBuild/artifact/bazel-bin/p
 wget ${CI_BASE}/plugin-javamelody-bazel-stable-${PLUGINS_VERSION}/lastSuccessfulBuild/artifact/bazel-bin/plugins/javamelody/javamelody.jar -O "$plugin_dir/javamelody.jar"
 wget ${CI_BASE}/plugin-javamelody-bazel-stable-${PLUGINS_VERSION}/lastSuccessfulBuild/artifact/bazel-bin/plugins/javamelody/javamelody-deps_deploy.jar -O "$lib_dir/javamelody-deps_deploy.jar"
 wget ${CI_BASE}/plugin-readonly-bazel-stable-${PLUGINS_VERSION}/lastSuccessfulBuild/artifact/bazel-bin/plugins/readonly/readonly.jar  -O "$plugin_dir/readonly.jar"
+wget ${CI_BASE}/plugin-healthcheck-bazel-stable-${PLUGINS_VERSION}/lastSuccessfulBuild/artifact/bazel-bin/plugins/healthcheck/healthcheck.jar  -O "$plugin_dir/healthcheck.jar"
+}
+
+function configure_healthcheck_plugin() {
+    local conf_file=$1
+
+git config -f ${conf_file} healthcheck.timeout 10s
+git config -f ${conf_file} healthcheck.querychanges.query 'status:open OR status:merged OR status:abandoned'
+git config -f ${conf_file} healthcheck.querychanges.limit 0
+git config -f ${conf_file} healthcheck.auth.enabled false
+
 }
 
 function configure_ha_plugin() {
@@ -107,14 +122,7 @@ git config -f ${conf_file} gerrit.serverId '175d01ee-4b2a-462c-bae4-2081138dddc7
 
 #[sshd]
 git config -f ${conf_file} sshd.listenAddress "*:${sshd_port}"
-
-# download
-git config -f ${conf_file} download.scheme 'ssh'
-git config -f ${conf_file} download.scheme 'http'
-git config -f ${conf_file} download.command 'checkout'
-git config -f ${conf_file} download.command 'cherry_pick'
-git config -f ${conf_file} download.command 'pull'
-git config -f ${conf_file} download.command 'format_patch'
+git config -f ${conf_file} sshd.advertisedAddress "*:29418"
 
 #Notedb
 git config -f ${conf_file} noteDb.changes.autoMigrate 'false'
@@ -125,7 +133,7 @@ git config -f ${conf_file} noteDb.changes.sequence 'false'
 git config -f ${conf_file} noteDb.changes.primaryStorage 'review db'
 git config -f ${conf_file} noteDb.changes.disableReviewDb 'false'
 
-git config -f ${conf_file} gerrit.canonicalWebUrl "http://localhost:${gerrit_port}"
+git config -f ${conf_file} gerrit.canonicalWebUrl "http://localhost:8080"
 git config -f ${conf_file} httpd.listenUrl "http://*:${gerrit_port}/"
 }
 
@@ -147,11 +155,13 @@ ing"; exit 1; }
 java -jar ${RELEASE_WAR_FILE_LOCATION} init -d ${LOCATION_TEST_SITE_1} --install-all-plugins --batch --no-auto-start
 configure_gerrit ${CONF_TEST_SITE_1} 18080 39418
 configure_ha_plugin ${CONF_HA_TEST_SITE_1} 'http://localhost:18081'
+configure_healthcheck_plugin ${CONF_HEALTHCHECK_TEST_SITE_1}
 install_plugins ${LOCATION_TEST_SITE_1}
 
 java -jar ${RELEASE_WAR_FILE_LOCATION} init -d ${LOCATION_TEST_SITE_2} --install-all-plugins --batch --no-auto-start
 configure_gerrit ${CONF_TEST_SITE_2} 18081 49418
 configure_ha_plugin ${CONF_HA_TEST_SITE_2} 'http://localhost:18080'
+configure_healthcheck_plugin ${CONF_HEALTHCHECK_TEST_SITE_2}
 install_plugins ${LOCATION_TEST_SITE_2}
 
 rm -rf ${LOCATION_TEST_SITE_2}/git && \

@@ -35,3 +35,12 @@ services:
     restart: always
     ports:
       - 8989:8080
+
+  haproxy:
+    image: haproxy:1.7.14
+    restart: always
+    volumes:
+      - ./haproxy/haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg
+    ports:
+      - "8080:8080"
+      - "29418:29418"
