@@ -18,6 +18,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "eccbc2a6_5e431aaf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-05-13T07:52:26Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "89b2235f_f91a0d7f",
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d5e60026_15664a63",
@@ -112,6 +130,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2615e4f1_04009743",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-05-13T07:52:26Z",
+      "side": 1,
+      "message": "should we mention how to make it unhealthy?",
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "ac022199_e8211563",
         "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
         "patchSetId": 5
@@ -181,6 +216,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "8c54cec0_d2dcfed8",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-05-13T07:52:26Z",
+      "side": 1,
+      "message": "In one of the previous comments you mentioned that we should have generic validation testes for all the upgrades. I agree but we have to link it here",
+      "parentUuid": "ef429bc7_5d9df8a4",
+      "range": {
+        "startLine": 54,
+        "startChar": 0,
+        "endLine": 54,
+        "endChar": 40
+      },
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "934daace_2cad241a",
         "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
         "patchSetId": 5
@@ -192,6 +251,30 @@
       "writtenOn": "2021-05-13T00:34:40Z",
       "side": 1,
       "message": "You mean loading the healthcheck plugin? Do we also need to set it as disabled just before starting the Gerrit v2.15 upgraded?",
+      "range": {
+        "startLine": 55,
+        "startChar": 0,
+        "endLine": 55,
+        "endChar": 23
+      },
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "73b8e447_23d32c2e",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-05-13T07:52:26Z",
+      "side": 1,
+      "message": "Same as for making it unhealthy. How to mark it as healthy?",
+      "parentUuid": "934daace_2cad241a",
       "range": {
         "startLine": 55,
         "startChar": 0,
@@ -220,6 +303,29 @@
         "startChar": 0,
         "endLine": 57,
         "endChar": 153
+      },
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1f04cfeb_47e761ed",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-05-13T07:52:26Z",
+      "side": 1,
+      "message": "same as before, how to do the delta reindexing?",
+      "range": {
+        "startLine": 57,
+        "startChar": 117,
+        "endLine": 57,
+        "endChar": 122
       },
       "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
