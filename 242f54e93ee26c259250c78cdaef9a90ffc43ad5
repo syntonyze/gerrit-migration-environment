@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "89b2235f_f91a0d7f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2021-05-13T07:20:49Z",
+      "side": 1,
+      "message": "This cutover only refers to primary instances, but it does not mention anything about replicas.\nShould that be part of the cutover?",
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d5e60026_15664a63",
