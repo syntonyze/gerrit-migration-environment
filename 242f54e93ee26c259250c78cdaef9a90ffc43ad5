@@ -77,6 +77,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "59c09963_2246b33a",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-14T11:11:33Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "d5e60026_15664a63",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 26
+      },
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "840d348e_1f267152",
@@ -100,6 +124,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "bba4a179_32413c76",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-14T11:11:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "840d348e_1f267152",
+      "range": {
+        "startLine": 10,
+        "startChar": 33,
+        "endLine": 10,
+        "endChar": 52
+      },
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "48ccf353_0f6b3e89",
@@ -113,6 +161,24 @@
       "writtenOn": "2021-05-13T23:51:37Z",
       "side": 1,
       "message": "- Disable draft changes and patch-sets and notify a deadline for the people to publish their drafts\n- Disable the creation of new changes through inline edit (REST-API block)\n- Disable the WIP workflow (REST-API block)",
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5bde61df_b7d7be3c",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-14T11:11:33Z",
+      "side": 1,
+      "message": "\u003eDisable the creation of new changes through inline edit (REST-API block)\n\u003eDisable the WIP workflow (REST-API block)\n\nIt doesn\u0027t look like online editing creates drafts 😕 I might be doing something wrong ?",
+      "parentUuid": "48ccf353_0f6b3e89",
       "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
@@ -180,6 +246,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5aaf9338_fe3de439",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-14T11:11:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2615e4f1_04009743",
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ac022199_e8211563",
@@ -193,6 +277,30 @@
       "writtenOn": "2021-05-13T00:34:40Z",
       "side": 1,
       "message": "Do we need to install all plugins?",
+      "range": {
+        "startLine": 25,
+        "startChar": 92,
+        "endLine": 25,
+        "endChar": 113
+      },
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "58debc8f_32c36a2f",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-14T11:11:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ac022199_e8211563",
       "range": {
         "startLine": 25,
         "startChar": 92,
@@ -226,6 +334,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e31f1830_7578f5b0",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-14T11:11:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "19bce81c_10853fa8",
+      "range": {
+        "startLine": 34,
+        "startChar": 0,
+        "endLine": 34,
+        "endChar": 24
+      },
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c2f4ab9b_f77aac88",
@@ -239,6 +371,30 @@
       "writtenOn": "2021-05-13T23:51:37Z",
       "side": 1,
       "message": "The groups index hasn\u0027t changed from v2.14",
+      "range": {
+        "startLine": 48,
+        "startChar": 0,
+        "endLine": 49,
+        "endChar": 13
+      },
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "163994a0_57f14b7a",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-14T11:11:33Z",
+      "side": 1,
+      "message": "yep, seems like in 2.15 we have version 004.",
+      "parentUuid": "c2f4ab9b_f77aac88",
       "range": {
         "startLine": 48,
         "startChar": 0,
@@ -296,6 +452,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "cd54cda0_aaf290d5",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-14T11:11:33Z",
+      "side": 1,
+      "message": "Mentioning to run Gatling again",
+      "parentUuid": "8c54cec0_d2dcfed8",
+      "range": {
+        "startLine": 54,
+        "startChar": 0,
+        "endLine": 54,
+        "endChar": 40
+      },
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "934daace_2cad241a",
@@ -343,6 +523,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7fbed135_87635452",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-14T11:11:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "73b8e447_23d32c2e",
+      "range": {
+        "startLine": 55,
+        "startChar": 0,
+        "endLine": 55,
+        "endChar": 23
+      },
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "dcd1df5b_a4b1516f",
@@ -356,6 +560,24 @@
       "writtenOn": "2021-05-13T23:51:37Z",
       "side": 1,
       "message": "Do we want to introduce an observation period where one node is kept on Gerrit v2.14 \"just-in-case\" we need to rollback quickly?\n\nThe observation period should be enough to have *real traffic* going through the system for a number of hours and see the real E2E flow going.\n\nHaving one node still with v2.14 allows to rollback very quickly by just:\n- make the v2.15 unhealthy\n- force a delta-reindex by changing the data/high-availability/change file\n- bump back the schema-version in ReviewDb to the old value",
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "34361045_deeaf6bc",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-14T11:11:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dcd1df5b_a4b1516f",
       "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
@@ -406,6 +628,54 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0586fb31_fbf6e83e",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-14T11:11:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1f04cfeb_47e761ed",
+      "range": {
+        "startLine": 57,
+        "startChar": 117,
+        "endLine": 57,
+        "endChar": 122
+      },
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "32f4d40a_5ba81ed1",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-14T11:11:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ddad25f2_359aa6d4",
+      "range": {
+        "startLine": 56,
+        "startChar": 0,
+        "endLine": 57,
+        "endChar": 153
+      },
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "bb9cf8b3_341e14f9",
@@ -419,6 +689,30 @@
       "writtenOn": "2021-05-13T00:34:40Z",
       "side": 1,
       "message": "What are the schema changes that are impacting the Git repositories in v2.15?",
+      "range": {
+        "startLine": 62,
+        "startChar": 62,
+        "endLine": 62,
+        "endChar": 78
+      },
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d6229282_5e7dce6f",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-14T11:11:33Z",
+      "side": 1,
+      "message": "Accounts are migrated to NoteDB in 2.15, isn\u0027t it?",
+      "parentUuid": "bb9cf8b3_341e14f9",
       "range": {
         "startLine": 62,
         "startChar": 62,
@@ -446,6 +740,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed88e1b2_fdff5b0a",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-14T11:11:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dcc5747d_809f86e5",
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "86181b52_860da347",
@@ -469,6 +781,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "662d9da5_706b5ceb",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-14T11:11:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "86181b52_860da347",
+      "range": {
+        "startLine": 86,
+        "startChar": 69,
+        "endLine": 86,
+        "endChar": 71
+      },
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "770d7d5c_7f7f87c1",
@@ -482,6 +818,24 @@
       "writtenOn": "2021-05-13T23:51:37Z",
       "side": 1,
       "message": "Where is the rollback plan?",
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c5f14623_e8afa994",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-14T11:11:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "770d7d5c_7f7f87c1",
       "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
