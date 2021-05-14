@@ -54,6 +54,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e22cb7cc_22f9d32e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-14T20:41:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0b341a91_7e806103",
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d5e60026_15664a63",
@@ -201,6 +219,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "831a59ee_86668850",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-14T20:41:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a8ba308e_859ab6b0",
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2e5ecea4_97ee5036",
@@ -224,6 +260,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "125d52f9_eae3a65a",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-14T20:41:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2e5ecea4_97ee5036",
+      "range": {
+        "startLine": 17,
+        "startChar": 3,
+        "endLine": 17,
+        "endChar": 58
+      },
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "faed66fc_61546eb1",
@@ -237,6 +297,30 @@
       "writtenOn": "2021-05-13T00:34:40Z",
       "side": 1,
       "message": "Those do not need to be super-fresh: we can always do a delta-reindex upon restore.",
+      "range": {
+        "startLine": 18,
+        "startChar": 41,
+        "endLine": 18,
+        "endChar": 56
+      },
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3d31f6ab_5ca697a8",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-14T20:41:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "faed66fc_61546eb1",
       "range": {
         "startLine": 18,
         "startChar": 41,
@@ -845,6 +929,30 @@
       "side": 1,
       "message": "Accounts are migrated to NoteDB in 2.15, isn\u0027t it?",
       "parentUuid": "bb9cf8b3_341e14f9",
+      "range": {
+        "startLine": 62,
+        "startChar": 62,
+        "endLine": 62,
+        "endChar": 78
+      },
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4c8703f1_ff72afd3",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-14T20:41:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d6229282_5e7dce6f",
       "range": {
         "startLine": 62,
         "startChar": 62,
