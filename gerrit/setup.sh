@@ -65,6 +65,12 @@ git config -f ${conf_file} healthcheck.auth.enabled false
 
 }
 
+function configure_readonly_plugin() {
+    local conf_file=$1
+
+git config -f ${conf_file} readonly.allowSshCommand git-upload-pack
+}
+
 function configure_ha_plugin() {
   local conf_file=$1
   local peer_info=$2
@@ -156,12 +162,14 @@ java -jar ${RELEASE_WAR_FILE_LOCATION} init -d ${LOCATION_TEST_SITE_1} --install
 configure_gerrit ${CONF_TEST_SITE_1} 18080 39418
 configure_ha_plugin ${CONF_HA_TEST_SITE_1} 'http://localhost:18081'
 configure_healthcheck_plugin ${CONF_HEALTHCHECK_TEST_SITE_1}
+configure_readonly_plugin ${CONF_HEALTHCHECK_TEST_SITE_1}
 install_plugins ${LOCATION_TEST_SITE_1}
 
 java -jar ${RELEASE_WAR_FILE_LOCATION} init -d ${LOCATION_TEST_SITE_2} --install-all-plugins --batch --no-auto-start
 configure_gerrit ${CONF_TEST_SITE_2} 18081 49418
 configure_ha_plugin ${CONF_HA_TEST_SITE_2} 'http://localhost:18080'
 configure_healthcheck_plugin ${CONF_HEALTHCHECK_TEST_SITE_2}
+configure_readonly_plugin ${CONF_HEALTHCHECK_TEST_SITE_2}
 install_plugins ${LOCATION_TEST_SITE_2}
 
 rm -rf ${LOCATION_TEST_SITE_2}/git && \
