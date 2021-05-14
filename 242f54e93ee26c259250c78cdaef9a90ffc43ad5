@@ -185,6 +185,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "a8ba308e_859ab6b0",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-14T18:21:59Z",
+      "side": 1,
+      "message": "That is for avoiding creating a WIP changes with the GUI in v2.15.",
+      "parentUuid": "5bde61df_b7d7be3c",
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "2e5ecea4_97ee5036",
         "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
         "patchSetId": 5
@@ -461,6 +479,30 @@
       "side": 1,
       "message": "yep, seems like in 2.15 we have version 004.",
       "parentUuid": "c2f4ab9b_f77aac88",
+      "range": {
+        "startLine": 48,
+        "startChar": 0,
+        "endLine": 49,
+        "endChar": 13
+      },
+      "revId": "242f54e93ee26c259250c78cdaef9a90ffc43ad5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eed0523f_7d97aea0",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-14T18:21:59Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "163994a0_57f14b7a",
       "range": {
         "startLine": 48,
         "startChar": 0,

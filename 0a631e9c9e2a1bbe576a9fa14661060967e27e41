@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "4eb36f79_73d97a71",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-14T18:21:59Z",
+      "side": 1,
+      "message": "Do an initial rsync of the repos for the Git repos *before* the read-only window and then another one to finalise it inside the read-only window.",
+      "revId": "0a631e9c9e2a1bbe576a9fa14661060967e27e41",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "889122cc_6bcd7f56",
         "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
         "patchSetId": 9
@@ -19,6 +36,29 @@
         "startChar": 71,
         "endLine": 54,
         "endChar": 101
+      },
+      "revId": "0a631e9c9e2a1bbe576a9fa14661060967e27e41",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "33465ff4_d947eb7b",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-14T18:21:59Z",
+      "side": 1,
+      "message": "0004",
+      "range": {
+        "startLine": 81,
+        "startChar": 15,
+        "endLine": 81,
+        "endChar": 19
       },
       "revId": "0a631e9c9e2a1bbe576a9fa14661060967e27e41",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
