@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ebf8aa52_abaddbf7",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-18T18:12:46Z",
+      "side": 1,
+      "message": "+ Upgrade the high-availability plugin in v2.14 (Fix is still WIP)",
+      "revId": "0a631e9c9e2a1bbe576a9fa14661060967e27e41",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "4eb36f79_73d97a71",
         "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
         "patchSetId": 9
@@ -179,6 +196,52 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "d395871c_94e4d73d",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-18T18:12:46Z",
+      "side": 1,
+      "message": "Traffic is going to the upgraded v2.15 node, whilst the old v2.14 node is passive and just receiving the reindexing events.",
+      "range": {
+        "startLine": 92,
+        "startChar": 75,
+        "endLine": 93,
+        "endChar": 35
+      },
+      "revId": "0a631e9c9e2a1bbe576a9fa14661060967e27e41",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "27e77322_d05951bf",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-18T18:12:46Z",
+      "side": 1,
+      "message": "+ the existing node not yet upgraded.",
+      "range": {
+        "startLine": 98,
+        "startChar": 57,
+        "endLine": 98,
+        "endChar": 79
+      },
+      "revId": "0a631e9c9e2a1bbe576a9fa14661060967e27e41",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "bc05876c_4df2844a",
         "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
         "patchSetId": 9
@@ -273,6 +336,53 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "7334a41b_a39336d6",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-18T18:12:46Z",
+      "side": 1,
+      "message": "Should this be the time of the files copied?",
+      "parentUuid": "e141b61b_f0176308",
+      "range": {
+        "startLine": 115,
+        "startChar": 15,
+        "endLine": 115,
+        "endChar": 18
+      },
+      "revId": "0a631e9c9e2a1bbe576a9fa14661060967e27e41",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5f235b00_269b0f62",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-18T18:12:46Z",
+      "side": 1,
+      "message": "with",
+      "range": {
+        "startLine": 118,
+        "startChar": 76,
+        "endLine": 118,
+        "endChar": 80
+      },
+      "revId": "0a631e9c9e2a1bbe576a9fa14661060967e27e41",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "2ff40a0f_6984274d",
         "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
         "patchSetId": 9
@@ -313,6 +423,184 @@
         "startChar": 49,
         "endLine": 120,
         "endChar": 53
+      },
+      "revId": "0a631e9c9e2a1bbe576a9fa14661060967e27e41",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d3daa28c_ca5f1559",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-18T18:12:46Z",
+      "side": 1,
+      "message": "add + TBC",
+      "range": {
+        "startLine": 122,
+        "startChar": 20,
+        "endLine": 122,
+        "endChar": 26
+      },
+      "revId": "0a631e9c9e2a1bbe576a9fa14661060967e27e41",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3107f612_b1550fd7",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-18T18:12:46Z",
+      "side": 1,
+      "message": "This can be dropeed",
+      "range": {
+        "startLine": 129,
+        "startChar": 0,
+        "endLine": 129,
+        "endChar": 21
+      },
+      "revId": "0a631e9c9e2a1bbe576a9fa14661060967e27e41",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3b7f60df_900c142c",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-18T18:12:46Z",
+      "side": 1,
+      "message": "+ Enable again inline edit and WIP workflow via HTTP rules.",
+      "revId": "0a631e9c9e2a1bbe576a9fa14661060967e27e41",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "136825eb_0ae15fbe",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-18T18:12:46Z",
+      "side": 1,
+      "message": "Rollback of Gerrit version from v2.15 to v2.14",
+      "range": {
+        "startLine": 135,
+        "startChar": 0,
+        "endLine": 135,
+        "endChar": 15
+      },
+      "revId": "0a631e9c9e2a1bbe576a9fa14661060967e27e41",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5dade56e_c17c3081",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-18T18:12:46Z",
+      "side": 1,
+      "message": "Disaster Recovery",
+      "range": {
+        "startLine": 159,
+        "startChar": 0,
+        "endLine": 159,
+        "endChar": 20
+      },
+      "revId": "0a631e9c9e2a1bbe576a9fa14661060967e27e41",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "488526a1_1b356cd7",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-18T18:12:46Z",
+      "side": 1,
+      "message": "Add a warning that this will lose all data that has been created *after the backup*.",
+      "range": {
+        "startLine": 164,
+        "startChar": 61,
+        "endLine": 164,
+        "endChar": 84
+      },
+      "revId": "0a631e9c9e2a1bbe576a9fa14661060967e27e41",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c0e32146_09b43f13",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-18T18:12:46Z",
+      "side": 1,
+      "message": "+ record the system and Gerrit metrics during the cutover:\n  * Memory\n  * CPU\n  * Thread consumption\n  * HTTP latency\n  * SSH latency\n  * Caches\n  * JVM GC activity",
+      "range": {
+        "startLine": 171,
+        "startChar": 5,
+        "endLine": 171,
+        "endChar": 30
+      },
+      "revId": "0a631e9c9e2a1bbe576a9fa14661060967e27e41",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5fdd664e_8797c150",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-18T18:12:46Z",
+      "side": 1,
+      "message": "+ *before* running the test",
+      "range": {
+        "startLine": 172,
+        "startChar": 10,
+        "endLine": 172,
+        "endChar": 38
       },
       "revId": "0a631e9c9e2a1bbe576a9fa14661060967e27e41",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
