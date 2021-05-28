@@ -237,6 +237,54 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b981eaeb_a489a825",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-28T15:20:38Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "efe3bb76_c559bc14",
+      "range": {
+        "startLine": 54,
+        "startChar": 36,
+        "endLine": 54,
+        "endChar": 44
+      },
+      "revId": "9930212ea5e01298132d3669a3209431d3240af5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "42101522_6a292379",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-28T15:20:38Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "bd24e4f5_ece14ea5",
+      "range": {
+        "startLine": 54,
+        "startChar": 46,
+        "endLine": 54,
+        "endChar": 88
+      },
+      "revId": "9930212ea5e01298132d3669a3209431d3240af5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8e716e11_14346b8b",
@@ -301,6 +349,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "913a2c55_4def917b",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-28T15:20:38Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "628851f1_1892fdda",
+      "range": {
+        "startLine": 126,
+        "startChar": 7,
+        "endLine": 126,
+        "endChar": 20
+      },
+      "revId": "9930212ea5e01298132d3669a3209431d3240af5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "dfb2bbee_0b3e5cdd",
@@ -338,6 +410,30 @@
       "side": 1,
       "message": "how do you test with Jenkins otherwise? Jenkins is using the slaves",
       "parentUuid": "dfb2bbee_0b3e5cdd",
+      "range": {
+        "startLine": 129,
+        "startChar": 4,
+        "endLine": 129,
+        "endChar": 29
+      },
+      "revId": "9930212ea5e01298132d3669a3209431d3240af5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b07b4b11_86d644f6",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-28T15:20:38Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "e2a9d6f7_59a390f5",
       "range": {
         "startLine": 129,
         "startChar": 4,
@@ -395,6 +491,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9ae28769_077bdf10",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-28T15:20:38Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "6257b25b_7bb00204",
+      "range": {
+        "startLine": 130,
+        "startChar": 26,
+        "endLine": 130,
+        "endChar": 44
+      },
+      "revId": "9930212ea5e01298132d3669a3209431d3240af5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7f412eb5_a9532504",
@@ -432,6 +552,30 @@
       "side": 1,
       "message": "good point, I wouldn’t do it if we are not sure we say the system\nis working fine.\n\nwe do need some rules in the HA proxy to allow testing though",
       "parentUuid": "7f412eb5_a9532504",
+      "range": {
+        "startLine": 131,
+        "startChar": 4,
+        "endLine": 132,
+        "endChar": 71
+      },
+      "revId": "9930212ea5e01298132d3669a3209431d3240af5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e4272e91_d7541ddf",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-28T15:20:38Z",
+      "side": 1,
+      "message": "ok...if I get this right, if the slaves have been migrate and gerrit-1 no, the system should still be fine. We can at least validate the slaves before making gerrit-2 healthy, right?",
+      "parentUuid": "f363ad16_50daf202",
       "range": {
         "startLine": 131,
         "startChar": 4,
