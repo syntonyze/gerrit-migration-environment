@@ -310,6 +310,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "56025674_7e1666bf",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-28T15:50:54Z",
+      "side": 1,
+      "message": "True, I need to specify for gerrit-1 and then gerrit-2",
+      "parentUuid": "0bed9d46_314cd220",
+      "range": {
+        "startLine": 56,
+        "startChar": 2,
+        "endLine": 59,
+        "endChar": 18
+      },
+      "revId": "9930212ea5e01298132d3669a3209431d3240af5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "8e716e11_14346b8b",
         "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
         "patchSetId": 11
@@ -339,6 +363,24 @@
       "side": 1,
       "message": "+1",
       "parentUuid": "8e716e11_14346b8b",
+      "revId": "9930212ea5e01298132d3669a3209431d3240af5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "328dbb09_9a02fa69",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-28T15:50:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "95d9b3ab_44daab48",
       "revId": "9930212ea5e01298132d3669a3209431d3240af5",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
@@ -627,6 +669,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3bb012e0_c23444e5",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-28T15:50:54Z",
+      "side": 1,
+      "message": "Yes.",
+      "parentUuid": "e4272e91_d7541ddf",
+      "range": {
+        "startLine": 131,
+        "startChar": 4,
+        "endLine": 132,
+        "endChar": 71
+      },
+      "revId": "9930212ea5e01298132d3669a3209431d3240af5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7264cf7b_ef64f5bc",
@@ -640,6 +706,30 @@
       "writtenOn": "2021-05-28T15:30:19Z",
       "side": 1,
       "message": "to copy the index should node 2 be marked as RO to avoid copy corrupted index?",
+      "range": {
+        "startLine": 154,
+        "startChar": 4,
+        "endLine": 155,
+        "endChar": 22
+      },
+      "revId": "9930212ea5e01298132d3669a3209431d3240af5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "396cffc4_984c9f7a",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-28T15:50:54Z",
+      "side": 1,
+      "message": "True, it should be set RO, copy indexes and then set back to RW.",
+      "parentUuid": "7264cf7b_ef64f5bc",
       "range": {
         "startLine": 154,
         "startChar": 4,
