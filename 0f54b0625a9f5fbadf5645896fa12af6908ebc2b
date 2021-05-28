@@ -1,0 +1,267 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f23b6fd6_c01a1637",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-28T12:43:55Z",
+      "side": 1,
+      "message": "See more feedback below: will apply the changes in PS11",
+      "revId": "0f54b0625a9f5fbadf5645896fa12af6908ebc2b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1dd8d21f_de91fa96",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-28T12:43:55Z",
+      "side": 1,
+      "message": "https://support.gerritforge.com/support/download/gerrit/stable-2.14/plugins/high-availability/v2.14.12-7-ge177db0ea3/high-availability.jar",
+      "range": {
+        "startLine": 31,
+        "startChar": 42,
+        "endLine": 31,
+        "endChar": 66
+      },
+      "revId": "0f54b0625a9f5fbadf5645896fa12af6908ebc2b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6532edde_01c05782",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-28T12:43:55Z",
+      "side": 1,
+      "message": "+ Publish all draft changes (give a deadline to all developers and, if they don\u0027t do themselves, publish them forcibly)",
+      "revId": "0f54b0625a9f5fbadf5645896fa12af6908ebc2b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b887b870_bd79a710",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-28T12:43:55Z",
+      "side": 1,
+      "message": "The high-availability plugin is:\nhttps://support.gerritforge.com/support/download/gerrit/stable-2.15/plugins/high-availability/v2.15-11-gcdfd0a7e0e/high-availability.jar\n\nThe prometheus-report plugin is:\nhttps://support.gerritforge.com/support/download/gerrit/stable-2.15/plugins/metrics-reporter-prometheus/1dedb87219/metrics-reporter-prometheus.jar",
+      "revId": "0f54b0625a9f5fbadf5645896fa12af6908ebc2b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2d0e5bc6_3faff7b6",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-28T12:43:55Z",
+      "side": 1,
+      "message": "That isn\u0027t needed anymore: we make sure that there are NO draft changes at the start of the cutover.",
+      "range": {
+        "startLine": 85,
+        "startChar": 0,
+        "endLine": 85,
+        "endChar": 107
+      },
+      "revId": "0f54b0625a9f5fbadf5645896fa12af6908ebc2b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c203c982_e5976307",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-28T12:43:55Z",
+      "side": 1,
+      "message": "This needs to be carefully timed in staging and the time reported in the cutover plan timings for production.",
+      "range": {
+        "startLine": 93,
+        "startChar": 77,
+        "endLine": 93,
+        "endChar": 109
+      },
+      "revId": "0f54b0625a9f5fbadf5645896fa12af6908ebc2b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5bc47fb8_8c3cd15e",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-28T12:43:55Z",
+      "side": 1,
+      "message": "What does that mean?",
+      "range": {
+        "startLine": 104,
+        "startChar": 4,
+        "endLine": 104,
+        "endChar": 34
+      },
+      "revId": "0f54b0625a9f5fbadf5645896fa12af6908ebc2b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2d72f3bf_f488dea1",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-28T12:43:55Z",
+      "side": 1,
+      "message": "When to upgrade the slaves?",
+      "revId": "0f54b0625a9f5fbadf5645896fa12af6908ebc2b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "31d8b540_450d03db",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-28T12:43:55Z",
+      "side": 1,
+      "message": "Run Jenkins build validation.",
+      "revId": "0f54b0625a9f5fbadf5645896fa12af6908ebc2b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "92a3fded_0e980634",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-28T12:43:55Z",
+      "side": 1,
+      "message": "Just TBC",
+      "range": {
+        "startLine": 166,
+        "startChar": 20,
+        "endLine": 166,
+        "endChar": 32
+      },
+      "revId": "0f54b0625a9f5fbadf5645896fa12af6908ebc2b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9745fde2_10e8769a",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-28T12:43:55Z",
+      "side": 1,
+      "message": "Consolidation period and cleanup",
+      "range": {
+        "startLine": 166,
+        "startChar": 0,
+        "endLine": 166,
+        "endChar": 18
+      },
+      "revId": "0f54b0625a9f5fbadf5645896fa12af6908ebc2b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9bd117b2_08a623d6",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-28T12:43:55Z",
+      "side": 1,
+      "message": "+ NOTE: This is the point of non-return to the v2.14 release.",
+      "revId": "0f54b0625a9f5fbadf5645896fa12af6908ebc2b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "540bd2c1_5365614b",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-28T12:43:55Z",
+      "side": 1,
+      "message": "This should be removed. Actually, the upgrade to v2.14.22 is a pre-requisite.",
+      "range": {
+        "startLine": 219,
+        "startChar": 2,
+        "endLine": 219,
+        "endChar": 92
+      },
+      "revId": "0f54b0625a9f5fbadf5645896fa12af6908ebc2b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
