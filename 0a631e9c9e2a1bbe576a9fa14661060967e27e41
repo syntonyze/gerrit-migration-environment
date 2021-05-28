@@ -581,6 +581,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9e51c3db_18cf3a4e",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-28T14:01:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3b7f60df_900c142c",
+      "revId": "0a631e9c9e2a1bbe576a9fa14661060967e27e41",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "136825eb_0ae15fbe",
@@ -640,6 +658,30 @@
       "writtenOn": "2021-05-18T18:12:46Z",
       "side": 1,
       "message": "Add a warning that this will lose all data that has been created *after the backup*.",
+      "range": {
+        "startLine": 164,
+        "startChar": 61,
+        "endLine": 164,
+        "endChar": 84
+      },
+      "revId": "0a631e9c9e2a1bbe576a9fa14661060967e27e41",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b1abde77_def9320c",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-28T14:01:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "488526a1_1b356cd7",
       "range": {
         "startLine": 164,
         "startChar": 61,
