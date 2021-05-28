@@ -1,0 +1,228 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "766f5a85_0731a658",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-28T14:27:30Z",
+      "side": 1,
+      "message": "Are these 2 supposed to be merged together? Not sure what the \"Notify all users that didn\u0027t created drafts\" means.",
+      "range": {
+        "startLine": 30,
+        "startChar": 0,
+        "endLine": 40,
+        "endChar": 35
+      },
+      "revId": "9930212ea5e01298132d3669a3209431d3240af5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4be6f673_4e77fae5",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-28T14:27:30Z",
+      "side": 1,
+      "message": "restart needed? Or this change will go along with the 2.14.22 upgrade?",
+      "range": {
+        "startLine": 48,
+        "startChar": 45,
+        "endLine": 48,
+        "endChar": 50
+      },
+      "revId": "9930212ea5e01298132d3669a3209431d3240af5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2bdd255f_2730caa2",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-28T14:27:30Z",
+      "side": 1,
+      "message": "shall we put this link instead: https://gerrit-releases.storage.googleapis.com/gerrit-2.14.22.war ?",
+      "range": {
+        "startLine": 54,
+        "startChar": 46,
+        "endLine": 54,
+        "endChar": 88
+      },
+      "revId": "9930212ea5e01298132d3669a3209431d3240af5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d9191011_0be10bad",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-28T14:27:30Z",
+      "side": 1,
+      "message": "Is this minor version upgrade strictly necessary? If they can skip it, they will avoid one step and they will avoid a non \"seasoned\" version of the HA plugin?",
+      "range": {
+        "startLine": 54,
+        "startChar": 36,
+        "endLine": 54,
+        "endChar": 44
+      },
+      "revId": "9930212ea5e01298132d3669a3209431d3240af5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8e716e11_14346b8b",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-28T14:27:30Z",
+      "side": 1,
+      "message": "Missing: \"Put the system back in Read Write (`rm \u003cgerrit_dir\u003e/etc/gerrit.readonly` on both gerrit-1 and gerrit-2)\"",
+      "revId": "9930212ea5e01298132d3669a3209431d3240af5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b9447544_708374c6",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-28T14:27:30Z",
+      "side": 1,
+      "message": "All the tests? Or we need to specify which ones?",
+      "range": {
+        "startLine": 126,
+        "startChar": 7,
+        "endLine": 126,
+        "endChar": 20
+      },
+      "revId": "9930212ea5e01298132d3669a3209431d3240af5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dfb2bbee_0b3e5cdd",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-28T14:27:30Z",
+      "side": 1,
+      "message": "Why the slaves are migrated at this point?",
+      "range": {
+        "startLine": 129,
+        "startChar": 4,
+        "endLine": 129,
+        "endChar": 29
+      },
+      "revId": "9930212ea5e01298132d3669a3209431d3240af5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "47a221bc_8181a165",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-28T14:27:30Z",
+      "side": 1,
+      "message": "Are those tests running against the slaves ? If no, how to point them to gerrit-2?",
+      "range": {
+        "startLine": 130,
+        "startChar": 26,
+        "endLine": 130,
+        "endChar": 44
+      },
+      "revId": "9930212ea5e01298132d3669a3209431d3240af5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7f412eb5_a9532504",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-28T14:27:30Z",
+      "side": 1,
+      "message": "Can this be done before?",
+      "range": {
+        "startLine": 131,
+        "startChar": 4,
+        "endLine": 132,
+        "endChar": 71
+      },
+      "revId": "9930212ea5e01298132d3669a3209431d3240af5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aad22290_ae993067",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 185,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-28T14:27:30Z",
+      "side": 1,
+      "message": "done the system \u003d\u003e done and the system ?",
+      "range": {
+        "startLine": 185,
+        "startChar": 20,
+        "endLine": 185,
+        "endChar": 35
+      },
+      "revId": "9930212ea5e01298132d3669a3209431d3240af5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
