@@ -26,6 +26,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "3aed0ebf_96755eaa",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-28T15:12:01Z",
+      "side": 1,
+      "message": "we do not really tell them how to notify, it could be with a banner? email? wiki?",
+      "parentUuid": "766f5a85_0731a658",
+      "range": {
+        "startLine": 30,
+        "startChar": 0,
+        "endLine": 40,
+        "endChar": 35
+      },
+      "revId": "9930212ea5e01298132d3669a3209431d3240af5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "4be6f673_4e77fae5",
         "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
         "patchSetId": 11
@@ -37,6 +61,30 @@
       "writtenOn": "2021-05-28T14:27:30Z",
       "side": 1,
       "message": "restart needed? Or this change will go along with the 2.14.22 upgrade?",
+      "range": {
+        "startLine": 48,
+        "startChar": 45,
+        "endLine": 48,
+        "endChar": 50
+      },
+      "revId": "9930212ea5e01298132d3669a3209431d3240af5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1dc6d1ab_14aa0d56",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-28T15:12:01Z",
+      "side": 1,
+      "message": "without the upgrade the latest high-availability plugin won’t work",
+      "parentUuid": "4be6f673_4e77fae5",
       "range": {
         "startLine": 48,
         "startChar": 45,
@@ -95,6 +143,54 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "bd24e4f5_ece14ea5",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-28T15:12:01Z",
+      "side": 1,
+      "message": "they should check the release notes, so the release page is better",
+      "parentUuid": "2bdd255f_2730caa2",
+      "range": {
+        "startLine": 54,
+        "startChar": 46,
+        "endLine": 54,
+        "endChar": 88
+      },
+      "revId": "9930212ea5e01298132d3669a3209431d3240af5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "efe3bb76_c559bc14",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-28T15:12:01Z",
+      "side": 1,
+      "message": "yep, it is",
+      "parentUuid": "d9191011_0be10bad",
+      "range": {
+        "startLine": 54,
+        "startChar": 36,
+        "endLine": 54,
+        "endChar": 44
+      },
+      "revId": "9930212ea5e01298132d3669a3209431d3240af5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "8e716e11_14346b8b",
         "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
         "patchSetId": 11
@@ -135,6 +231,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "628851f1_1892fdda",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-28T15:12:01Z",
+      "side": 1,
+      "message": "they need to make a decision on which tests are meaningful.",
+      "parentUuid": "b9447544_708374c6",
+      "range": {
+        "startLine": 126,
+        "startChar": 7,
+        "endLine": 126,
+        "endChar": 20
+      },
+      "revId": "9930212ea5e01298132d3669a3209431d3240af5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "dfb2bbee_0b3e5cdd",
         "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
         "patchSetId": 11
@@ -146,6 +266,30 @@
       "writtenOn": "2021-05-28T14:27:30Z",
       "side": 1,
       "message": "Why the slaves are migrated at this point?",
+      "range": {
+        "startLine": 129,
+        "startChar": 4,
+        "endLine": 129,
+        "endChar": 29
+      },
+      "revId": "9930212ea5e01298132d3669a3209431d3240af5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e2a9d6f7_59a390f5",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-28T15:12:01Z",
+      "side": 1,
+      "message": "how do you test with Jenkins otherwise? Jenkins is using the slaves",
+      "parentUuid": "dfb2bbee_0b3e5cdd",
       "range": {
         "startLine": 129,
         "startChar": 4,
@@ -181,6 +325,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "6257b25b_7bb00204",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-28T15:12:01Z",
+      "side": 1,
+      "message": "yep, the slaves are tested at this point",
+      "parentUuid": "47a221bc_8181a165",
+      "range": {
+        "startLine": 130,
+        "startChar": 26,
+        "endLine": 130,
+        "endChar": 44
+      },
+      "revId": "9930212ea5e01298132d3669a3209431d3240af5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "7f412eb5_a9532504",
         "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
         "patchSetId": 11
@@ -192,6 +360,30 @@
       "writtenOn": "2021-05-28T14:27:30Z",
       "side": 1,
       "message": "Can this be done before?",
+      "range": {
+        "startLine": 131,
+        "startChar": 4,
+        "endLine": 132,
+        "endChar": 71
+      },
+      "revId": "9930212ea5e01298132d3669a3209431d3240af5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f363ad16_50daf202",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-28T15:12:01Z",
+      "side": 1,
+      "message": "good point, I wouldn’t do it if we are not sure we say the system\nis working fine.\n\nwe do need some rules in the HA proxy to allow testing though",
+      "parentUuid": "7f412eb5_a9532504",
       "range": {
         "startLine": 131,
         "startChar": 4,
