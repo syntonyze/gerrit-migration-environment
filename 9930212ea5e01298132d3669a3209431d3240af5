@@ -50,6 +50,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "7b1b8659_81701544",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-05-28T15:15:49Z",
+      "side": 1,
+      "message": "What I meant was...is this a \"typo\"? Why do we need to notify users that didn\u0027t create draft at all? Also if we really want to do it, the query is not looking for those users.",
+      "parentUuid": "3aed0ebf_96755eaa",
+      "range": {
+        "startLine": 30,
+        "startChar": 0,
+        "endLine": 40,
+        "endChar": 35
+      },
+      "revId": "9930212ea5e01298132d3669a3209431d3240af5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "4be6f673_4e77fae5",
         "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.14-TO-2.15.md",
         "patchSetId": 11
