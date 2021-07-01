@@ -1,0 +1,142 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "16d847e8_a305d5f0",
+        "filename": "cutover/cut_over_plan_v2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-07-01T18:54:20Z",
+      "side": 1,
+      "message": "I believe they have gerrit-2 as the first and active Gerrit master",
+      "range": {
+        "startLine": 8,
+        "startChar": 2,
+        "endLine": 8,
+        "endChar": 53
+      },
+      "revId": "ccea0b5dd7595f9f2cf5f6cc2cfe66bcf3fb69ef",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "629ac694_769cb393",
+        "filename": "cutover/cut_over_plan_v2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-07-01T18:54:20Z",
+      "side": 1,
+      "message": "I believe they have gerrit-1 as the secondary and passive Gerrit master",
+      "range": {
+        "startLine": 9,
+        "startChar": 2,
+        "endLine": 9,
+        "endChar": 54
+      },
+      "revId": "ccea0b5dd7595f9f2cf5f6cc2cfe66bcf3fb69ef",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ea459772_63e3ddec",
+        "filename": "cutover/cut_over_plan_v2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-07-01T18:54:20Z",
+      "side": 1,
+      "message": "I believe this can be directly copied to the master nodes (gerrit-1 and gerrit-2) in production: they won\u0027t be used anyway until the cutover but we\u0027re getting them ready to be used.",
+      "range": {
+        "startLine": 44,
+        "startChar": 4,
+        "endLine": 44,
+        "endChar": 51
+      },
+      "revId": "ccea0b5dd7595f9f2cf5f6cc2cfe66bcf3fb69ef",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b69cf86c_5b9cb2f1",
+        "filename": "cutover/cut_over_plan_v2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-07-01T18:54:20Z",
+      "side": 1,
+      "message": "I believe only All-Users, but it would be best to check on the schema migrations.",
+      "range": {
+        "startLine": 50,
+        "startChar": 14,
+        "endLine": 50,
+        "endChar": 26
+      },
+      "revId": "ccea0b5dd7595f9f2cf5f6cc2cfe66bcf3fb69ef",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7431e38b_ae82d86e",
+        "filename": "cutover/cut_over_plan_v2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-07-01T18:54:20Z",
+      "side": 1,
+      "message": "This can be done in the pre-cutover phase",
+      "range": {
+        "startLine": 84,
+        "startChar": 3,
+        "endLine": 84,
+        "endChar": 94
+      },
+      "revId": "ccea0b5dd7595f9f2cf5f6cc2cfe66bcf3fb69ef",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7b98e3b1_c107fd4c",
+        "filename": "cutover/cut_over_plan_v2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-07-01T18:54:20Z",
+      "side": 1,
+      "message": "Best to run this before the step-8",
+      "range": {
+        "startLine": 88,
+        "startChar": 0,
+        "endLine": 89,
+        "endChar": 71
+      },
+      "revId": "ccea0b5dd7595f9f2cf5f6cc2cfe66bcf3fb69ef",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
