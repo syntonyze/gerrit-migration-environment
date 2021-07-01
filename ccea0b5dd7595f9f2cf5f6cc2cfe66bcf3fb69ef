@@ -70,6 +70,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "db3d5205_f9d96518",
+        "filename": "cutover/cut_over_plan_v2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-07-01T19:25:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ea459772_63e3ddec",
+      "range": {
+        "startLine": 44,
+        "startChar": 4,
+        "endLine": 44,
+        "endChar": 51
+      },
+      "revId": "ccea0b5dd7595f9f2cf5f6cc2cfe66bcf3fb69ef",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b69cf86c_5b9cb2f1",
@@ -83,6 +107,30 @@
       "writtenOn": "2021-07-01T18:54:20Z",
       "side": 1,
       "message": "I believe only All-Users, but it would be best to check on the schema migrations.",
+      "range": {
+        "startLine": 50,
+        "startChar": 14,
+        "endLine": 50,
+        "endChar": 26
+      },
+      "revId": "ccea0b5dd7595f9f2cf5f6cc2cfe66bcf3fb69ef",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bcc2d348_20f8e5da",
+        "filename": "cutover/cut_over_plan_v2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-07-01T19:25:36Z",
+      "side": 1,
+      "message": "We have the code to do the full backup he doesn\u0027t care about the maintenance window, let\u0027s do full backup",
+      "parentUuid": "b69cf86c_5b9cb2f1",
       "range": {
         "startLine": 50,
         "startChar": 14,
@@ -116,6 +164,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e15c991f_11884fb8",
+        "filename": "cutover/cut_over_plan_v2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-07-01T19:25:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7431e38b_ae82d86e",
+      "range": {
+        "startLine": 84,
+        "startChar": 3,
+        "endLine": 84,
+        "endChar": 94
+      },
+      "revId": "ccea0b5dd7595f9f2cf5f6cc2cfe66bcf3fb69ef",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7b98e3b1_c107fd4c",
@@ -129,6 +201,30 @@
       "writtenOn": "2021-07-01T18:54:20Z",
       "side": 1,
       "message": "Best to run this before the step-8",
+      "range": {
+        "startLine": 88,
+        "startChar": 0,
+        "endLine": 89,
+        "endChar": 71
+      },
+      "revId": "ccea0b5dd7595f9f2cf5f6cc2cfe66bcf3fb69ef",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "70f3dc9d_230c0e17",
+        "filename": "cutover/cut_over_plan_v2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-07-01T19:25:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7b98e3b1_c107fd4c",
       "range": {
         "startLine": 88,
         "startChar": 0,
