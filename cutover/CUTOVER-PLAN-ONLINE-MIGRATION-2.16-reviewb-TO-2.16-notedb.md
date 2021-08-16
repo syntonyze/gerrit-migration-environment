@@ -14,7 +14,7 @@ Prerequisites
 ==
 
 1. To control on how many threads dedicate to the online migration(by default 1 thread is dedicated which is definitely not enough to perform the
-migration in a reasonable amount of time) increase the value in  `etc/gerrit.config`
+migration in a reasonable amount of time) increase the value in  `/data/gerrit_lb/etc/gerrit.config`
 ```
 [notedb]
    onlineMigrationThreads = <number of threads>
@@ -64,38 +64,82 @@ To create a backup of the git repositories for each repository call: git clone -
 
 ## 1. Enable online migration and trial mode
 
-In this step you will enable the migration for one of the primary gerrit.
+In this step you will enable the online migration for one of the primary gerrit.
+This will start a thread to migrate changes from ReviewDB to NoteDB.
 
 Once started, it is safe to restart the server at any time; the migration will
-pick up where it left off.
+pick up where it left off. Migration progress will be reported to the Gerrit
+logs.
 
 As part of this step you will also enable "trial mode" so that data is kept in
 sync between ReviewDB and NoteDB.
 
-1.1 Shutdown all gerrit primary instances
-
-1.2 On the primary node trigger offline migration to NoteDb:
-```
-java -Xmx=128g -jar /opt/gerrit/bin/gerrit.war migrate-to-note-db --trial --reindex false -d /opt/gerrit
-```
-
-1.3 Rollout configuration changes to the secondary gerrit instance in a file named `etc/notedb.config`
+ 1.1. Rollout configuration changes to the primary gerrit instance in a file
+ named `etc/notedb.config`
 
 ```
 [noteDb "changes"]
    primaryStorage = review db
    disableReviewDb = false
-   read = true
+   read = false
+   sequence = false
+   write = true
+   autoMigrate = true
+   trial = true
+```
+
+ 1.2 Rollout configuration changes to the secondary gerrit instance in a file
+ named `etc/notedb.config`.
+ This is just in case the node will fail over the secondary node during migration.
+
+```
+[noteDb "changes"]
+   primaryStorage = review db
+   disableReviewDb = false
+   read = false
    sequence = false
    write = true
    autoMigrate = false
    trial = true
 ```
 
-1.4. Perform Garbage Collection of all repositories.
-The conversion to NoteDb creates a huge fragmentation and the repos may become increasingly slow. The production may not be able to keep-up with the load without an aggressive GC.
+##### How to assess success for this step
 
-1.5. Adjust JGIT parameters and Heap size to handle the increased number of refs: after the NoteDB migration each repo will contain much more refs than before, hence the JGIT parameters need to be tuned with the new values. And Gerrit will need to be restarted.
+* Check the `etc/error_log` file for evidence of the online migrator thread:
+  (this grep should find at one entry)
+
+```
+grep 'Starting online NoteDb migration' logs/error_log
+```
+
+* Check that projects changes are being rebuilt:
+  (this grep should find many entries)
+```
+grep 'Rebuilding project' logs/error_log
+```
+
+* Check there are no new exceptions in the `logs/error_log` file.
+
+## 2. Wait the online migration to finish
+
+Since you have enabled the online migration for the primary gerrit, after
+restarting it you will see evidence of the online migration in the `error_log`.
+
+```
+[OnlineNoteDbMigrator] INFO  com.google.gerrit.server.notedb.rebuild.OnlineNoteDbMigrator : Starting online NoteDb migration
+```
+
+The migration will run for a period of time that depends on your system
+resources, system utilization, number of projects and changes.
+
+You should be able to get an estimate when testing this in a staging environment.
+
+You will know the migration has finished by looking at the `error_log` for an
+entry similar to:
+
+```
+[OnlineNoteDbMigrator] INFO  com.google.gerrit.server.notedb.rebuild.OnlineNoteDbMigrator : Online NoteDb migration completed in 10823s
+```
 
 At this point all existing changes have been migrated and new changes are stored
 in both reviewDb and noteDb. You can leave Gerrit with this configuration for a
@@ -106,14 +150,16 @@ are in sync.
 When testing the migration you should make sure gerrit can take your production
 load when in trial mode.
 
-Note: With NoteDb it is more likely to have a lock failure on Git, because of continuous updates of the ‘/meta’ ref but Gerrit contains build in auto-retry mechanism to mitigate this issue. Due to the nature of the trial mode(writes to ReviewDb and NoteDb) Gerrit cannot guarantee that operations are idempotent. Because of that, the auto-retry mechanism is disabled in the trial mode. This can cause significant increas of issues related to the JGit locking failures.
-
-
-1.6 Start all gerrit primary instances.
+Perform Garbage Collection of all repositories.
+The conversion to NoteDb creates a huge fragmentation and the repos may become increasingly slow. The production may not be able to keep-up with the load without an aggressive GC.
 
 ##### How to assess success for this step
 
-* Check there are no new exceptions in the `logs/error_log` file.
+* The migration state at the end of this process should be `READ_WRITE_NO_SEQUENCE`
+  look for evidence of it in the logs (this grep should find one entry):
+  ```
+   grep READ_WRITE_NO_SEQUENCE logs/error_log
+  ```
 * New changes can be created with no errors
 * Existing changes can be updated with no errors
 * Existing changes can still be browsed through the UI with no errors
@@ -136,7 +182,61 @@ git show-ref **/meta | wc -l
 1234
 ```
 
-## 2. Read and Write to NoteDB (no ReviewDB)
+## 3. Dual write - Read from NoteDB but keep ReviewDB primary
+
+At the end of step 2, once the migration has finished, the online migrator
+will automatically change the `notedb.config` file to read from NoteDb, by
+setting:
+
+`notedb.changes.read=true`
+
+This ensures that change data is written to and read from NoteDb, but ReviewDb
+is still the source of truth. You should make sure the same configuration is
+also applied to the *secondary* node by rolling out the following configuration
+to the primary gerrit instance, in the `etc/notedb.config` configuration file.
+
+```
+[noteDb "changes"]
+   primaryStorage = review db
+   disableReviewDb = false
+   read = true
+   sequence = false
+   write = true
+   autoMigrate = false
+   trial = true
+```
+
+Next step is a stage with no-rollback so we suggest to leave Gerrit with this configuration
+for a longer period of time. The decision of what is a relevant period is more business than technical. It could be hours, days or weeks, it depends on the time needed to make sure that everything worked as expected, however, bear in mind that Gerrit is performing extra work to ensure reviewDb and noteDb are in sync.
+
+When testing the migration you should make sure gerrit can take your production
+load when in trial mode.
+
+##### How to assess success for this step
+
+* New changes can be created with no errors
+* Existing changes can be updated with no errors
+* Existing changes can still be browsed through the UI with no errors
+* All changes in reviewdb should have an equivalent metadata ref in notedb.
+
+In reviewDB:
+```
+SELECT dest_project_name, COUNT(*) FROM changes GROUP BY dest_project_name;
+
+dest_project_name	count
+project1	1234
+project2	2345
+
+```
+
+For each project, count the number of meta refs, for example in
+<gerrit>/git/$project.git
+```
+git show-ref **/meta | wc -l
+1234
+```
+
+## 4. Read and Write to NoteDB (no ReviewDB)
 
 This is the *final* step in the migration to NoteDB. In this step you will
 configure Gerrit to read and write to NoteDB only and no longer keep reviewDb
@@ -146,10 +246,10 @@ Please be aware that this is a no-rollback stage: as new changes will be only
 written to noteDb, rolling back after this point would mean that those changes
 will not be available in ReviewDB and will be lost.
 
-2.1. Optional backup of the git repositories. This step is just a precaution because migration to NoteDb does not remove or modify existing data, just create new refs. In that case rollback is just configuration change plus clean up for extra refs.
-To create a backup of the git repositories for each repository call: git clone --mirror
-
-2.2. Roll out the following configuration to primary gerrit, in the
+4.1. Put both primary and secondary gerrit in Read only mode
+4.2. Take a snapshot of Git repos, review DB, caches and indexes
+4.3. Put primary and secondary gerrit in Read/Write mode
+4.4. Roll out the following configuration to primary gerrit, in the
  `etc/notedb.config` file.
 
 ```
@@ -178,7 +278,7 @@ the `etc/notedb.config` file will automatically be updated with this content:
    trial = false
 ```
 
-2.3. Roll out the above configuration to secondary gerrit too, in the
+4.5. Roll out the above configuration to secondary gerrit too, in the
 `etc/notedb.config` file.
 
 ```
@@ -209,31 +309,18 @@ grep 'Migration state: READ_WRITE_WITH_SEQUENCE_NOTE_DB_PRIMARY => NOTE_DB' logs
 Database cleanup
 ==
 
-After the step 2 relational database is used only to keep schama version, to simplify
+After the step 4 relational database is used only to keep schama version, to simplify
 the architecture current relational database can be replaced with embeded H2 database.
 
-3.1. Start Gerrit docker images
-docker run -ti -p 8080:8080 -p 29418:29418 gerritcodereview/gerrit:2.16.27
+5.1. For both nodes copy provided database files to <gerrit>/db
 
-3.2. Copy database file to local disk
-docker cp <container id>:/var/gerrit/db/ReviewDB.h2.db <local path>
-
-3.3. For both nodes copy provided database files to <gerrit>/db
-
-3.4. For both nodes replace database configuration in `etc/gerrit.config` with following:
+5.2. For both nodes replace database configuration in `etc/gerrit.config` with following:
 ```
 [database]
         type = h2
         database = db/ReviewDB
 ```
-
-3.5. For both nodes remove following section from  `/etc/secure.config`
-```
-[database]
-        password = ...
-```
-
-3.6. Restart all gerrit nodes
+5.3. Restart all gerrit nodes
 
 Rollback strategy
 ==
