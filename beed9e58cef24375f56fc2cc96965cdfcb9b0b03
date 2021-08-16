@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "83f5be6f_a0419186",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2021-08-16T10:18:39Z",
+      "side": 1,
+      "message": "Note: there is no mention of gatling tests because AFAIK they do not work on 2.16.\nAt least the REST-API doesn\u0027t.\n\n```\n\u003d\u003d\u003e logs/error_log \u003c\u003d\u003d\n[2021-08-16 12:01:33,537] [HTTP GET /a/changes/another-test~251/detail?O\u003d916314 (admin from 0:0:0:0:0:0:0:1)] ERROR com.google.gerrit.httpd.restapi.RestApiServlet : Error in GET /a/changes/another-test~251/detail?O\u003d916314\njava.lang.IllegalArgumentException: unknown 800000\n```\n\nDoes anyone know if this is this expected?\n\nP.S. Removing the O\u003d916314 from the request works.",
+      "revId": "beed9e58cef24375f56fc2cc96965cdfcb9b0b03",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
