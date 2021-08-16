@@ -1,0 +1,130 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "19742722_71f74848",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-08-16T23:23:10Z",
+      "side": 1,
+      "message": "Just started reviewing, but it looks like the online migration, not the offline?",
+      "revId": "811c5171b885fbc676615d81bd73a3d9fc8d621c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8a804a36_231d0122",
+        "filename": "cutover/CUTOVER-PLAN-ONLINE-MIGRATION-2.16-reviewb-TO-2.16-notedb.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-08-16T23:23:10Z",
+      "side": 1,
+      "message": "Should the file contain \"OFFLINE\" in its name?",
+      "revId": "811c5171b885fbc676615d81bd73a3d9fc8d621c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5da27da1_9efc0d05",
+        "filename": "cutover/CUTOVER-PLAN-ONLINE-MIGRATION-2.16-reviewb-TO-2.16-notedb.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-08-16T23:23:10Z",
+      "side": 1,
+      "message": "offline \u003d\u003e downtime",
+      "range": {
+        "startLine": 4,
+        "startChar": 29,
+        "endLine": 4,
+        "endChar": 51
+      },
+      "revId": "811c5171b885fbc676615d81bd73a3d9fc8d621c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "90b2cc23_2ea13de6",
+        "filename": "cutover/CUTOVER-PLAN-ONLINE-MIGRATION-2.16-reviewb-TO-2.16-notedb.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-08-16T23:23:10Z",
+      "side": 1,
+      "message": "There will be an outage for the duration of the offline migration",
+      "range": {
+        "startLine": 7,
+        "startChar": 6,
+        "endLine": 7,
+        "endChar": 42
+      },
+      "revId": "811c5171b885fbc676615d81bd73a3d9fc8d621c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a526e0f0_e98fb264",
+        "filename": "cutover/CUTOVER-PLAN-ONLINE-MIGRATION-2.16-reviewb-TO-2.16-notedb.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-08-16T23:23:10Z",
+      "side": 1,
+      "message": "offline",
+      "range": {
+        "startLine": 16,
+        "startChar": 50,
+        "endLine": 16,
+        "endChar": 56
+      },
+      "revId": "811c5171b885fbc676615d81bd73a3d9fc8d621c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5730e936_265114e0",
+        "filename": "cutover/CUTOVER-PLAN-ONLINE-MIGRATION-2.16-reviewb-TO-2.16-notedb.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-08-16T23:23:10Z",
+      "side": 1,
+      "message": "isn\u0027t it the number of CPUs?",
+      "range": {
+        "startLine": 16,
+        "startChar": 78,
+        "endLine": 16,
+        "endChar": 99
+      },
+      "revId": "811c5171b885fbc676615d81bd73a3d9fc8d621c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
