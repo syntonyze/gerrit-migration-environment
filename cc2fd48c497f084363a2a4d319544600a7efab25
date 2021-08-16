@@ -22,6 +22,30 @@
       },
       "revId": "cc2fd48c497f084363a2a4d319544600a7efab25",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ddfd17cc_0591d602",
+        "filename": "gerrit/cutover/cut-over_single-node-AWS-2.16.notedb_to_3.0.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2021-08-16T18:11:47Z",
+      "side": 1,
+      "message": "Unfortunately not. AWS barely ensures that EBS snapshots are Crash-Consistent (i.e. no pending IO operations at OS level), but this is not enough to provide correct backups. A proper backup of Gerrit requires Application-Consistent snapshots. This is achieved by stopping the Gerrit process and allowing the flushing of all pending in-memory data.",
+      "parentUuid": "1829c073_0d269b74",
+      "range": {
+        "startLine": 67,
+        "startChar": 2,
+        "endLine": 67,
+        "endChar": 22
+      },
+      "revId": "cc2fd48c497f084363a2a4d319544600a7efab25",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
   ]
 }
