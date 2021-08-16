@@ -20,6 +20,115 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "03100e9d_24eedc03",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.16-reviewb-TO-2.16-notedb.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-08-16T23:31:45Z",
+      "side": 1,
+      "message": "Should this contain \"OFFLINE\" in its name?",
+      "revId": "811c5171b885fbc676615d81bd73a3d9fc8d621c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5212cb74_7123f4e3",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.16-reviewb-TO-2.16-notedb.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-08-16T23:31:45Z",
+      "side": 1,
+      "message": "Isn\u0027t this the off-line migration? There will be a downtime.",
+      "range": {
+        "startLine": 4,
+        "startChar": 29,
+        "endLine": 4,
+        "endChar": 51
+      },
+      "revId": "811c5171b885fbc676615d81bd73a3d9fc8d621c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "22cf3702_ed89a96a",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.16-reviewb-TO-2.16-notedb.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-08-16T23:31:45Z",
+      "side": 1,
+      "message": "I believe the server is down, isn\u0027t it?",
+      "range": {
+        "startLine": 69,
+        "startChar": 20,
+        "endLine": 69,
+        "endChar": 58
+      },
+      "revId": "811c5171b885fbc676615d81bd73a3d9fc8d621c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "405d2cd6_e06de2ac",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.16-reviewb-TO-2.16-notedb.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-08-16T23:31:45Z",
+      "side": 1,
+      "message": "This is a step for the pre-migration step, so that we can tune the parameters.\nThen, during the cutover, we just need to apply them to gerrit.config.",
+      "range": {
+        "startLine": 103,
+        "startChar": 0,
+        "endLine": 103,
+        "endChar": 261
+      },
+      "revId": "811c5171b885fbc676615d81bd73a3d9fc8d621c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f3b4d940_0750d37c",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.16-reviewb-TO-2.16-notedb.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-08-16T23:31:45Z",
+      "side": 1,
+      "message": "random lock failures",
+      "range": {
+        "startLine": 114,
+        "startChar": 44,
+        "endLine": 114,
+        "endChar": 58
+      },
+      "revId": "811c5171b885fbc676615d81bd73a3d9fc8d621c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "8a804a36_231d0122",
         "filename": "cutover/CUTOVER-PLAN-ONLINE-MIGRATION-2.16-reviewb-TO-2.16-notedb.md",
         "patchSetId": 2
