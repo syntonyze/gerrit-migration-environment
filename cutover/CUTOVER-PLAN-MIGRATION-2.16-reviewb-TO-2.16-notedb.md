@@ -13,17 +13,54 @@ of the cut-over should be automated to reduce possible human mistakes.
 Prerequisites
 ==
 
-1. Schedule maintenance window to avoid alarms flooding
+1. To control on how many threads dedicate to the online migration(by default 1 thread is dedicated which is definitely not enough to perform the
+migration in a reasonable amount of time) increase the value in  `/data/gerrit_lb/etc/gerrit.config`
+```
+[notedb]
+   onlineMigrationThreads = <number of threads>
+```
+Please have in mind that increasing the number of threads will cause higher load on the running server (you should test
+migrations in a staging environment with different value to understand what
+suits better your environment).
 
-2. Announce Gerrit upgrade via the relevant channels
+2. Make sure the latest version of HA plugin is in use (https://gerrit-ci.gerritforge.com/view/Plugins-stable-2.16/job/plugin-high-availability-bazel-stable-2.16/130/)
 
-3. Put both primary and secondary gerrit in Read only mode
-
-4. Take a snapshot Git repos, review DB, caches indexes
 
 
 Migration and testing
 ==
+
+## Prerequisites
+
+1. Schedule maintenance window to avoid alarms flooding
+
+2. Announce Gerrit upgrade via the relevant channels
+
+3. Disable replication of refs/changes/**/meta refs: During the online migration to NoteDb a large number of new refs will be created. This could impact replication performance, hence replication might have to be disabled. This can be done in two ways:
+  1. By disabling replication from gerrit instance 
+    Pros:
+      - Easy to implement
+      - We can disable replication to replicas but keep replication to the DR instance
+    Cons:
+      - If on gerrit instance 1 someone will modify a change which is already migrated to the NoteDb(by adding some patch-set or comment) it will trigger replication of meta ref as well. This will increase the replication traffic for gerrit instance 1
+      - We must schedule a “replication maintenance window”  and trigger replication of meta refs to all replicas and make a full aggressive GC of the repos on the replicas. During that period of time performance of replication will decrease.
+      - With this solution we are not able to permanently block replication of meta refs to replica nodes even if replica nodes don't require them.
+  2. By creating a simple plugin to extend replication functionality and allow to filter out meta refs from replication.
+    Pros:
+      - By filtering out meta refs on both primary instances we ensure that replication load and performance will not be impacted and after during the online migration to NoteDb
+      - We can permanently block meta refs replication by filtering out those refs
+    Cons:
+      - Requires additional development time
+      - We will not replicate meta refs to the DR instance so in case of failure this data will be lost. This can be solved by implementing enabled/disabled lists and enable meta refs replication to the DR node.
+
+4. Optional backup of the git repositories. This step is just a precaution because migration to NoteDb does not remove or modify existing data, just create new refs. In that case rollback is just configuration change plus clean up for extra refs.
+To create a backup of the git repositories for each repository call: git clone --mirror 
+
+
+5. Update ReviewDB column: NoteDB allows longer subjects in the commit message than ReviewDB. During the trial mode, i.e.: write on both DBs, we might encounter erros when writing in ReviewDB. Updating the tables as follow will avoid it:
+`ALTER TABLE changes ALTER COLUMN original_subject TYPE varchar(65535);`
+`ALTER TABLE changes ALTER COLUMN subject TYPE varchar(65535);`
+
 
 ## 1. Enable online migration and trial mode
 
@@ -66,23 +103,6 @@ sync between ReviewDB and NoteDB.
    trial = true
 ```
 
-*Note*:
-You also have control on how many threads to dedicate to the online migration,
-by default *1* thread is dedicated which is definitely not enough to perform the
-migration in a reasonable amount of time.
-Increasing this value allows speeding up online migration from reviewDb to noteDb
-at the expense of imposing a higher load on the running server (you should test
-migrations in a staging environment with different value to understand what
-suits better your environment).
-
-If you want to dedicate more threads to the online migration, set this value
-in the `etc/gerrit.config` file and restart gerrit instance, for example:
-
-```
-[notedb]
-   onlineMigrationThreads = 2
-```
-
 ##### How to assess success for this step
 
 * Check the `etc/error_log` file for evidence of the online migrator thread:
@@ -98,7 +118,7 @@ grep 'Starting online NoteDb migration' logs/error_log
 grep 'Rebuilding project' logs/error_log
 ```
 
-* Check there are no new exceptions in the `logs/error_log` file:
+* Check there are no new exceptions in the `logs/error_log` file.
 
 ## 2. Wait the online migration to finish
 
@@ -129,6 +149,9 @@ are in sync.
 
 When testing the migration you should make sure gerrit can take your production
 load when in trial mode.
+
+Perform Garbage Collection of all repositories.
+The conversion to NoteDb creates a huge fragmentation and the repos may become increasingly slow. The production may not be able to keep-up with the load without an aggressive GC.
 
 ##### How to assess success for this step
 
@@ -161,7 +184,7 @@ git show-ref **/meta | wc -l
 
 ## 3. Dual write - Read from NoteDB but keep ReviewDB primary
 
-At the end of step 3, once the migration has finished, the online migrator
+At the end of step 2, once the migration has finished, the online migrator
 will automatically change the `notedb.config` file to read from NoteDb, by
 setting:
 
@@ -184,9 +207,7 @@ to the primary gerrit instance, in the `etc/notedb.config` configuration file.
 ```
 
 Next step is a stage with no-rollback so we suggest to leave Gerrit with this configuration
-for a longer period of time(days) to ensure everything worked as expected, however, bear in mind
-that Gerrit is performing extra work to ensure reviewDb and noteDb
-are in sync.
+for a longer period of time. The decision of what is a relevant period is more business than technical. It could be hours, days or weeks, it depends on the time needed to make sure that everything worked as expected, however, bear in mind that Gerrit is performing extra work to ensure reviewDb and noteDb are in sync.
 
 When testing the migration you should make sure gerrit can take your production
 load when in trial mode.
