@@ -35,6 +35,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6ea41e4a_38494989",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.16-reviewb-TO-2.16-notedb.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-08-17T13:54:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "03100e9d_24eedc03",
+      "revId": "811c5171b885fbc676615d81bd73a3d9fc8d621c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5212cb74_7123f4e3",
@@ -48,6 +66,30 @@
       "writtenOn": "2021-08-16T23:31:45Z",
       "side": 1,
       "message": "Isn\u0027t this the off-line migration? There will be a downtime.",
+      "range": {
+        "startLine": 4,
+        "startChar": 29,
+        "endLine": 4,
+        "endChar": 51
+      },
+      "revId": "811c5171b885fbc676615d81bd73a3d9fc8d621c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "787e7b72_799247ad",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.16-reviewb-TO-2.16-notedb.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-08-17T13:54:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5212cb74_7123f4e3",
       "range": {
         "startLine": 4,
         "startChar": 29,
@@ -81,6 +123,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1065eec0_af5e3e34",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.16-reviewb-TO-2.16-notedb.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-08-17T13:54:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "22cf3702_ed89a96a",
+      "range": {
+        "startLine": 69,
+        "startChar": 20,
+        "endLine": 69,
+        "endChar": 58
+      },
+      "revId": "811c5171b885fbc676615d81bd73a3d9fc8d621c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "405d2cd6_e06de2ac",
@@ -94,6 +160,30 @@
       "writtenOn": "2021-08-16T23:31:45Z",
       "side": 1,
       "message": "This is a step for the pre-migration step, so that we can tune the parameters.\nThen, during the cutover, we just need to apply them to gerrit.config.",
+      "range": {
+        "startLine": 103,
+        "startChar": 0,
+        "endLine": 103,
+        "endChar": 261
+      },
+      "revId": "811c5171b885fbc676615d81bd73a3d9fc8d621c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4c67e09b_5223c101",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.16-reviewb-TO-2.16-notedb.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-08-17T13:54:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "405d2cd6_e06de2ac",
       "range": {
         "startLine": 103,
         "startChar": 0,
@@ -127,6 +217,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "53f8e28f_071ec20d",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.16-reviewb-TO-2.16-notedb.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-08-17T13:54:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f3b4d940_0750d37c",
+      "range": {
+        "startLine": 114,
+        "startChar": 44,
+        "endLine": 114,
+        "endChar": 58
+      },
+      "revId": "811c5171b885fbc676615d81bd73a3d9fc8d621c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8a804a36_231d0122",
@@ -140,6 +254,24 @@
       "writtenOn": "2021-08-16T23:23:10Z",
       "side": 1,
       "message": "Should the file contain \"OFFLINE\" in its name?",
+      "revId": "811c5171b885fbc676615d81bd73a3d9fc8d621c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b47ecc1c_841ca9a5",
+        "filename": "cutover/CUTOVER-PLAN-ONLINE-MIGRATION-2.16-reviewb-TO-2.16-notedb.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-08-17T13:54:33Z",
+      "side": 1,
+      "message": "nope that\u0027s the online one, we have a separate one for offline",
+      "parentUuid": "8a804a36_231d0122",
       "revId": "811c5171b885fbc676615d81bd73a3d9fc8d621c",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
@@ -169,6 +301,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "6f0f137d_36c93d16",
+        "filename": "cutover/CUTOVER-PLAN-ONLINE-MIGRATION-2.16-reviewb-TO-2.16-notedb.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-08-17T13:54:33Z",
+      "side": 1,
+      "message": "That\u0027s the online one",
+      "parentUuid": "5da27da1_9efc0d05",
+      "range": {
+        "startLine": 4,
+        "startChar": 29,
+        "endLine": 4,
+        "endChar": 51
+      },
+      "revId": "811c5171b885fbc676615d81bd73a3d9fc8d621c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "90b2cc23_2ea13de6",
         "filename": "cutover/CUTOVER-PLAN-ONLINE-MIGRATION-2.16-reviewb-TO-2.16-notedb.md",
         "patchSetId": 2
@@ -180,6 +336,30 @@
       "writtenOn": "2021-08-16T23:23:10Z",
       "side": 1,
       "message": "There will be an outage for the duration of the offline migration",
+      "range": {
+        "startLine": 7,
+        "startChar": 6,
+        "endLine": 7,
+        "endChar": 42
+      },
+      "revId": "811c5171b885fbc676615d81bd73a3d9fc8d621c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9a1f5af7_4d3291a4",
+        "filename": "cutover/CUTOVER-PLAN-ONLINE-MIGRATION-2.16-reviewb-TO-2.16-notedb.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-08-17T13:54:33Z",
+      "side": 1,
+      "message": "Same as above that\u0027s the online one",
+      "parentUuid": "90b2cc23_2ea13de6",
       "range": {
         "startLine": 7,
         "startChar": 6,
@@ -231,6 +411,54 @@
         "startChar": 78,
         "endLine": 16,
         "endChar": 99
+      },
+      "revId": "811c5171b885fbc676615d81bd73a3d9fc8d621c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2830697b_e6a7ecae",
+        "filename": "cutover/CUTOVER-PLAN-ONLINE-MIGRATION-2.16-reviewb-TO-2.16-notedb.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-08-17T13:54:33Z",
+      "side": 1,
+      "message": "I believe for online by default is one thread",
+      "parentUuid": "5730e936_265114e0",
+      "range": {
+        "startLine": 16,
+        "startChar": 78,
+        "endLine": 16,
+        "endChar": 99
+      },
+      "revId": "811c5171b885fbc676615d81bd73a3d9fc8d621c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "64aabb6f_77db5681",
+        "filename": "cutover/CUTOVER-PLAN-ONLINE-MIGRATION-2.16-reviewb-TO-2.16-notedb.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-08-17T13:54:33Z",
+      "side": 1,
+      "message": "same as above",
+      "parentUuid": "a526e0f0_e98fb264",
+      "range": {
+        "startLine": 16,
+        "startChar": 50,
+        "endLine": 16,
+        "endChar": 56
       },
       "revId": "811c5171b885fbc676615d81bd73a3d9fc8d621c",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
