@@ -26,6 +26,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ca717ad3_ec934930",
+        "filename": "gerrit/cutover/cut-over_single-node-AWS-2.16.notedb_to_3.0.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2021-08-18T16:25:20Z",
+      "side": 1,
+      "message": "I think this is an arbitrary choice of each client to be honest.\nI know polygerrit in 2.16 does not have feature parity, so perhaps some clients would like to avoid it?\n\nI know the customer this cutover is for already has 90% of users on poylgerrit, so this is not much of a problem.\n\nWDYT?",
+      "parentUuid": "ffe06afc_b946c524",
+      "range": {
+        "startLine": 33,
+        "startChar": 0,
+        "endLine": 33,
+        "endChar": 11
+      },
+      "revId": "ae5d8f3d0f0e4632de2a5f75904b4e088421ea7a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "cbc60807_50e2a893",
         "filename": "gerrit/cutover/cut-over_single-node-AWS-2.16.notedb_to_3.0.md",
         "patchSetId": 7
@@ -37,6 +61,30 @@
       "writtenOn": "2021-08-18T16:17:01Z",
       "side": 1,
       "message": "\"plugins and libraries in the `$GERRIT_SITE/plugins\" \u003d\u003e plugins and libraries, respectively, in `$GERRIT_SITE/plugins\u0027 and `$GERRIT_SITE/lib\u0027",
+      "range": {
+        "startLine": 81,
+        "startChar": 26,
+        "endLine": 81,
+        "endChar": 78
+      },
+      "revId": "ae5d8f3d0f0e4632de2a5f75904b4e088421ea7a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ba6158e5_33ca3863",
+        "filename": "gerrit/cutover/cut-over_single-node-AWS-2.16.notedb_to_3.0.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2021-08-18T16:25:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cbc60807_50e2a893",
       "range": {
         "startLine": 81,
         "startChar": 26,
