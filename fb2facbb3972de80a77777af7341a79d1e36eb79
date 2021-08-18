@@ -95,6 +95,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "75d2ed3b_afde8ae6",
+        "filename": "gerrit/cutover/cut-over_single-node-AWS-3.0_to_3.1.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2021-08-18T16:22:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "88b4655b_a37f9eb7",
+      "range": {
+        "startLine": 45,
+        "startChar": 31,
+        "endLine": 45,
+        "endChar": 56
+      },
+      "revId": "fb2facbb3972de80a77777af7341a79d1e36eb79",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "276bcd00_faceedb6",
@@ -132,6 +156,30 @@
       "side": 1,
       "message": "well spotted",
       "parentUuid": "276bcd00_faceedb6",
+      "range": {
+        "startLine": 49,
+        "startChar": 43,
+        "endLine": 49,
+        "endChar": 46
+      },
+      "revId": "fb2facbb3972de80a77777af7341a79d1e36eb79",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d886eb67_9f7d7c4f",
+        "filename": "gerrit/cutover/cut-over_single-node-AWS-3.0_to_3.1.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2021-08-18T16:22:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "11ccf06d_dd1cc786",
       "range": {
         "startLine": 49,
         "startChar": 43,
