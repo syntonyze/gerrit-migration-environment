@@ -26,6 +26,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f70865b0_35490d65",
+        "filename": "gerrit/cutover/cut-over_single-node-AWS-3.0_to_3.1.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2021-08-18T16:21:36Z",
+      "side": 1,
+      "message": "Yes, this cutover is for AWS becase I wanted to tailor something specific.\nI guess it could be used as a template for other types of installations, but I\u0027d like to keep this for AWS so that I can just copy\u0026paste it to the client.",
+      "parentUuid": "e6a4f7a0_b0b71690",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 20
+      },
+      "revId": "fb2facbb3972de80a77777af7341a79d1e36eb79",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "304e5360_069b335e",
         "filename": "gerrit/cutover/cut-over_single-node-AWS-3.0_to_3.1.md",
         "patchSetId": 2
@@ -37,6 +61,30 @@
       "writtenOn": "2021-08-18T16:12:08Z",
       "side": 1,
       "message": "Is it worth checking in the logs if anybody is using pushing drafts? It might not already be the case, hence no need to warn anybody.",
+      "range": {
+        "startLine": 45,
+        "startChar": 31,
+        "endLine": 45,
+        "endChar": 56
+      },
+      "revId": "fb2facbb3972de80a77777af7341a79d1e36eb79",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "88b4655b_a37f9eb7",
+        "filename": "gerrit/cutover/cut-over_single-node-AWS-3.0_to_3.1.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2021-08-18T16:21:36Z",
+      "side": 1,
+      "message": "I was thinking that if the allowDrafts is disabled there\u0027s no need to check anything, otherwise more investigation is require it.\n\nI\u0027ll rephrase it.",
+      "parentUuid": "304e5360_069b335e",
       "range": {
         "startLine": 45,
         "startChar": 31,
@@ -72,6 +120,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "11ccf06d_dd1cc786",
+        "filename": "gerrit/cutover/cut-over_single-node-AWS-3.0_to_3.1.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2021-08-18T16:21:36Z",
+      "side": 1,
+      "message": "well spotted",
+      "parentUuid": "276bcd00_faceedb6",
+      "range": {
+        "startLine": 49,
+        "startChar": 43,
+        "endLine": 49,
+        "endChar": 46
+      },
+      "revId": "fb2facbb3972de80a77777af7341a79d1e36eb79",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "e41986a2_85360dae",
         "filename": "gerrit/cutover/cut-over_single-node-AWS-3.0_to_3.1.md",
         "patchSetId": 2
@@ -83,6 +155,30 @@
       "writtenOn": "2021-08-18T16:12:08Z",
       "side": 1,
       "message": "Is it worth checking in the logs if anybody is using this refs?",
+      "range": {
+        "startLine": 54,
+        "startChar": 7,
+        "endLine": 54,
+        "endChar": 37
+      },
+      "revId": "fb2facbb3972de80a77777af7341a79d1e36eb79",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8762c04e_0587567b",
+        "filename": "gerrit/cutover/cut-over_single-node-AWS-3.0_to_3.1.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2021-08-18T16:21:36Z",
+      "side": 1,
+      "message": "Not sure how, this is a magic ref right?\nIt is highly probably the settings is disabled, so I wouldn\u0027t want to spend to much time in explaining how to check this.\n\nIf it is enabled, then perhaps I can enrich the cutover?",
+      "parentUuid": "e41986a2_85360dae",
       "range": {
         "startLine": 54,
         "startChar": 7,
