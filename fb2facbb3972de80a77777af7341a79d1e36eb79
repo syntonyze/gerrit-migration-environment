@@ -48,6 +48,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "462d0550_5b608721",
+        "filename": "gerrit/cutover/cut-over_single-node-AWS-3.0_to_3.1.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-08-18T16:40:27Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "f70865b0_35490d65",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 20
+      },
+      "revId": "fb2facbb3972de80a77777af7341a79d1e36eb79",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "304e5360_069b335e",
@@ -227,6 +251,30 @@
       "side": 1,
       "message": "Not sure how, this is a magic ref right?\nIt is highly probably the settings is disabled, so I wouldn\u0027t want to spend to much time in explaining how to check this.\n\nIf it is enabled, then perhaps I can enrich the cutover?",
       "parentUuid": "e41986a2_85360dae",
+      "range": {
+        "startLine": 54,
+        "startChar": 7,
+        "endLine": 54,
+        "endChar": 37
+      },
+      "revId": "fb2facbb3972de80a77777af7341a79d1e36eb79",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cc4e7a1d_67bcd3e7",
+        "filename": "gerrit/cutover/cut-over_single-node-AWS-3.0_to_3.1.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-08-18T16:40:27Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "8762c04e_0587567b",
       "range": {
         "startLine": 54,
         "startChar": 7,
