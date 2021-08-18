@@ -48,6 +48,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "057bdfb0_31a3daae",
+        "filename": "gerrit/cutover/cut-over_single-node-AWS-2.16.notedb_to_3.0.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-08-18T16:41:49Z",
+      "side": 1,
+      "message": "yep, considering it is customer specific it makes sense.",
+      "parentUuid": "ca717ad3_ec934930",
+      "range": {
+        "startLine": 33,
+        "startChar": 0,
+        "endLine": 33,
+        "endChar": 11
+      },
+      "revId": "ae5d8f3d0f0e4632de2a5f75904b4e088421ea7a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "cbc60807_50e2a893",
