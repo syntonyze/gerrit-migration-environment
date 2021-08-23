@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "82173265_061671f4",
+        "filename": "gerrit/cutover/cut-over_single-node-AWS-3.1_to_3.2.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-08-23T13:02:21Z",
+      "side": 1,
+      "message": "nit: shall we add a \"git show refs/meta/version # should return 181\" after the update?",
+      "range": {
+        "startLine": 195,
+        "startChar": 5,
+        "endLine": 195,
+        "endChar": 6
+      },
+      "revId": "955736d3f6ea1f5ed3e94cad908115cec35e2d4d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
