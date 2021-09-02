@@ -26,6 +26,98 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "eaa39966_09145a87",
+        "filename": "gerrit/cutover/cut-over_multisite-3.1-java11-migration.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2021-09-02T09:40:03Z",
+      "side": 1,
+      "message": "Potentially, in a multi-site setup, more than one gerrit receives traffic.\nIs it the case, in this setup, that only one server receives it?",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 74
+      },
+      "revId": "78aceffe468d38835fde2085b7015ad5a4391342",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "07d7b126_333d73fc",
+        "filename": "gerrit/cutover/cut-over_multisite-3.1-java11-migration.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2021-09-02T09:40:03Z",
+      "side": 1,
+      "message": "nit: depending on which system do we want to give details on how to install it?\nyum? apt-get? other ways...\n\nAny specific version of the OpenJDK? Oracle? Corretto?\nProbably they should stick to the same flavour of the current 1.8 right?",
+      "range": {
+        "startLine": 34,
+        "startChar": 3,
+        "endLine": 34,
+        "endChar": 65
+      },
+      "revId": "78aceffe468d38835fde2085b7015ad5a4391342",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "21554632_bf47e71f",
+        "filename": "gerrit/cutover/cut-over_multisite-3.1-java11-migration.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2021-09-02T09:40:03Z",
+      "side": 1,
+      "message": "How to find it?\nShall we provide some example?",
+      "range": {
+        "startLine": 52,
+        "startChar": 0,
+        "endLine": 52,
+        "endChar": 36
+      },
+      "revId": "78aceffe468d38835fde2085b7015ad5a4391342",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7c50d0fc_e795a91b",
+        "filename": "gerrit/cutover/cut-over_multisite-3.1-java11-migration.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2021-09-02T09:40:03Z",
+      "side": 1,
+      "message": "If the replicas are in an ASG, marking them as unhealthy and shutting them down might cause the ASG to trigger new replicas.\n\nWouldn\u0027t just increase the max, desired number of replicas to, say 4, allow to have 2 of them on java11 automatically?\n\nThen the java 8 ones can be removed and the ASG shrunk again.\n\nWDYT?",
+      "range": {
+        "startLine": 58,
+        "startChar": 65,
+        "endLine": 58,
+        "endChar": 86
+      },
+      "revId": "78aceffe468d38835fde2085b7015ad5a4391342",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d6c47f62_6475bd95",
         "filename": "gerrit/cutover/cut-over_multisite-3.1-java11-migration.md",
         "patchSetId": 2
