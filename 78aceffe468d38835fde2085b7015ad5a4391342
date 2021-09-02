@@ -24,6 +24,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d4ae21f3_0975dc09",
+        "filename": "gerrit/cutover/cut-over_multisite-3.1-java11-migration.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-09-02T10:45:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7e23efc2_84c27eee",
+      "range": {
+        "startLine": 9,
+        "startChar": 34,
+        "endLine": 9,
+        "endChar": 36
+      },
+      "revId": "78aceffe468d38835fde2085b7015ad5a4391342",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "eaa39966_09145a87",
@@ -37,6 +61,30 @@
       "writtenOn": "2021-09-02T09:40:03Z",
       "side": 1,
       "message": "Potentially, in a multi-site setup, more than one gerrit receives traffic.\nIs it the case, in this setup, that only one server receives it?",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 74
+      },
+      "revId": "78aceffe468d38835fde2085b7015ad5a4391342",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7ac6c828_fe88af4f",
+        "filename": "gerrit/cutover/cut-over_multisite-3.1-java11-migration.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-09-02T10:45:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "eaa39966_09145a87",
       "range": {
         "startLine": 15,
         "startChar": 0,
@@ -70,6 +118,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e7c4fd9d_257bd30b",
+        "filename": "gerrit/cutover/cut-over_multisite-3.1-java11-migration.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-09-02T10:45:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "07d7b126_333d73fc",
+      "range": {
+        "startLine": 34,
+        "startChar": 3,
+        "endLine": 34,
+        "endChar": 65
+      },
+      "revId": "78aceffe468d38835fde2085b7015ad5a4391342",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "21554632_bf47e71f",
@@ -83,6 +155,30 @@
       "writtenOn": "2021-09-02T09:40:03Z",
       "side": 1,
       "message": "How to find it?\nShall we provide some example?",
+      "range": {
+        "startLine": 52,
+        "startChar": 0,
+        "endLine": 52,
+        "endChar": 36
+      },
+      "revId": "78aceffe468d38835fde2085b7015ad5a4391342",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "00cf8b5b_96e757e3",
+        "filename": "gerrit/cutover/cut-over_multisite-3.1-java11-migration.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-09-02T10:45:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "21554632_bf47e71f",
       "range": {
         "startLine": 52,
         "startChar": 0,
@@ -118,6 +214,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ec6d606f_591159c4",
+        "filename": "gerrit/cutover/cut-over_multisite-3.1-java11-migration.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-09-02T10:45:09Z",
+      "side": 1,
+      "message": "I think they way they currently deploy stuff they will have to tear down the whole ASG 😐",
+      "parentUuid": "7c50d0fc_e795a91b",
+      "range": {
+        "startLine": 58,
+        "startChar": 65,
+        "endLine": 58,
+        "endChar": 86
+      },
+      "revId": "78aceffe468d38835fde2085b7015ad5a4391342",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d6c47f62_6475bd95",
         "filename": "gerrit/cutover/cut-over_multisite-3.1-java11-migration.md",
         "patchSetId": 2
@@ -129,6 +249,30 @@
       "writtenOn": "2021-09-02T08:26:45Z",
       "side": 1,
       "message": "maybe we should suggest to migrate only part of the nodes and observe the difference between them",
+      "range": {
+        "startLine": 60,
+        "startChar": 0,
+        "endLine": 60,
+        "endChar": 28
+      },
+      "revId": "78aceffe468d38835fde2085b7015ad5a4391342",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "53c72742_db77c2f6",
+        "filename": "gerrit/cutover/cut-over_multisite-3.1-java11-migration.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-09-02T10:45:09Z",
+      "side": 1,
+      "message": "This is what I was suggesting at L58. Shall I make it clearer?",
+      "parentUuid": "d6c47f62_6475bd95",
       "range": {
         "startLine": 60,
         "startChar": 0,
