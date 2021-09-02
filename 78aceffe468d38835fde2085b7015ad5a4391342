@@ -236,6 +236,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f3daf45a_1943b14d",
+        "filename": "gerrit/cutover/cut-over_multisite-3.1-java11-migration.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2021-09-02T11:24:42Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "ec6d606f_591159c4",
+      "range": {
+        "startLine": 58,
+        "startChar": 65,
+        "endLine": 58,
+        "endChar": 86
+      },
+      "revId": "78aceffe468d38835fde2085b7015ad5a4391342",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d6c47f62_6475bd95",
@@ -273,6 +297,30 @@
       "side": 1,
       "message": "This is what I was suggesting at L58. Shall I make it clearer?",
       "parentUuid": "d6c47f62_6475bd95",
+      "range": {
+        "startLine": 60,
+        "startChar": 0,
+        "endLine": 60,
+        "endChar": 28
+      },
+      "revId": "78aceffe468d38835fde2085b7015ad5a4391342",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6e39c7ed_9b99ee10",
+        "filename": "gerrit/cutover/cut-over_multisite-3.1-java11-migration.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2021-09-02T11:24:42Z",
+      "side": 1,
+      "message": "I think is clear ponch",
+      "parentUuid": "53c72742_db77c2f6",
       "range": {
         "startLine": 60,
         "startChar": 0,

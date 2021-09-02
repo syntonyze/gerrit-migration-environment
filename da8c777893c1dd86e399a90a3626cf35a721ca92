@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "18206858_85f8e77e",
+        "filename": "gerrit/cutover/cut-over_multisite-3.1-java11-migration.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2021-09-02T11:24:42Z",
+      "side": 1,
+      "message": "Perhaps we should verify that the right java version is being used.\n\nWe could check in the logs for something:\n\n[2021-09-01T10:50:36.685+0200] [main] INFO  org.eclipse.jetty.server.Server : jetty-9.4.35.v20201120; built: 2020-11-20T21:17:03.964Z; git: bdc54f03a5e0a7e280fab27f55c3c75ee8da89fb; jvm 11.0.10+9\n\nAlso, if they use javamelody, they can observe it there, in the  System information section",
+      "range": {
+        "startLine": 60,
+        "startChar": 0,
+        "endLine": 60,
+        "endChar": 19
+      },
+      "revId": "da8c777893c1dd86e399a90a3626cf35a721ca92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "768b1954_df841993",
+        "filename": "gerrit/cutover/cut-over_multisite-3.1-java11-migration.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2021-09-02T11:24:42Z",
+      "side": 1,
+      "message": "Only one note that we are configuring gerrit to log under jvm_gc_log for both java8 and java11 setups.\n\nUntil it is rotated, there will be one jvm_gc_log file that will contain both java8 and java11 diagnostics.\n\nThat file probably shouldn\u0027t be used for comparison.\nperhaps it would be safe to back it up first or to save java11 jvm_log to another file (unless they are collecting it based on filename).",
+      "range": {
+        "startLine": 68,
+        "startChar": 86,
+        "endLine": 68,
+        "endChar": 134
+      },
+      "revId": "da8c777893c1dd86e399a90a3626cf35a721ca92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
