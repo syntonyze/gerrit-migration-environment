@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9e3064c0_b8fb8c68",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2021-09-03T09:51:33Z",
+      "side": 1,
+      "message": "@Ponch, as a follow up change, I think we should we mention the renaming of the zookeeper plugin to zookeeper-refdb done by [1], for future reference.\n\n\nWDYT?\n\n\n[1]https://gerrit-review.googlesource.com/c/plugins/zookeeper-refdb/+/260354",
+      "revId": "464a9656fba7bafda062d5ee9a2baec46f430b50",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
