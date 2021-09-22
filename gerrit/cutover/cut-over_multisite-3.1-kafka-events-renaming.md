@@ -61,11 +61,21 @@ Migration and observation
   - `multi-site`, `events-kafka`, `zookeeper-refdb`, `websession-broker` need to go in the `$GERRIT_SITE/plugins` directory
 5. Update `$GERRIT_SITE/etc/gerrit.config` configuration, by renaming
 `[plugin "kafka-events"]` to `[plugin "events-kafka"]`
-6. Rename `$GERRIT_SITE/etc/zookeeper.config` to `$GERRIT_SITE/etc/zookeeper-refdb.config`
-7. Restart gerrit-2
-8. Mark gerrit-2 as healthy:
+6. Update `$GERRIT_SITE/etc/gerrit.config` mandatory plugin section:
+
+```
+[plugins]
+        mandatory = replication
+        mandatory = zookeeper-refdb
+        mandatory = events-kafka
+        mandatory = multi-site
+```
+
+7. Rename `$GERRIT_SITE/etc/zookeeper.config` to `$GERRIT_SITE/etc/zookeeper-refdb.config`
+8. Restart gerrit-2
+9. Mark gerrit-2 as healthy:
 `mv $GERRIT_SITE/plugins/healthcheck.jar.disabled $GERRIT_SITE/plugins/healthcheck.jar`
-9. Test the node is working fine with particular attention to:
+10. Test the node is working fine with particular attention to:
 - projects, changes and groups events creations/updates consumption and production:
  -- check Prometheus metrics
  -- check `$GERRIT_SITE/logs/message_log`
@@ -75,7 +85,7 @@ Migration and observation
   `grep "ForwardedIndex" | $GERRIT_SITE/logs/error_log`
 - websessions synchronization:
  -- check `$GERRIT_SITE/logs/websession_log`
-10. Repeat for gerrit-1 and all the other primary instances
+11. Repeat for gerrit-1 and all the other primary instances
 
 Rollback strategy
 ===
@@ -84,8 +94,17 @@ Rollback strategy
 2. Downgrade plugins and libs
 3. Restore previous configuration , by renaming
 `[plugin "events-kafka"]` to `[plugin "kafka-events"]`
-4. Rename `$GERRIT_SITE/etc/zookeeper-refdb.config` to `$GERRIT_SITE/etc/zookeeper.config`
-5. Restart gerrit
+4. Restore `$GERRIT_SITE/etc/gerrit.config` mandatory plugin section:
+
+```
+[plugins]
+        mandatory = replication
+        mandatory = zookeeper
+        mandatory = kafka-events
+        mandatory = multi-site
+```
+5. Rename `$GERRIT_SITE/etc/zookeeper-refdb.config` to `$GERRIT_SITE/etc/zookeeper.config`
+6. Restart gerrit
 
 Notes
 ==
