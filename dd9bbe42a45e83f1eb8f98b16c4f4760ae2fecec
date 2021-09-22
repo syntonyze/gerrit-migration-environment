@@ -26,6 +26,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "a7276b15_48702653",
+        "filename": "cutover/CUTOVER-PLAN-OFFLINE-MIGRATION-2.16-reviewb-TO-2.16-notedb-no-trial.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-09-22T17:24:57Z",
+      "side": 1,
+      "message": "they are already struggling with the jgit cache and so it\u0027s a separate task before event starting the migration. We are mentioning that here to make sure that they are aware of it",
+      "parentUuid": "fc4d4576_193fe34f",
+      "range": {
+        "startLine": 12,
+        "startChar": 168,
+        "endLine": 12,
+        "endChar": 220
+      },
+      "revId": "dd9bbe42a45e83f1eb8f98b16c4f4760ae2fecec",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "b7efeaab_9c2c8774",
         "filename": "cutover/CUTOVER-PLAN-OFFLINE-MIGRATION-2.16-reviewb-TO-2.16-notedb-no-trial.md",
         "patchSetId": 2
@@ -37,6 +61,30 @@
       "writtenOn": "2021-09-22T14:26:55Z",
       "side": 1,
       "message": "Is this part of the cutover at all? Seems to me independent from any upgrade",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 308
+      },
+      "revId": "dd9bbe42a45e83f1eb8f98b16c4f4760ae2fecec",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1c755dbf_4123980e",
+        "filename": "cutover/CUTOVER-PLAN-OFFLINE-MIGRATION-2.16-reviewb-TO-2.16-notedb-no-trial.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-09-22T17:24:57Z",
+      "side": 1,
+      "message": "Without that he is not able to sign in without haproxy and Marc wants to test it before making instances healthy",
+      "parentUuid": "b7efeaab_9c2c8774",
       "range": {
         "startLine": 14,
         "startChar": 0,
@@ -70,6 +118,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d85facb7_a811394a",
+        "filename": "cutover/CUTOVER-PLAN-OFFLINE-MIGRATION-2.16-reviewb-TO-2.16-notedb-no-trial.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-09-22T17:24:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c2292d8a_6961122c",
+      "range": {
+        "startLine": 36,
+        "startChar": 130,
+        "endLine": 36,
+        "endChar": 146
+      },
+      "revId": "dd9bbe42a45e83f1eb8f98b16c4f4760ae2fecec",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "dd4c5424_c473f46e",
@@ -83,6 +155,24 @@
       "writtenOn": "2021-09-22T14:26:55Z",
       "side": 1,
       "message": "Shouldn\u0027t we adjust the JGit config here instead of as a prerequisite?\n\nIt might not be a problem to overprovision memory and refs for JGit, but I just wanted to double check.",
+      "revId": "dd9bbe42a45e83f1eb8f98b16c4f4760ae2fecec",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a70e5192_d5b369bd",
+        "filename": "cutover/CUTOVER-PLAN-OFFLINE-MIGRATION-2.16-reviewb-TO-2.16-notedb-no-trial.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-09-22T17:24:57Z",
+      "side": 1,
+      "message": "we should adjust it even before because they are already struggling",
+      "parentUuid": "dd4c5424_c473f46e",
       "revId": "dd9bbe42a45e83f1eb8f98b16c4f4760ae2fecec",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
@@ -127,6 +217,48 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0db0b535_677e1b56",
+        "filename": "cutover/CUTOVER-PLAN-OFFLINE-MIGRATION-2.16-reviewb-TO-2.16-notedb-no-trial.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-09-22T17:24:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0c2894e6_8103bfab",
+      "revId": "dd9bbe42a45e83f1eb8f98b16c4f4760ae2fecec",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f229ebf0_db6dea50",
+        "filename": "cutover/CUTOVER-PLAN-OFFLINE-MIGRATION-2.16-reviewb-TO-2.16-notedb-no-trial.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-09-22T17:24:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cf6fa030_0d8b6d5d",
+      "range": {
+        "startLine": 98,
+        "startChar": 30,
+        "endLine": 98,
+        "endChar": 36
+      },
+      "revId": "dd9bbe42a45e83f1eb8f98b16c4f4760ae2fecec",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f9d9d26e_a783e265",
@@ -140,6 +272,24 @@
       "writtenOn": "2021-09-22T14:26:55Z",
       "side": 1,
       "message": "What about the replicas? We don\u0027t restart them ?",
+      "revId": "dd9bbe42a45e83f1eb8f98b16c4f4760ae2fecec",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "41c63919_97cdf94e",
+        "filename": "cutover/CUTOVER-PLAN-OFFLINE-MIGRATION-2.16-reviewb-TO-2.16-notedb-no-trial.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-09-22T17:24:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f9d9d26e_a783e265",
       "revId": "dd9bbe42a45e83f1eb8f98b16c4f4760ae2fecec",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
