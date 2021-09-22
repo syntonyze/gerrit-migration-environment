@@ -62,6 +62,23 @@
       "message": "is websession-broker missing?",
       "revId": "c537c3ce6ac376d0d52c7bbe0b52dd257b541105",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "611b4455_3d8a44f7",
+        "filename": "gerrit/cutover/cut-over_multisite-3.1-kafka-events-renaming.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2021-09-22T13:16:34Z",
+      "side": 1,
+      "message": "Also, don\u0027t we consider healthcheck as mandatory in a multi-site deployment?",
+      "revId": "c537c3ce6ac376d0d52c7bbe0b52dd257b541105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
   ]
 }
