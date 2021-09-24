@@ -145,6 +145,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "392d9a6f_2dfcf997",
+        "filename": "cutover/CUTOVER-PLAN-OFFLINE-MIGRATION-2.16-reviewb-TO-2.16-notedb-no-trial.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-09-24T06:30:53Z",
+      "side": 1,
+      "message": "Yes you are right if we want to have a generic template this is not relevant. This is specific to this particular client. I will remove it",
+      "parentUuid": "e30e62b9_d65ee65d",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 308
+      },
+      "revId": "dd9bbe42a45e83f1eb8f98b16c4f4760ae2fecec",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "c2292d8a_6961122c",
         "filename": "cutover/CUTOVER-PLAN-OFFLINE-MIGRATION-2.16-reviewb-TO-2.16-notedb-no-trial.md",
         "patchSetId": 2
