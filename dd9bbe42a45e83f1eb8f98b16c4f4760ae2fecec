@@ -48,6 +48,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "bbb6e026_5b45bc33",
+        "filename": "cutover/CUTOVER-PLAN-OFFLINE-MIGRATION-2.16-reviewb-TO-2.16-notedb-no-trial.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-09-24T06:27:42Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "a7276b15_48702653",
+      "range": {
+        "startLine": 12,
+        "startChar": 168,
+        "endLine": 12,
+        "endChar": 220
+      },
+      "revId": "dd9bbe42a45e83f1eb8f98b16c4f4760ae2fecec",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b7efeaab_9c2c8774",
@@ -85,6 +109,30 @@
       "side": 1,
       "message": "Without that he is not able to sign in without haproxy and Marc wants to test it before making instances healthy",
       "parentUuid": "b7efeaab_9c2c8774",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 308
+      },
+      "revId": "dd9bbe42a45e83f1eb8f98b16c4f4760ae2fecec",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e30e62b9_d65ee65d",
+        "filename": "cutover/CUTOVER-PLAN-OFFLINE-MIGRATION-2.16-reviewb-TO-2.16-notedb-no-trial.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-09-24T06:27:42Z",
+      "side": 1,
+      "message": "But this is not related to the reviewdb-notedb migration,right?\nIt is just fr me to understand if there is a link and we need to consider it for other customers as well.",
+      "parentUuid": "1c755dbf_4123980e",
       "range": {
         "startLine": 14,
         "startChar": 0,
@@ -173,6 +221,24 @@
       "side": 1,
       "message": "we should adjust it even before because they are already struggling",
       "parentUuid": "dd4c5424_c473f46e",
+      "revId": "dd9bbe42a45e83f1eb8f98b16c4f4760ae2fecec",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e10fb3ed_f3aca534",
+        "filename": "cutover/CUTOVER-PLAN-OFFLINE-MIGRATION-2.16-reviewb-TO-2.16-notedb-no-trial.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-09-24T06:27:42Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "a70e5192_d5b369bd",
       "revId": "dd9bbe42a45e83f1eb8f98b16c4f4760ae2fecec",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
