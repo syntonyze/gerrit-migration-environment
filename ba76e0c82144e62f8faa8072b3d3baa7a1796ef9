@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1db3a0c9_6315c3b1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-10-04T08:31:58Z",
+      "side": 1,
+      "message": "replay Marcin\u0027s +2 after rebase",
+      "revId": "ba76e0c82144e62f8faa8072b3d3baa7a1796ef9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
