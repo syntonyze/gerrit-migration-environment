@@ -47,6 +47,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e52a0366_e5e8db68",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-10-04T08:30:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "43045fe4_ccc5e5dc",
+      "range": {
+        "startLine": 7,
+        "startChar": 7,
+        "endLine": 7,
+        "endChar": 23
+      },
+      "revId": "c537c3ce6ac376d0d52c7bbe0b52dd257b541105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "22d038cc_4b3b5109",
@@ -113,6 +137,42 @@
       "side": 1,
       "message": "same as previous comment",
       "parentUuid": "611b4455_3d8a44f7",
+      "revId": "c537c3ce6ac376d0d52c7bbe0b52dd257b541105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "29ce6bdb_8af87ed7",
+        "filename": "gerrit/cutover/cut-over_multisite-3.1-kafka-events-renaming.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-10-04T08:30:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a161bcb_d9dbebb1",
+      "revId": "c537c3ce6ac376d0d52c7bbe0b52dd257b541105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2480467e_438084ef",
+        "filename": "gerrit/cutover/cut-over_multisite-3.1-kafka-events-renaming.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-10-04T08:30:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "818d8c75_2acb8b74",
       "revId": "c537c3ce6ac376d0d52c7bbe0b52dd257b541105",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
