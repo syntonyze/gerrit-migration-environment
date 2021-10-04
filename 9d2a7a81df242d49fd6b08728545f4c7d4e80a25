@@ -48,6 +48,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7ed8b5e0_571ecb53",
+        "filename": "gerrit/cutover/cut-over_multisite-3.1_to_3.2.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-10-04T11:37:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "01ac4f8f_8a1d9610",
+      "range": {
+        "startLine": 64,
+        "startChar": 0,
+        "endLine": 64,
+        "endChar": 86
+      },
+      "revId": "9d2a7a81df242d49fd6b08728545f4c7d4e80a25",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6578ea5f_8dac3038",
@@ -95,6 +119,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "dc35c186_7f9fb66a",
+        "filename": "gerrit/cutover/cut-over_multisite-3.1_to_3.2.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-10-04T11:37:32Z",
+      "side": 1,
+      "message": "I have added a note at the beginning explaining this applies to mutable installation and when using Docker immutable images will need to be created.",
+      "parentUuid": "1f8136d2_628ab8d9",
+      "range": {
+        "startLine": 88,
+        "startChar": 0,
+        "endLine": 99,
+        "endChar": 9
+      },
+      "revId": "9d2a7a81df242d49fd6b08728545f4c7d4e80a25",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "eff0223d_fe8a77e2",
@@ -120,6 +168,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "7f7d61bb_9bfe1307",
+        "filename": "gerrit/cutover/cut-over_multisite-3.1_to_3.2.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-10-04T11:37:32Z",
+      "side": 1,
+      "message": "yep, but I wanted to avoid specifying it for 2 reasons: 1) keep it general enough in case we want to reuse it for other customers 2) leave it generic since we don\u0027t have visibility on plugin they might add/remove, hence the list I provide now might not reflect the one when doing the migration",
+      "parentUuid": "eff0223d_fe8a77e2",
+      "range": {
+        "startLine": 102,
+        "startChar": 3,
+        "endLine": 102,
+        "endChar": 75
+      },
+      "revId": "9d2a7a81df242d49fd6b08728545f4c7d4e80a25",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d56c823e_3639f1b4",
         "filename": "gerrit/cutover/cut-over_multisite-3.1_to_3.2.md",
         "patchSetId": 3
@@ -131,6 +203,30 @@
       "writtenOn": "2021-10-04T08:33:50Z",
       "side": 1,
       "message": "how to test if node is fine?",
+      "range": {
+        "startLine": 151,
+        "startChar": 3,
+        "endLine": 151,
+        "endChar": 33
+      },
+      "revId": "9d2a7a81df242d49fd6b08728545f4c7d4e80a25",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "691951e4_79d832c8",
+        "filename": "gerrit/cutover/cut-over_multisite-3.1_to_3.2.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 151,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-10-04T11:37:32Z",
+      "side": 1,
+      "message": "I leave it open since at the moment they have their internal checklist to check if everything works ok. It is pretty much manual, ideally, we would like to automate it.",
+      "parentUuid": "d56c823e_3639f1b4",
       "range": {
         "startLine": 151,
         "startChar": 3,
