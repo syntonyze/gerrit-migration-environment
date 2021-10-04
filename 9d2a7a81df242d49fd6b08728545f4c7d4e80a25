@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bd3ba697_3528dac2",
+        "filename": "gerrit/cutover/cut-over_multisite-3.1_to_3.2.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-10-04T08:33:50Z",
+      "side": 1,
+      "message": "Maybe consider adding steps to update that file",
+      "range": {
+        "startLine": 64,
+        "startChar": 0,
+        "endLine": 64,
+        "endChar": 86
+      },
+      "revId": "9d2a7a81df242d49fd6b08728545f4c7d4e80a25",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6578ea5f_8dac3038",
+        "filename": "gerrit/cutover/cut-over_multisite-3.1_to_3.2.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-10-04T08:33:50Z",
+      "side": 1,
+      "message": "if you don\u0027t want to start process strait away consider adding: --no-auto-start/ If you want to start it point 6 is not needed",
+      "range": {
+        "startLine": 88,
+        "startChar": 0,
+        "endLine": 99,
+        "endChar": 9
+      },
+      "revId": "9d2a7a81df242d49fd6b08728545f4c7d4e80a25",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "eff0223d_fe8a77e2",
+        "filename": "gerrit/cutover/cut-over_multisite-3.1_to_3.2.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-10-04T08:33:50Z",
+      "side": 1,
+      "message": "is that the list of core plugins they currently have?",
+      "range": {
+        "startLine": 102,
+        "startChar": 3,
+        "endLine": 102,
+        "endChar": 75
+      },
+      "revId": "9d2a7a81df242d49fd6b08728545f4c7d4e80a25",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d56c823e_3639f1b4",
+        "filename": "gerrit/cutover/cut-over_multisite-3.1_to_3.2.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 151,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-10-04T08:33:50Z",
+      "side": 1,
+      "message": "how to test if node is fine?",
+      "range": {
+        "startLine": 151,
+        "startChar": 3,
+        "endLine": 151,
+        "endChar": 33
+      },
+      "revId": "9d2a7a81df242d49fd6b08728545f4c7d4e80a25",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
