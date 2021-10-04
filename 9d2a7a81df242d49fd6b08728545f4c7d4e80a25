@@ -26,6 +26,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "01ac4f8f_8a1d9610",
+        "filename": "gerrit/cutover/cut-over_multisite-3.1_to_3.2.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-04T09:00:35Z",
+      "side": 1,
+      "message": "Actually that needs to be done *before* the cutover and can be done at any time.\nI believe including it as pre-requisite is more than enough.",
+      "parentUuid": "bd3ba697_3528dac2",
+      "range": {
+        "startLine": 64,
+        "startChar": 0,
+        "endLine": 64,
+        "endChar": 86
+      },
+      "revId": "9d2a7a81df242d49fd6b08728545f4c7d4e80a25",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6578ea5f_8dac3038",
         "filename": "gerrit/cutover/cut-over_multisite-3.1_to_3.2.md",
         "patchSetId": 3
@@ -37,6 +61,30 @@
       "writtenOn": "2021-10-04T08:33:50Z",
       "side": 1,
       "message": "if you don\u0027t want to start process strait away consider adding: --no-auto-start/ If you want to start it point 6 is not needed",
+      "range": {
+        "startLine": 88,
+        "startChar": 0,
+        "endLine": 99,
+        "endChar": 9
+      },
+      "revId": "9d2a7a81df242d49fd6b08728545f4c7d4e80a25",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1f8136d2_628ab8d9",
+        "filename": "gerrit/cutover/cut-over_multisite-3.1_to_3.2.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-04T09:00:35Z",
+      "side": 1,
+      "message": "I am confused: they use Docker images that are immutable. If we tell them to run the upgrade of the current running images, they\u0027ll be back in v3.1 after any restart.\n\nIs that expected?",
+      "parentUuid": "6578ea5f_8dac3038",
       "range": {
         "startLine": 88,
         "startChar": 0,

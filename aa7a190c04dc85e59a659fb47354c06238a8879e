@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "15823d4d_eab4a8b3",
+        "filename": "gerrit/cutover/cut-over_multisite-3.1_to_3.2.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-04T09:00:35Z",
+      "side": 1,
+      "message": "That isn\u0027t possible because as soon as the gerrit process dies the container would die as well. Once Gerrit is restarted will be back on v3.1 because we haven\u0027t actually changed the definition of the container, isn\u0027t it?",
+      "range": {
+        "startLine": 121,
+        "startChar": 0,
+        "endLine": 121,
+        "endChar": 25
+      },
+      "revId": "aa7a190c04dc85e59a659fb47354c06238a8879e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
