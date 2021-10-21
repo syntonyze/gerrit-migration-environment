@@ -190,6 +190,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "44544d51_3f51f376",
+        "filename": "gerrit/cutover/cut-over_multisite-3.1_to_3.2.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-10-21T11:51:43Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "7f7d61bb_9bfe1307",
+      "range": {
+        "startLine": 102,
+        "startChar": 3,
+        "endLine": 102,
+        "endChar": 75
+      },
+      "revId": "9d2a7a81df242d49fd6b08728545f4c7d4e80a25",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d56c823e_3639f1b4",
@@ -227,6 +251,30 @@
       "side": 1,
       "message": "I leave it open since at the moment they have their internal checklist to check if everything works ok. It is pretty much manual, ideally, we would like to automate it.",
       "parentUuid": "d56c823e_3639f1b4",
+      "range": {
+        "startLine": 151,
+        "startChar": 3,
+        "endLine": 151,
+        "endChar": 33
+      },
+      "revId": "9d2a7a81df242d49fd6b08728545f4c7d4e80a25",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "19abebfd_49deb73d",
+        "filename": "gerrit/cutover/cut-over_multisite-3.1_to_3.2.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 151,
+      "author": {
+        "id": 1005270
+      },
+      "writtenOn": "2021-10-21T11:51:43Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "691951e4_79d832c8",
       "range": {
         "startLine": 151,
         "startChar": 3,
