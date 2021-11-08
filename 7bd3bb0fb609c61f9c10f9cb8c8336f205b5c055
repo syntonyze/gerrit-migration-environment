@@ -24,6 +24,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "666450c4_0dfd02c5",
+        "filename": "gerrit/cutover/cut-over_multisite-kafka-to-kinesis-migration.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-11-08T21:54:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d6c2c57b_f182f0f0",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 21
+      },
+      "revId": "7bd3bb0fb609c61f9c10f9cb8c8336f205b5c055",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "46b69f4a_62801748",
@@ -47,6 +71,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "28fa5950_6bb3d36f",
+        "filename": "gerrit/cutover/cut-over_multisite-kafka-to-kinesis-migration.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-11-08T21:54:57Z",
+      "side": 1,
+      "message": "sorry, I meant the \"groupId\"",
+      "parentUuid": "46b69f4a_62801748",
+      "range": {
+        "startLine": 74,
+        "startChar": 23,
+        "endLine": 74,
+        "endChar": 47
+      },
+      "revId": "7bd3bb0fb609c61f9c10f9cb8c8336f205b5c055",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "aeac5a8d_3bca12d3",
@@ -60,6 +108,30 @@
       "writtenOn": "2021-11-08T17:11:17Z",
       "side": 1,
       "message": "Probably no replication metrics but more broker specific metrics, i.e.:\n\nplugins_multi_site_multi_site_broker_broker_message_publisher_counter_broker_msg_publisher_counter_total\nplugins_multi_site_multi_site_subscriber_subscriber_message_consumer_counter_total_total",
+      "range": {
+        "startLine": 109,
+        "startChar": 4,
+        "endLine": 109,
+        "endChar": 29
+      },
+      "revId": "7bd3bb0fb609c61f9c10f9cb8c8336f205b5c055",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "090ceb61_9c1d1810",
+        "filename": "gerrit/cutover/cut-over_multisite-kafka-to-kinesis-migration.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-11-08T21:54:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "aeac5a8d_3bca12d3",
       "range": {
         "startLine": 109,
         "startChar": 4,
