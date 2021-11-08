@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aeac5a8d_3bca12d3",
+        "filename": "gerrit/cutover/cut-over_multisite-kafka-to-kinesis-migration.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-11-08T17:11:17Z",
+      "side": 1,
+      "message": "Probably no replication metrics but more broker specific metrics, i.e.:\n\nplugins_multi_site_multi_site_broker_broker_message_publisher_counter_broker_msg_publisher_counter_total\nplugins_multi_site_multi_site_subscriber_subscriber_message_consumer_counter_total_total",
+      "range": {
+        "startLine": 109,
+        "startChar": 4,
+        "endLine": 109,
+        "endChar": 29
+      },
+      "revId": "7bd3bb0fb609c61f9c10f9cb8c8336f205b5c055",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
