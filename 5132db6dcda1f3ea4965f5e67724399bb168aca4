@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d06eccc4_8afca64c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-11-16T12:34:51Z",
+      "side": 1,
+      "message": "LGTM, I though it would have been easier though:\n1. Start the bridge\n2. Install the kinesis plugin and disable the kafka plugin\n3. Restart Gerrit\n\nI don\u0027t believe there is anyone to notify, as there is zero impact to the users.\n",
+      "revId": "5132db6dcda1f3ea4965f5e67724399bb168aca4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2effcde6_2088a6a6",
+        "filename": "gerrit/cutover/cut-over_multisite-kafka-to-kinesis-migration.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-11-16T12:34:51Z",
+      "side": 1,
+      "message": "You did it already at 4.2, or am I missing something?",
+      "range": {
+        "startLine": 94,
+        "startChar": 0,
+        "endLine": 94,
+        "endChar": 38
+      },
+      "revId": "5132db6dcda1f3ea4965f5e67724399bb168aca4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
