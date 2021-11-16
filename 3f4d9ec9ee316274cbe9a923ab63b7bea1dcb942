@@ -261,6 +261,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "285e7ea6_659441eb",
+        "filename": "gerrit/cutover/cut-over_multisite-kafka-to-kinesis-migration.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-11-16T15:54:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1e58d077_728c37d3",
+      "range": {
+        "startLine": 58,
+        "startChar": 39,
+        "endLine": 58,
+        "endChar": 44
+      },
+      "revId": "3f4d9ec9ee316274cbe9a923ab63b7bea1dcb942",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7926aa52_16146fee",
