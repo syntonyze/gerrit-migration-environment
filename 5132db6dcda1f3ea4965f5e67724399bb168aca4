@@ -39,6 +39,30 @@
       },
       "revId": "5132db6dcda1f3ea4965f5e67724399bb168aca4",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "93803419_72d6b76e",
+        "filename": "gerrit/cutover/cut-over_multisite-kafka-to-kinesis-migration.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2021-11-16T12:50:52Z",
+      "side": 1,
+      "message": "This is a bridge sending messages from Kinesis to Kafka, in case the node would receive a write. At 4.2 the bridge is sending messages the other way around, Kafka -\u003e Kinesis",
+      "parentUuid": "2effcde6_2088a6a6",
+      "range": {
+        "startLine": 94,
+        "startChar": 0,
+        "endLine": 94,
+        "endChar": 38
+      },
+      "revId": "5132db6dcda1f3ea4965f5e67724399bb168aca4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
   ]
 }
