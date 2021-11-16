@@ -95,6 +95,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "276fddcd_7723a0e9",
+        "filename": "gerrit/cutover/cut-over_multisite-kafka-to-kinesis-migration.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2021-11-16T09:44:11Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "e220dec6_74c4b929",
+      "range": {
+        "startLine": 41,
+        "startChar": 85,
+        "endLine": 41,
+        "endChar": 100
+      },
+      "revId": "3f4d9ec9ee316274cbe9a923ab63b7bea1dcb942",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3865eb2e_8d05cc6b",
@@ -142,6 +166,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "085b07ce_b9c9c009",
+        "filename": "gerrit/cutover/cut-over_multisite-kafka-to-kinesis-migration.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2021-11-16T09:44:11Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "46d1c75c_167969e1",
+      "range": {
+        "startLine": 43,
+        "startChar": 0,
+        "endLine": 45,
+        "endChar": 68
+      },
+      "revId": "3f4d9ec9ee316274cbe9a923ab63b7bea1dcb942",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "80686d9c_4a29c0b1",
@@ -179,6 +227,30 @@
       "side": 1,
       "message": "I would leave it as it is as for the moment whatever goes in master is supposed to work. So it is a way of saying grab the latest one.",
       "parentUuid": "80686d9c_4a29c0b1",
+      "range": {
+        "startLine": 58,
+        "startChar": 39,
+        "endLine": 58,
+        "endChar": 44
+      },
+      "revId": "3f4d9ec9ee316274cbe9a923ab63b7bea1dcb942",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1e58d077_728c37d3",
+        "filename": "gerrit/cutover/cut-over_multisite-kafka-to-kinesis-migration.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2021-11-16T09:44:11Z",
+      "side": 1,
+      "message": "I was just mentioning this because if you happen to have more than one jar (even by mistake), the shell will expand it to\n\n```\njava -jar ./stream-technologies-bridge-\u003cv1\u003e.jar  ./stream-technologies-bridge-\u003cv2\u003e.jar  ...\n```\n\nWhich will not work.\n\nHaving a placeholder (i.e. say v1) other than a wildcard would be safer imho.",
+      "parentUuid": "c3e89fe9_6197de40",
       "range": {
         "startLine": 58,
         "startChar": 39,
@@ -283,6 +355,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6e767cc9_5c0841e9",
+        "filename": "gerrit/cutover/cut-over_multisite-kafka-to-kinesis-migration.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2021-11-16T09:44:11Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "5e2587a6_c4921e5c",
+      "range": {
+        "startLine": 96,
+        "startChar": 39,
+        "endLine": 96,
+        "endChar": 44
+      },
+      "revId": "3f4d9ec9ee316274cbe9a923ab63b7bea1dcb942",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e52aab55_d2db6e10",
@@ -320,6 +416,30 @@
       "side": 1,
       "message": "Nope from the latest. We just need to forward the events coming in after we switch the brokers.",
       "parentUuid": "e52aab55_d2db6e10",
+      "range": {
+        "startLine": 99,
+        "startChar": 0,
+        "endLine": 99,
+        "endChar": 96
+      },
+      "revId": "3f4d9ec9ee316274cbe9a923ab63b7bea1dcb942",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "34053b3b_126a73df",
+        "filename": "gerrit/cutover/cut-over_multisite-kafka-to-kinesis-migration.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2021-11-16T09:44:11Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "54c10997_74c92e88",
       "range": {
         "startLine": 99,
         "startChar": 0,
@@ -518,6 +638,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6f0cb18b_ef342bd6",
+        "filename": "gerrit/cutover/cut-over_multisite-kafka-to-kinesis-migration.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2021-11-16T09:44:11Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "e61035e6_53ce719b",
+      "range": {
+        "startLine": 115,
+        "startChar": 1,
+        "endLine": 115,
+        "endChar": 87
+      },
+      "revId": "3f4d9ec9ee316274cbe9a923ab63b7bea1dcb942",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f67d4be9_1a09c5a7",
@@ -555,6 +699,30 @@
       "side": 1,
       "message": "checking the UI are aligned is the quickest way that come in my mind",
       "parentUuid": "f67d4be9_1a09c5a7",
+      "range": {
+        "startLine": 116,
+        "startChar": 0,
+        "endLine": 116,
+        "endChar": 29
+      },
+      "revId": "3f4d9ec9ee316274cbe9a923ab63b7bea1dcb942",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6937f6fe_1ae5c551",
+        "filename": "gerrit/cutover/cut-over_multisite-kafka-to-kinesis-migration.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2021-11-16T09:44:11Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "d390e120_e98ac1b9",
       "range": {
         "startLine": 116,
         "startChar": 0,
