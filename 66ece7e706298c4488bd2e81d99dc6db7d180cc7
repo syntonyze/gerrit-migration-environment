@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "adb143e6_33a3ca25",
+        "filename": "gerrit/cutover/cut-over_single-node-AWS-3.2-java11-corretto-migration.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2022-05-19T14:16:50Z",
+      "side": 1,
+      "message": "mmm, what do you mean every time?",
+      "parentUuid": "3999679d_03a520d4",
+      "revId": "66ece7e706298c4488bd2e81d99dc6db7d180cc7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "5cf51a0e_89fc6a9b",
         "filename": "gerrit/cutover/cut-over_single-node-AWS-3.2-java11-corretto-migration.md",
         "patchSetId": 1
@@ -31,6 +49,30 @@
       "writtenOn": "2022-05-19T08:44:23Z",
       "side": 1,
       "message": "nit: would it be worth considering the headless version? i.e.: `java-11-amazon-corretto-headless`",
+      "range": {
+        "startLine": 40,
+        "startChar": 20,
+        "endLine": 40,
+        "endChar": 43
+      },
+      "revId": "66ece7e706298c4488bd2e81d99dc6db7d180cc7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c761918_99c87125",
+        "filename": "gerrit/cutover/cut-over_single-node-AWS-3.2-java11-corretto-migration.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2022-05-19T14:16:50Z",
+      "side": 1,
+      "message": "I thought about it, but the full one is safer.\nI will discuss with them about this.",
+      "parentUuid": "5cf51a0e_89fc6a9b",
       "range": {
         "startLine": 40,
         "startChar": 20,
