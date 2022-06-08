@@ -68,6 +68,24 @@
       "message": "What about restoring the old indexes?",
       "revId": "62bed317ee3788a6daade93e8ea0355e49326a6e",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "16233d8e_f13e6d56",
+        "filename": "gerrit/cutover/cut-over_single-node-AWS-3.2_to_3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-06-08T22:55:48Z",
+      "side": 1,
+      "message": "Forget about this comment: the changes index hasn\u0027t been updated in v3.3.",
+      "parentUuid": "91748a7c_41f41162",
+      "revId": "62bed317ee3788a6daade93e8ea0355e49326a6e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
   ]
 }
