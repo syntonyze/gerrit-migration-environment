@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "714d5daf_82b138d2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-06-08T22:42:38Z",
+      "side": 1,
+      "message": "Why migrating from 3.2 to 3.3 and then to 3.4?\nAFAIK Gerrit v3.4 supports migration directly from v3.2. The release notes have a typo on it when they say \"3.3\".\n",
+      "revId": "62bed317ee3788a6daade93e8ea0355e49326a6e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
