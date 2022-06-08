@@ -34,6 +34,40 @@
       "parentUuid": "714d5daf_82b138d2",
       "revId": "62bed317ee3788a6daade93e8ea0355e49326a6e",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c985ad34_685c7793",
+        "filename": "gerrit/cutover/cut-over_single-node-AWS-3.2_to_3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-06-08T22:48:20Z",
+      "side": 1,
+      "message": "Put a disclaimer that Gerrit 3.3 is now EOL and the plugins are about to moved to the archive site and removed from the CI.\n\nHe may need to replace \u0027gerrit-ci\u0027 with \u0027archive-ci\u0027, while the rest of the URL remains the same.",
+      "revId": "62bed317ee3788a6daade93e8ea0355e49326a6e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "91748a7c_41f41162",
+        "filename": "gerrit/cutover/cut-over_single-node-AWS-3.2_to_3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-06-08T22:48:20Z",
+      "side": 1,
+      "message": "What about restoring the old indexes?",
+      "revId": "62bed317ee3788a6daade93e8ea0355e49326a6e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
   ]
 }
