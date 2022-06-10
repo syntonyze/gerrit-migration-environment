@@ -24,6 +24,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "40db04ef_99a8be2b",
+        "filename": "gerrit/cutover/cut-over_single-node-AWS-3.3_to_3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2022-06-10T07:45:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "78a6eab4_66f9d1ed",
+      "range": {
+        "startLine": 29,
+        "startChar": 9,
+        "endLine": 29,
+        "endChar": 17
+      },
+      "revId": "d1e0e51bba38804b8bbdfe2110379e562b038b4e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "272ae45e_32fc5e1b",
@@ -37,6 +61,30 @@
       "writtenOn": "2022-06-08T22:55:53Z",
       "side": 1,
       "message": "The evaluation of",
+      "range": {
+        "startLine": 36,
+        "startChar": 64,
+        "endLine": 36,
+        "endChar": 73
+      },
+      "revId": "d1e0e51bba38804b8bbdfe2110379e562b038b4e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ff4eada8_84cad2a3",
+        "filename": "gerrit/cutover/cut-over_single-node-AWS-3.3_to_3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2022-06-10T07:45:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "272ae45e_32fc5e1b",
       "range": {
         "startLine": 36,
         "startChar": 64,
