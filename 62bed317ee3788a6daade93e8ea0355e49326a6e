@@ -53,6 +53,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3be48d9f_81e5c61d",
+        "filename": "gerrit/cutover/cut-over_single-node-AWS-3.2_to_3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2022-06-10T07:43:08Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "c985ad34_685c7793",
+      "revId": "62bed317ee3788a6daade93e8ea0355e49326a6e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "91748a7c_41f41162",
@@ -84,6 +102,24 @@
       "side": 1,
       "message": "Forget about this comment: the changes index hasn\u0027t been updated in v3.3.",
       "parentUuid": "91748a7c_41f41162",
+      "revId": "62bed317ee3788a6daade93e8ea0355e49326a6e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a5918397_31ff56df",
+        "filename": "gerrit/cutover/cut-over_single-node-AWS-3.2_to_3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2022-06-10T07:43:08Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "16233d8e_f13e6d56",
       "revId": "62bed317ee3788a6daade93e8ea0355e49326a6e",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
