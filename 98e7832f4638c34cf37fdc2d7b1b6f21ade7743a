@@ -24,6 +24,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "80a80038_d2afe9cf",
+        "filename": "gerrit/cutover/cut-over_multisite-3.2_to_3.3.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2022-07-26T13:12:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6d9e3ae3_8c24fd3c",
+      "range": {
+        "startLine": 114,
+        "startChar": 18,
+        "endLine": 114,
+        "endChar": 21
+      },
+      "revId": "98e7832f4638c34cf37fdc2d7b1b6f21ade7743a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "120a2958_8a6dd8dc",
@@ -47,6 +71,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "db3d88ac_66c43dac",
+        "filename": "gerrit/cutover/cut-over_multisite-3.2_to_3.3.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2022-07-26T13:12:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "120a2958_8a6dd8dc",
+      "range": {
+        "startLine": 149,
+        "startChar": 17,
+        "endLine": 149,
+        "endChar": 21
+      },
+      "revId": "98e7832f4638c34cf37fdc2d7b1b6f21ade7743a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "26142283_bb362b43",
@@ -60,6 +108,30 @@
       "writtenOn": "2022-07-26T11:51:59Z",
       "side": 1,
       "message": "I couldn\u0027t find this behaviour in this release, so not sure this applied here.\nThis happened for me between 3.0 to 3.1, but not for 3.2 to 3.3",
+      "range": {
+        "startLine": 171,
+        "startChar": 39,
+        "endLine": 171,
+        "endChar": 65
+      },
+      "revId": "98e7832f4638c34cf37fdc2d7b1b6f21ade7743a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c88f8a3_035dbd38",
+        "filename": "gerrit/cutover/cut-over_multisite-3.2_to_3.3.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2022-07-26T13:12:01Z",
+      "side": 1,
+      "message": "you are right. It was just a leftover",
+      "parentUuid": "26142283_bb362b43",
       "range": {
         "startLine": 171,
         "startChar": 39,
