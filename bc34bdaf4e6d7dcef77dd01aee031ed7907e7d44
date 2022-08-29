@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d9bf63d0_3c707b1f",
+        "filename": "cutover/CUTOVER-PLAN-MIGRATION-2.16-reviewb-TO-2.16-notedb.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2022-08-29T11:01:23Z",
+      "side": 1,
+      "message": "What is this based on?\nI have seen the migration completing in a timely manner with one thread for gerrit instances with many, large repos with a huge number of changes.\n\nimho, we should just say that the right number of thread should be tuned accordingly rather than suggesting that 1 is not enough.",
+      "range": {
+        "startLine": 71,
+        "startChar": 35,
+        "endLine": 72,
+        "endChar": 41
+      },
+      "revId": "bc34bdaf4e6d7dcef77dd01aee031ed7907e7d44",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
