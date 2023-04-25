@@ -1,0 +1,142 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "156ca21f_c1bda889",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2023-04-25T08:15:40Z",
+      "side": 1,
+      "message": "Was this not the case even before 3.6?\nShould we explain why this is the case?",
+      "range": {
+        "startLine": 40,
+        "startChar": 0,
+        "endLine": 40,
+        "endChar": 28
+      },
+      "revId": "0338a7d646fe0468ae6787bc32bf423b9ebfb2e3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c0ec1e3e_cdb4f573",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2023-04-25T08:15:40Z",
+      "side": 1,
+      "message": "should this be `--`?",
+      "range": {
+        "startLine": 54,
+        "startChar": 58,
+        "endLine": 54,
+        "endChar": 59
+      },
+      "revId": "0338a7d646fe0468ae6787bc32bf423b9ebfb2e3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "25a99647_38c179b5",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2023-04-25T08:15:40Z",
+      "side": 1,
+      "message": "don\u0027t?",
+      "range": {
+        "startLine": 54,
+        "startChar": 14,
+        "endLine": 54,
+        "endChar": 21
+      },
+      "revId": "0338a7d646fe0468ae6787bc32bf423b9ebfb2e3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "528fd85d_996282da",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2023-04-25T08:15:40Z",
+      "side": 1,
+      "message": "perhaps this should be removed, it might be misleading since this will took much longer in reality",
+      "range": {
+        "startLine": 121,
+        "startChar": 9,
+        "endLine": 121,
+        "endChar": 16
+      },
+      "revId": "0338a7d646fe0468ae6787bc32bf423b9ebfb2e3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f5e136fe_c628994e",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 190,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2023-04-25T08:15:40Z",
+      "side": 1,
+      "message": "Should this be mentioned here as well, so that this cutover plan is self-contained?",
+      "range": {
+        "startLine": 190,
+        "startChar": 0,
+        "endLine": 190,
+        "endChar": 111
+      },
+      "revId": "0338a7d646fe0468ae6787bc32bf423b9ebfb2e3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5e40403e_4ed139ff",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 210,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2023-04-25T08:15:40Z",
+      "side": 1,
+      "message": "Is this the case?\nThis particular error was specific to an older upgrade (don\u0027t remember which version, sorry).",
+      "range": {
+        "startLine": 210,
+        "startChar": 0,
+        "endLine": 210,
+        "endChar": 65
+      },
+      "revId": "0338a7d646fe0468ae6787bc32bf423b9ebfb2e3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
