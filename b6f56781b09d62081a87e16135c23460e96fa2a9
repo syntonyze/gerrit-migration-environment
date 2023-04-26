@@ -93,6 +93,30 @@
       },
       "revId": "b6f56781b09d62081a87e16135c23460e96fa2a9",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "067bd0cd_3c39e56c",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 177,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-04-26T13:10:38Z",
+      "side": 1,
+      "message": "Did you add this after the observation period?",
+      "parentUuid": "e3c14def_8320a5fd",
+      "range": {
+        "startLine": 177,
+        "startChar": 19,
+        "endLine": 177,
+        "endChar": 36
+      },
+      "revId": "b6f56781b09d62081a87e16135c23460e96fa2a9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
   ]
 }
