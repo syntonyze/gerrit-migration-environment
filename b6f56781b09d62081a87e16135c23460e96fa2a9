@@ -26,6 +26,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2b1ab565_89e1001b",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-04-26T11:14:04Z",
+      "side": 1,
+      "message": "Release notes are not always clear on what could impact the final user (I could probably propose a change to amend them). I thought of this section as an extract of the release notes. However, I have added the link to the full release notes.",
+      "parentUuid": "00963c59_c9db833b",
+      "range": {
+        "startLine": 43,
+        "startChar": 0,
+        "endLine": 62,
+        "endChar": 63
+      },
+      "revId": "b6f56781b09d62081a87e16135c23460e96fa2a9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "1e215b7b_b0d45c6b",
         "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
         "patchSetId": 3
@@ -37,6 +61,30 @@
       "writtenOn": "2023-04-26T10:41:57Z",
       "side": 1,
       "message": "Should this be moved after the observation period?",
+      "range": {
+        "startLine": 177,
+        "startChar": 19,
+        "endLine": 177,
+        "endChar": 36
+      },
+      "revId": "b6f56781b09d62081a87e16135c23460e96fa2a9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e3c14def_8320a5fd",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 177,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-04-26T11:14:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1e215b7b_b0d45c6b",
       "range": {
         "startLine": 177,
         "startChar": 19,
