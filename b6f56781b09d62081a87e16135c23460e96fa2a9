@@ -48,6 +48,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6ae4b306_759e04b9",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-04-28T14:21:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2b1ab565_89e1001b",
+      "range": {
+        "startLine": 43,
+        "startChar": 0,
+        "endLine": 62,
+        "endChar": 63
+      },
+      "revId": "b6f56781b09d62081a87e16135c23460e96fa2a9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1e215b7b_b0d45c6b",
@@ -109,6 +133,30 @@
       "side": 1,
       "message": "Did you add this after the observation period?",
       "parentUuid": "e3c14def_8320a5fd",
+      "range": {
+        "startLine": 177,
+        "startChar": 19,
+        "endLine": 177,
+        "endChar": 36
+      },
+      "revId": "b6f56781b09d62081a87e16135c23460e96fa2a9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e3b46eef_356f59be",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 177,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-04-28T14:21:55Z",
+      "side": 1,
+      "message": "Yes, I realized it was already there: Line 190",
+      "parentUuid": "067bd0cd_3c39e56c",
       "range": {
         "startLine": 177,
         "startChar": 19,
