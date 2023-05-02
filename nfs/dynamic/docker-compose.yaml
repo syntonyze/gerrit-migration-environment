@@ -1,0 +1,30 @@
+version: '3.9'
+services:
+  gerrit1:
+    build: ../gerrit
+    ports:
+      - 8080:8080
+      - 29418:29418
+    volumes:
+      - ../primary-replica/primary/etc:/var/gerrit/etc:rw
+      - ../primary-replica/primary/logs:/var/gerrit/logs:rw
+      - ../primary-replica/replication_ssh_keys/replication_user_id_rsa:/home/gerrit/.ssh/id_rsa:rw
+      - ../primary-replica/ssh/config:/home/gerrit/.ssh/config:rw
+      - ../primary-replica/primary/git:/var/gerrit/git-replica:rw
+  gerrit2:
+    build: ../gerrit
+    privileged: true
+    ports:
+      - 8081:8080
+      - 29419:29418
+    volumes:
+      - ../primary-replica/replica/etc:/var/gerrit/etc:rw
+      - ../primary-replica/replica/logs:/var/gerrit/logs:rw
+      - nfs:/var/gerrit/git
+volumes:
+  nfs:
+    driver: "local"
+    driver_opts:
+      type: nfs
+      o: "addr=172.17.0.3,rw"
+      device: ":/var/gerrit/git"
