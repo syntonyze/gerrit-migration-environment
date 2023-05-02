@@ -1,0 +1,118 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f7d65935_f6894c53",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-05-02T14:58:55Z",
+      "side": 1,
+      "message": "add `3. Make sure that all projects\u0027 configs are NOT modified during the migration execution on any of the nodes`\n\n\u003e The migration to Schema 185 (included in Gerrit v3.7) triggers the processing of all projects\u0027 configs for calculating the equivalent copy-condition for any label defined in the project.\n\n**TODO**: Find a way to lock the `refs/meta/config` of all of the projects.",
+      "revId": "9b6197ed90e6432cb1c58bb2481b6af3f46af348",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "80384e10_2aa33e83",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-05-02T14:58:55Z",
+      "side": 1,
+      "message": "**NOTE**: Gerrit does a full scan of all projects during the Schema 185 migration, which has memory leaks and may drain the whole JVM heap. Assess in staging how much memory is needed and consider running with an additional `-Xmx\u003c\u003e` which would allocate enough memory for the init to complete.",
+      "range": {
+        "startLine": 105,
+        "startChar": 3,
+        "endLine": 105,
+        "endChar": 21
+      },
+      "revId": "9b6197ed90e6432cb1c58bb2481b6af3f46af348",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a4fa5a4c_90ac8697",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-05-02T14:58:55Z",
+      "side": 1,
+      "message": "`7. Run projects reindex offline`\n`8. Check for all projects\u0027 configs that have been migrated during the init of v3.7 and push the refs/meta/config to all the other repositories *DIRECTLY* to filesystem and behind Gerrit\u0027s back.\n\nExample:\n```\nfind . -name \u0027*.git\u0027 -type d | \\\nwhile read dir\n  do pushd $dir\n  (git log --oneline refs/meta/config | grep \u0027Migrate label configs to copy conditions\u0027) \u0026\u0026 \\\n    git push \u003cREMOTE URL\u003e\u003cREMOTE PATH\u003e/$dir refs/meta/config:refs/meta/config\n  popd\ndone \u003e ~/post-migration-push.log 2\u003e ~/post-migration-push.err \u0026\n```\n\nOnce that is completed, for *ALL* repositories that have been migrated (check the post-migration-push.log) remove the equivalent `/gerrit/multi-site/\u003crepo\u003e/refs/meta/config` entries in DynamoDb.",
+      "revId": "9b6197ed90e6432cb1c58bb2481b6af3f46af348",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e430ea86_22e24c11",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-05-02T14:58:55Z",
+      "side": 1,
+      "message": "Add this note:\n```\nNOTE: The migration of all projects\u0027 labels configs is done only during the first gerrit init run. On all the other nodes the scanning of all repositories takes place but does nothing because the migration is idempotent.\n```",
+      "revId": "9b6197ed90e6432cb1c58bb2481b6af3f46af348",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "de6af564_00b8c155",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-05-02T14:58:55Z",
+      "side": 1,
+      "message": "The projects reindex has memory leaks and may not even complete during the online migration. In extreme cases, it may also blow up the Gerrit JVM because of out of memory.\n\nIt is way safer to perform the off-line reindex for the projects with an increased memory configuration.",
+      "range": {
+        "startLine": 142,
+        "startChar": 0,
+        "endLine": 142,
+        "endChar": 151
+      },
+      "revId": "9b6197ed90e6432cb1c58bb2481b6af3f46af348",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "88224948_9866522e",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-05-02T14:58:55Z",
+      "side": 1,
+      "message": "Add:\n```\n* Once the migration has been completed for all nodes, revert the block of all projects\u0027 configs refs/meta/config for allowing free changes to the configs on any node.\n```",
+      "revId": "9b6197ed90e6432cb1c58bb2481b6af3f46af348",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
