@@ -41,6 +41,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "bd41005a_c11c70d5",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-05-03T07:47:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "80384e10_2aa33e83",
+      "range": {
+        "startLine": 105,
+        "startChar": 3,
+        "endLine": 105,
+        "endChar": 21
+      },
+      "revId": "9b6197ed90e6432cb1c58bb2481b6af3f46af348",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a4fa5a4c_90ac8697",
@@ -58,6 +82,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "88a7ae85_e6a82c65",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-05-03T07:47:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a4fa5a4c_90ac8697",
+      "revId": "9b6197ed90e6432cb1c58bb2481b6af3f46af348",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e430ea86_22e24c11",
@@ -71,6 +113,24 @@
       "writtenOn": "2023-05-02T14:58:55Z",
       "side": 1,
       "message": "Add this note:\n```\nNOTE: The migration of all projects\u0027 labels configs is done only during the first gerrit init run. On all the other nodes the scanning of all repositories takes place but does nothing because the migration is idempotent.\n```",
+      "revId": "9b6197ed90e6432cb1c58bb2481b6af3f46af348",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e51aa52f_63b0effd",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-05-03T07:47:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e430ea86_22e24c11",
       "revId": "9b6197ed90e6432cb1c58bb2481b6af3f46af348",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
@@ -98,6 +158,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b3431019_17b5ed2a",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-05-03T07:47:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "de6af564_00b8c155",
+      "range": {
+        "startLine": 142,
+        "startChar": 0,
+        "endLine": 142,
+        "endChar": 151
+      },
+      "revId": "9b6197ed90e6432cb1c58bb2481b6af3f46af348",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "88224948_9866522e",
@@ -111,6 +195,24 @@
       "writtenOn": "2023-05-02T14:58:55Z",
       "side": 1,
       "message": "Add:\n```\n* Once the migration has been completed for all nodes, revert the block of all projects\u0027 configs refs/meta/config for allowing free changes to the configs on any node.\n```",
+      "revId": "9b6197ed90e6432cb1c58bb2481b6af3f46af348",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0352afba_dde6fec6",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-05-03T07:47:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "88224948_9866522e",
       "revId": "9b6197ed90e6432cb1c58bb2481b6af3f46af348",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
