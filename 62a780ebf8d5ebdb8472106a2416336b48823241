@@ -24,6 +24,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d202d84d_46e251fe",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-05-03T14:06:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c190a8df_182bac02",
+      "range": {
+        "startLine": 106,
+        "startChar": 0,
+        "endLine": 106,
+        "endChar": 34
+      },
+      "revId": "62a780ebf8d5ebdb8472106a2416336b48823241",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1104b9e8_ba482205",
@@ -37,6 +61,30 @@
       "writtenOn": "2023-05-03T13:45:47Z",
       "side": 1,
       "message": "Consider",
+      "range": {
+        "startLine": 196,
+        "startChar": 32,
+        "endLine": 196,
+        "endChar": 41
+      },
+      "revId": "62a780ebf8d5ebdb8472106a2416336b48823241",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ef6bdb2d_80d1e39a",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 196,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-05-03T14:06:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1104b9e8_ba482205",
       "range": {
         "startLine": 196,
         "startChar": 32,
@@ -70,6 +118,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e1ac6345_6d1df916",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 197,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-05-03T14:06:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "71647a5d_b181dcdc",
+      "range": {
+        "startLine": 197,
+        "startChar": 53,
+        "endLine": 197,
+        "endChar": 54
+      },
+      "revId": "62a780ebf8d5ebdb8472106a2416336b48823241",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3edb0112_5d819eba",
@@ -93,6 +165,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5e6aff56_fa272701",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 200,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-05-03T14:06:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3edb0112_5d819eba",
+      "range": {
+        "startLine": 200,
+        "startChar": 11,
+        "endLine": 200,
+        "endChar": 12
+      },
+      "revId": "62a780ebf8d5ebdb8472106a2416336b48823241",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3f2ab7c3_0e3518b7",
@@ -106,6 +202,24 @@
       "writtenOn": "2023-05-03T13:45:47Z",
       "side": 1,
       "message": "Extra remark: the data migration happens only for the first node, for all the others the project\u0027s `refs/meta/config` is unchanged and therefore steps 8. and 9. aren\u0027t needed anymore.",
+      "revId": "62a780ebf8d5ebdb8472106a2416336b48823241",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4733a031_96670c29",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 250,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-05-03T14:06:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3f2ab7c3_0e3518b7",
       "revId": "62a780ebf8d5ebdb8472106a2416336b48823241",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
