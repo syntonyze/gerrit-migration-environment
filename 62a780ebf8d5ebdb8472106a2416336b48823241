@@ -1,0 +1,113 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c190a8df_182bac02",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-05-03T13:45:47Z",
+      "side": 1,
+      "message": "`Project Owners` are `Registered Users` anyway, would it work without this?",
+      "range": {
+        "startLine": 106,
+        "startChar": 0,
+        "endLine": 106,
+        "endChar": 34
+      },
+      "revId": "62a780ebf8d5ebdb8472106a2416336b48823241",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1104b9e8_ba482205",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 196,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-05-03T13:45:47Z",
+      "side": 1,
+      "message": "Consider",
+      "range": {
+        "startLine": 196,
+        "startChar": 32,
+        "endLine": 196,
+        "endChar": 41
+      },
+      "revId": "62a780ebf8d5ebdb8472106a2416336b48823241",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "71647a5d_b181dcdc",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 197,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-05-03T13:45:47Z",
+      "side": 1,
+      "message": "(see below an example of reindex with 60g of heap)",
+      "range": {
+        "startLine": 197,
+        "startChar": 53,
+        "endLine": 197,
+        "endChar": 54
+      },
+      "revId": "62a780ebf8d5ebdb8472106a2416336b48823241",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3edb0112_5d819eba",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 200,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-05-03T13:45:47Z",
+      "side": 1,
+      "message": "Shall we add the `-Xmx60g` here?",
+      "range": {
+        "startLine": 200,
+        "startChar": 11,
+        "endLine": 200,
+        "endChar": 12
+      },
+      "revId": "62a780ebf8d5ebdb8472106a2416336b48823241",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3f2ab7c3_0e3518b7",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 250,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-05-03T13:45:47Z",
+      "side": 1,
+      "message": "Extra remark: the data migration happens only for the first node, for all the others the project\u0027s `refs/meta/config` is unchanged and therefore steps 8. and 9. aren\u0027t needed anymore.",
+      "revId": "62a780ebf8d5ebdb8472106a2416336b48823241",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
