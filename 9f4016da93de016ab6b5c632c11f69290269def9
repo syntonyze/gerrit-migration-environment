@@ -1,0 +1,129 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8bda4dd5_437ca381",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-05-05T11:05:55Z",
+      "side": 1,
+      "message": "`directory`",
+      "range": {
+        "startLine": 10,
+        "startChar": 27,
+        "endLine": 10,
+        "endChar": 37
+      },
+      "revId": "9f4016da93de016ab6b5c632c11f69290269def9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5db37a82_c3724c5f",
+        "filename": "nfs/README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-05-05T11:05:55Z",
+      "side": 1,
+      "message": "Very well explained 😊",
+      "revId": "9f4016da93de016ab6b5c632c11f69290269def9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f2754c92_425e5abd",
+        "filename": "nfs/README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-05-05T11:05:55Z",
+      "side": 1,
+      "message": "Nit: trailing whitespace (also elsewhere in this file).",
+      "revId": "9f4016da93de016ab6b5c632c11f69290269def9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "251241c8_091efdd6",
+        "filename": "nfs/README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-05-05T11:05:55Z",
+      "side": 1,
+      "message": "This fails for me:\n```\n$ docker-compose up -d\n[+] Running 1/1\n ! nfs-server Warning                                                                                                                                                           1.3s \n[+] Building 0.5s (0/1)                                                                                                                                                              \n \u003d\u003e [internal] booting buildkit                                                                                                                                                 0.5s\n \u003d\u003e \u003d\u003e pulling image moby/buildkit:buildx-stable-1                                                                                                                              0.5s \n[+] Building 1.1s (1/1) FINISHED                                                                                                                                                     \n \u003d\u003e ERROR [internal] booting buildkit                                                                                                                                           1.1s\n \u003d\u003e \u003d\u003e pulling image moby/buildkit:buildx-stable-1                                                                                                                              1.1s\n \u003d\u003e \u003d\u003e creating container buildx_buildkit_multi_platform_builder0                                                                                                               0.0s\n[+] Building 1.1s (1/1) FINISHED                                                                                                                                                     \n \u003d\u003e CANCELED [internal] booting buildkit                                                                                                                                        1.1s\n \u003d\u003e \u003d\u003e pulling image moby/buildkit:buildx-stable-1                                                                                                                              1.1s\n \u003d\u003e \u003d\u003e creating container buildx_buildkit_multi_platform_builder0                                                                                                               0.0s\nError response from daemon: Conflict. The container name \"/buildx_buildkit_multi_platform_builder0\" is already in use by container \"73ec965e8c0e89947db3e286e8926e1a4ffe0612d75cea5facf982bbfcf5c42f\". You have to remove (or rename) that container to be able to reuse that name.\n\n$ docker ps -a\nCONTAINER ID   IMAGE                           COMMAND       CREATED          STATUS    PORTS     NAMES\n73ec965e8c0e   moby/buildkit:buildx-stable-1   \"buildkitd\"   11 seconds ago   Created             buildx_buildkit_multi_platform_builder0\n```\nLet me know if you can\u0027t reproduce it, happy to look at it together if you want.",
+      "revId": "9f4016da93de016ab6b5c632c11f69290269def9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "afddf998_2f55655c",
+        "filename": "nfs/README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-05-05T11:05:55Z",
+      "side": 1,
+      "message": "Hmm... maybe I\u0027m missing a step here, but I can\u0027t see a `Dockerfile` in `nfs/dynamic`.",
+      "revId": "9f4016da93de016ab6b5c632c11f69290269def9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2a63bcd9_6ae479fe",
+        "filename": "nfs/gerrit/Dockerfile",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-05-05T11:05:55Z",
+      "side": 1,
+      "message": "Nit: is it worth optimising this for caching? We could run all these sequential `RUN` commands as a single command (and do the `ENV` before or after them).",
+      "revId": "9f4016da93de016ab6b5c632c11f69290269def9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "85ebbba7_b355e1ae",
+        "filename": "nfs/gerrit/Dockerfile",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-05-05T11:05:55Z",
+      "side": 1,
+      "message": "Nit: I think all the `COPY` statements could be packed into a single one too.",
+      "revId": "9f4016da93de016ab6b5c632c11f69290269def9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
