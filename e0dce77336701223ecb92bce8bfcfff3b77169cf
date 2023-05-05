@@ -1,0 +1,112 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "386c92f0_a975c6a0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-05-05T09:34:56Z",
+      "side": 1,
+      "message": "This looks generic, so the plan is to be able to reuse it for future similar migrations?",
+      "revId": "e0dce77336701223ecb92bce8bfcfff3b77169cf",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4cb98906_fb5107f2",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-05-05T09:34:56Z",
+      "side": 1,
+      "message": "Block the load balancer? Or was there a word missing here?",
+      "revId": "e0dce77336701223ecb92bce8bfcfff3b77169cf",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2b3927a7_94572bc3",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 196,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-05-05T09:34:56Z",
+      "side": 1,
+      "message": "`increasing`",
+      "range": {
+        "startLine": 196,
+        "startChar": 41,
+        "endLine": 196,
+        "endChar": 51
+      },
+      "revId": "e0dce77336701223ecb92bce8bfcfff3b77169cf",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4e046bcd_8a441a12",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 247,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-05-05T09:34:56Z",
+      "side": 1,
+      "message": "Nit: if I\u0027m reading this correctly, this won\u0027t print to console at all. If these are being run interactively... maybe it\u0027s helpful? `tee` [1] could help.\n\n[1] https://stackoverflow.com/a/692407",
+      "revId": "e0dce77336701223ecb92bce8bfcfff3b77169cf",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5344dbb4_85d205cb",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 253,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-05-05T09:34:56Z",
+      "side": 1,
+      "message": "I suggest we put this note _before_ steps 8 and 9, so the migrators don\u0027t follow them and only later realise they weren\u0027t supposed to.",
+      "revId": "e0dce77336701223ecb92bce8bfcfff3b77169cf",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6cb0f870_c9042110",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 258,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-05-05T09:34:56Z",
+      "side": 1,
+      "message": "Should we include a basic sanity, which the migrators can then add to if they wish?",
+      "revId": "e0dce77336701223ecb92bce8bfcfff3b77169cf",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
