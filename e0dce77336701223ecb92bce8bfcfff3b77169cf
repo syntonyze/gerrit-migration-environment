@@ -35,6 +35,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e259bfe9_05c9451a",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-05-05T14:41:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4cb98906_fb5107f2",
+      "revId": "e0dce77336701223ecb92bce8bfcfff3b77169cf",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2b3927a7_94572bc3",
@@ -48,6 +66,30 @@
       "writtenOn": "2023-05-05T09:34:56Z",
       "side": 1,
       "message": "`increasing`",
+      "range": {
+        "startLine": 196,
+        "startChar": 41,
+        "endLine": 196,
+        "endChar": 51
+      },
+      "revId": "e0dce77336701223ecb92bce8bfcfff3b77169cf",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dc0aca86_3e0603d9",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 196,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-05-05T14:41:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2b3927a7_94572bc3",
       "range": {
         "startLine": 196,
         "startChar": 41,
@@ -75,6 +117,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d9ca4cf_5e8b0364",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 247,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-05-05T14:41:56Z",
+      "side": 1,
+      "message": "The idea is that they will be scripted. Also we just give an indication to the customers which will then polish and script the whole process using their automation tools.",
+      "parentUuid": "4e046bcd_8a441a12",
+      "revId": "e0dce77336701223ecb92bce8bfcfff3b77169cf",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5344dbb4_85d205cb",
@@ -92,6 +152,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "50b66372_13802f2a",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 253,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-05-05T14:41:56Z",
+      "side": 1,
+      "message": "good point",
+      "parentUuid": "5344dbb4_85d205cb",
+      "revId": "e0dce77336701223ecb92bce8bfcfff3b77169cf",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6cb0f870_c9042110",
@@ -105,6 +183,24 @@
       "writtenOn": "2023-05-05T09:34:56Z",
       "side": 1,
       "message": "Should we include a basic sanity, which the migrators can then add to if they wish?",
+      "revId": "e0dce77336701223ecb92bce8bfcfff3b77169cf",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1294d42b_e142e14d",
+        "filename": "gerrit/cutover/cut-over_multisite-3.6-3.7.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 258,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-05-05T14:41:56Z",
+      "side": 1,
+      "message": "We are generic on purpose. Each client has its own definition of _node working fine_",
+      "parentUuid": "6cb0f870_c9042110",
       "revId": "e0dce77336701223ecb92bce8bfcfff3b77169cf",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
