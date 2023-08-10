@@ -1,16 +1,13 @@
-Cut over plan: migration from Gerrit version 3.6.4 to 3.7.2
+Cut over plan: migration from Gerrit version 3.6.6 to 3.7.4
 ==
 
-This migration is intended for a multi-site Gerrit installation having following
-characteristics:
-
-* Runs Gerrit 3.6.4 in a multi-site setup
+This migration is intended for a primary/replica Gerrit.
 
 Glossary
 ==
 
-* gerrit-X: the name of Gerrit primary number X in the multi site setup
 * primary: Gerrit instance receiving both read and write traffic
+* replica: Gerrit instance receiving only read traffic
 * git repositories: bare git repositories served by Gerrit stored
   in `gerrit.basePath`
 * caches: persistent H2 database files stored in the `$GERRIT_SITE/cache`
@@ -19,7 +16,8 @@ Glossary
 * `$GERRIT_SITE`: environment variable pointing to the base directory of Gerrit
   specified during the `java -jar gerrit.war init -d $GERRIT_SITE` setup command
 
-The described migration will migrate one node at a time to avoid any downtime.
+The described cutover plan will migrate one node at a time to mitigate the service degradation.
+The system will be in readonly while the primary instance won't be reachable.
 
 Once the cutover actions will be reviewed, agreed, tested and measured in
 staging, all the operational side of the cutover should be automated to reduce
@@ -85,72 +83,23 @@ Pre-cutover
         * webhooks
 
     - Download additional plugins and libraries from [GerritForge CI](https://gerrit-ci.gerritforge.com/view/Plugins-stable-3.7/)
-    - Download [global-refdb library](https://repo1.maven.org/maven2/com/gerritforge/global-refdb/3.7.2/global-refdb-3.7.2.jar) and place it in `$GERRIT_SITE/bin/global-refdb.jar`
+
+ * Make sure custom plugins are compatible with the new Gerrit version
 
 Prerequisites before starting the migration
 ==
 
 1. Schedule maintenance window to avoid alarms flooding
 2. Announce Gerrit upgrade via the relevant channels
-3. **Important**: Make sure that all projects' configs are NOT modified during the migration on any of the nodes.
-The migration to Schema 185 (included in Gerrit v3.7) triggers the processing of
-all projects' configs for calculating the equivalent
-[copy-condition](https://gerrit-review.googlesource.com/c/gerrit/+/334325))
-for any label defined in the project. All the projects' config can **NOT** be modified until **ALL**
-the nodes have been migrated.
-
-To achieve it:
-* Add the following ACL to `All-Projects`' ref `refs/meta/config` :
-
-```
-  push = group Administrators
-  push = block group Registered Users
-
-  submit = group Administrators
-  submit = block group Registered Users
-```
-
-* Block at the Load balancer level (or via a groovy plugin) `POST` calls `<GERRIT URL>/projects/<projectName>/access` with
-`refs/meta/config` in the body, for example:
-
-```
-POST http://localhost/projects/level1/access
-
-{
-  "add": {
-    "refs/meta/config": {
-      "permissions": {
-        "owner": {
-          "rules": {},
-          "added": true
-        },
-        "push": {
-          "rules": {
-            "global:Project-Owners": {
-              "action": "ALLOW",
-              "force": false,
-              "added": true
-            }
-          },
-          "added": true
-        }
-      },
-      "added": true,
-      "updatedId": "refs/meta/config"
-    }
-  },
-  "remove": {}
-}
-
-```
-
-Bear in mind Admin users will still be able to modify the `refs/meta/config` so they need to be aware of it.
 
 Migration
 ==
 
-1. Mark gerrit-1 as unhealthy and wait for the open connections to be drained (`ssh -p 29418 admin@localhost gerrit show-queue -q -w`):
-`mv $GERRIT_SITE/plugins/healthcheck.jar $GERRIT_SITE/plugins/healthcheck.jar.disabled`
+Gerrit 3.7 and 3.6 can coexist. This cutover plan will first migrate the primary instance and then the replicas.
+
+1. Make sure to have [`httpd.gracefulStopTimeout`](https://gerrit-review.googlesource.com/Documentation/config-gerrit.html#http)
+   and [`sshd.gracefulStopTimeout`](https://gerrit-review.googlesource.com/Documentation/config-gerrit.html#sshd) set.
+   A good value is the max expected time to clone a repository.
 2. Make sure `gerrit.experimentalRollingUpgrade` is set to `true`
 3. Stop Gerrit process on gerrit-1
 4. Backup git repositories, caches and indexes
@@ -158,7 +107,7 @@ Migration
 6. Run init on Gerrit:
 
 ```shell
-  java -jar <path-to-war-file>/gerrit-3.7.2.war init -d $GERRIT_SITE \
+  java -jar <path-to-war-file>/gerrit-3.6.6.war init -d $GERRIT_SITE \
   --install-plugin codemirror-editor \
   --install-plugin commit-message-length-validator \
   --install-plugin delete-project \
@@ -174,7 +123,7 @@ Migration
 
    *Note*: that you should remove any core plugin you don't want to install
 
-   The output will be similar to the following:
+The output will be similar to the following:
 
    ```shell
     Migrating data to schema 185 ...
@@ -240,50 +189,38 @@ while read dir
   (git log --oneline refs/meta/config | grep 'Migrate label configs to copy conditions') && \
     git push <REMOTE URL><REMOTE PATH>/$dir refs/meta/config:refs/meta/config
   popd
-done > ~/post-migration-push.log 2> ~/post-migration-push.err
+done
 ```
 
-9. For **ALL** repositories that have been migrated, listed in the post-migration-push.log,
-remove the corresponding `/gerrit/multi-site/<repo>/refs/meta/config` entries in DynamoDb.
+*NOTE*: this operation only need to be performed on the primary node
 
-10. Start Gerrit
-11. Test the node is working fine.
-12. Mark gerrit-1 as healthy:
- `mv $GERRIT_SITE/plugins/healthcheck.jar.disabled $GERRIT_SITE/plugins/healthcheck.jar`
+9. Start Gerrit
+10. Test the node is working fine.
 
 Observation period (1 week?)
 ===
 
-* The multi-site setup allows to run nodes with different versions of the software. Before completing the migration is good practice to leave an observation period, to compare 2 versions running side by side
-* Once the observation period is over, and you are happy with the result the migration of the rest of the nodes can be completed
+* The primary/replica setup allows to run nodes with different versions of the software. Before completing the migration is good practice to leave an observation period, to compare 2 versions running side by side
+* Once the observation period is over, and you are happy with the result the migration of the rest of the replica nodes can be completed
 * Keep the migrated node under observation as you did for the other
-* Once the migration has been completed for all nodes, revert the block of all projects' configs
-`refs/meta/config` for allowing free changes to the configs on any node.
+* Replicas will have to be migrated one by one to minimize the impact on the system.
+  Observation period can be eventually adjusted to shorten the complete rollout of the new version.
 
 Rollback strategy
 ===
 
 1. Stop gerrit-X
-2. Downgrade plugins, libs and gerrit.war to 3.6.4
+2. Downgrade plugins, libs and gerrit.war to 3.6.6
 3. Downgrade the schema version from 185 to 184 as explained [here](https://www.gerritcodereview.com/3.7.html#downgrade):
-
-*  Shutdown a migrated Gerrit v3.7.x server
-*  Downgrade the All-Projects.git version (refname: refs/meta/version) to 184:
     `git update-ref refs/meta/version $(echo -n 184|git hash-object -w --stdin)`
 
     See git hash-object and git update-ref.
 
     `NOTE: The migration of the label config to copy-condition performed in v3.7.x init step is idempotent and can be run many times. Also v3.6.x supports the copy-condition and therefore the migration does not need to be downgraded.`
+4. Stop Gerrit
+5. Run init on gerrit
 
-* Run Gerrit v3.6.x init, downgrading all plugins, and run the off-line reindex
-
-    `java -jar gerrit-3.6.x.war init -d site_path`
-    `java -jar gerrit-3.6.x.war reindex -d site_path`
-* Start Gerrit v3.6.x server
-
-4. Run init on gerrit
-
-        java -jar <path-to>/gerrit-3.6.4.war init -d $GERRIT_SITE \
+        java -jar <path-to>/gerrit-3.6.6.war init -d $GERRIT_SITE \
         --install-plugin codemirror-editor \
         --install-plugin commit-message-length-validator \
         --install-plugin delete-project \
@@ -297,6 +234,9 @@ Rollback strategy
         --no-auto-start \
         --batch
 
+5. Reindex Gerrit
+    `java -jar gerrit-3.5.6.war reindex -d site_path`
+
 6. Restart gerrit
 
 Notes
@@ -304,3 +244,6 @@ Notes
 
 * All the operations need to be performed in a staging environment first to
   anticipate possible issues happening in production
+* The testing has to be done with a staging environment as close as possible
+  to the production one in term of specs, data type and amount, traffic
+* The upgrade needs to be performed with traffic on the system
