@@ -47,6 +47,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "21a3c9b0_06373e48",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-10T09:47:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0ad26aac_e9e5b840",
+      "range": {
+        "startLine": 4,
+        "startChar": 31,
+        "endLine": 4,
+        "endChar": 48
+      },
+      "revId": "8920c98c53315c1e8a97209b0dbee7e467726160",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d2a00320_6afc6e3f",
@@ -60,6 +84,30 @@
       "writtenOn": "2023-08-09T07:57:18Z",
       "side": 1,
       "message": "If we have only one primary downtime will be necessary right?",
+      "range": {
+        "startLine": 19,
+        "startChar": 40,
+        "endLine": 19,
+        "endChar": 80
+      },
+      "revId": "8920c98c53315c1e8a97209b0dbee7e467726160",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f88e2822_445233ab",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-10T09:47:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d2a00320_6afc6e3f",
       "range": {
         "startLine": 19,
         "startChar": 40,
@@ -93,6 +141,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1665cde0_7b7758e4",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-10T09:47:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fb9dc6e4_adc30fa1",
+      "range": {
+        "startLine": 61,
+        "startChar": 0,
+        "endLine": 61,
+        "endChar": 1
+      },
+      "revId": "8920c98c53315c1e8a97209b0dbee7e467726160",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "90562f25_71b5b279",
@@ -106,6 +178,30 @@
       "writtenOn": "2023-08-09T07:57:18Z",
       "side": 1,
       "message": "Doesn\u0027t marking unhealthy/healthy requires that they have a LB in front of gerrit?\nI don\u0027t see this mentioned in the setup.\n\nIs this needed?",
+      "range": {
+        "startLine": 75,
+        "startChar": 3,
+        "endLine": 75,
+        "endChar": 87
+      },
+      "revId": "8920c98c53315c1e8a97209b0dbee7e467726160",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c152fc26_88c759f2",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-10T09:47:13Z",
+      "side": 1,
+      "message": "Check `graceFulShutDown`",
+      "parentUuid": "90562f25_71b5b279",
       "range": {
         "startLine": 75,
         "startChar": 3,
