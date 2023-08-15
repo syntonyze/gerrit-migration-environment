@@ -402,6 +402,54 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "1bc9007f_c5662191",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-15T13:39:41Z",
+      "side": 1,
+      "message": "See comment below",
+      "parentUuid": "25d8b2af_d9e4a7ff",
+      "range": {
+        "startLine": 104,
+        "startChar": 38,
+        "endLine": 104,
+        "endChar": 69
+      },
+      "revId": "8920c98c53315c1e8a97209b0dbee7e467726160",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1ac263c4_6f87af9e",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-15T13:39:41Z",
+      "side": 1,
+      "message": "The customer will not need to migrate to lowercase at this stage. I have added a note mentioning that if it is necessary, for example when using SAML, it will be necessary some additional work to normalize the usernames.",
+      "parentUuid": "3e127c7a_e3ca033a",
+      "range": {
+        "startLine": 104,
+        "startChar": 0,
+        "endLine": 104,
+        "endChar": 93
+      },
+      "revId": "8920c98c53315c1e8a97209b0dbee7e467726160",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d0a6c239_2b94cd4f",
         "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
         "patchSetId": 3
