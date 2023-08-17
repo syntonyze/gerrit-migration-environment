@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0b6aba0b_4e0b9b38",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2023-08-17T14:01:09Z",
+      "side": 1,
+      "message": "This is not longer 3.5.6.\nstable-3.5 latest?\n\nPerhaps you can even mention the sha1",
+      "range": {
+        "startLine": 1,
+        "startChar": 54,
+        "endLine": 1,
+        "endChar": 66
+      },
+      "revId": "f8eb2372ee4426973192f96dee5c968d2f8a92d1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a5f6841e_26daf3fd",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2023-08-17T14:01:09Z",
+      "side": 1,
+      "message": "I am still not sure why we need this, I thought we are not running the job at all?",
+      "range": {
+        "startLine": 102,
+        "startChar": 0,
+        "endLine": 102,
+        "endChar": 61
+      },
+      "revId": "f8eb2372ee4426973192f96dee5c968d2f8a92d1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ea6eafb7_d478f8fe",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2023-08-17T14:01:09Z",
+      "side": 1,
+      "message": "By running the documented job?\nif so, consider mentioning it here",
+      "range": {
+        "startLine": 110,
+        "startChar": 20,
+        "endLine": 110,
+        "endChar": 48
+      },
+      "revId": "f8eb2372ee4426973192f96dee5c968d2f8a92d1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}

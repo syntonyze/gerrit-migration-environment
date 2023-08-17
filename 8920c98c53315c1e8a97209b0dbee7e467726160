@@ -354,6 +354,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7f785337_12f64f58",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2023-08-17T14:01:09Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "0ebaff6e_caac1353",
+      "range": {
+        "startLine": 78,
+        "startChar": 0,
+        "endLine": 78,
+        "endChar": 65
+      },
+      "revId": "8920c98c53315c1e8a97209b0dbee7e467726160",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3e127c7a_e3ca033a",
@@ -443,6 +467,54 @@
         "startChar": 0,
         "endLine": 104,
         "endChar": 93
+      },
+      "revId": "8920c98c53315c1e8a97209b0dbee7e467726160",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4be70c8d_a221da17",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2023-08-17T14:01:09Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "1ac263c4_6f87af9e",
+      "range": {
+        "startLine": 104,
+        "startChar": 0,
+        "endLine": 104,
+        "endChar": 93
+      },
+      "revId": "8920c98c53315c1e8a97209b0dbee7e467726160",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "32975ff5_d7a2b7ee",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2023-08-17T14:01:09Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "1bc9007f_c5662191",
+      "range": {
+        "startLine": 104,
+        "startChar": 38,
+        "endLine": 104,
+        "endChar": 69
       },
       "revId": "8920c98c53315c1e8a97209b0dbee7e467726160",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
