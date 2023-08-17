@@ -71,6 +71,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ca6e9863_d35b7b5a",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-17T16:21:01Z",
+      "side": 1,
+      "message": "Removed the entire section. This is something that can be tackled independently from the upgrade.",
+      "parentUuid": "a5f6841e_26daf3fd",
+      "range": {
+        "startLine": 102,
+        "startChar": 0,
+        "endLine": 102,
+        "endChar": 61
+      },
+      "revId": "f8eb2372ee4426973192f96dee5c968d2f8a92d1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ea6eafb7_d478f8fe",
@@ -84,6 +108,30 @@
       "writtenOn": "2023-08-17T14:01:09Z",
       "side": 1,
       "message": "By running the documented job?\nif so, consider mentioning it here",
+      "range": {
+        "startLine": 110,
+        "startChar": 20,
+        "endLine": 110,
+        "endChar": 48
+      },
+      "revId": "f8eb2372ee4426973192f96dee5c968d2f8a92d1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "21044613_b33422ff",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-17T16:21:01Z",
+      "side": 1,
+      "message": "Removed the entire section. This is something that can be tackled independently from the upgrade.",
+      "parentUuid": "ea6eafb7_d478f8fe",
       "range": {
         "startLine": 110,
         "startChar": 20,
