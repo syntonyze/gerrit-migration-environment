@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dfb1ec65_d590c163",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-08-18T12:37:53Z",
+      "side": 1,
+      "message": "I dont see any guide to migrate the replicas.",
+      "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5bd3af0e_6558f93f",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-08-18T12:37:53Z",
+      "side": 1,
+      "message": "should we stop first and after that configure those properties?",
+      "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3d002ad2_7c5cb9b9",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-08-18T12:37:53Z",
+      "side": 1,
+      "message": "I am confused, probably because my ignorance. Are the core plugins upgraded automatically when we use release.war? or do you mean non-core plugins? in that case should you provide more information about the versions to upgrade?",
+      "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ec0649ed_cb25e9af",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-08-18T12:37:53Z",
+      "side": 1,
+      "message": "do they use all these plugins? are these plugins the ones coming in the release.war? because in that case we dont need to install them individually, am I right?",
+      "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2e0fa8f4_eec4ad29",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-08-18T12:37:53Z",
+      "side": 1,
+      "message": "Dont you want to provide some use cases to test by the client to be able to ensure that everything works correctly?",
+      "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
