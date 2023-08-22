@@ -100,6 +100,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "34d1dc45_f2959296",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-08-22T15:27:23Z",
+      "side": 1,
+      "message": "+1, it should state _non-core plugins_",
+      "parentUuid": "3d002ad2_7c5cb9b9",
+      "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "ec0649ed_cb25e9af",
         "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
         "patchSetId": 10
@@ -111,6 +129,29 @@
       "writtenOn": "2023-08-18T12:37:53Z",
       "side": 1,
       "message": "do they use all these plugins? are these plugins the ones coming in the release.war? because in that case we dont need to install them individually, am I right?",
+      "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "78409320_921a934e",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-08-22T15:27:23Z",
+      "side": 1,
+      "message": "Where do you see that the projects index requires an offline reindex?",
+      "range": {
+        "startLine": 102,
+        "startChar": 3,
+        "endLine": 102,
+        "endChar": 31
+      },
       "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
@@ -133,6 +174,75 @@
         "startChar": 56,
         "endLine": 114,
         "endChar": 89
+      },
+      "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1759799c_e6b30788",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-08-22T15:27:23Z",
+      "side": 1,
+      "message": "I would suggest the online reindex *always* because is more accurate anyway. Unless they have a concern with that, I won\u0027t even mention the off-line reindex.",
+      "range": {
+        "startLine": 117,
+        "startChar": 0,
+        "endLine": 117,
+        "endChar": 149
+      },
+      "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4ab94e9d_42d38d7d",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-08-22T15:27:23Z",
+      "side": 1,
+      "message": "I would just mention the `changes_0061` to `changes_0071` upgrade, all the others remain the same.",
+      "range": {
+        "startLine": 120,
+        "startChar": 0,
+        "endLine": 142,
+        "endChar": 5
+      },
+      "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8755977e_4ae74830",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-08-22T15:27:23Z",
+      "side": 1,
+      "message": "This isn\u0027t technically part of the Gerrit v3.5 upgrade, but rather the v3.6 upgrade process.",
+      "range": {
+        "startLine": 146,
+        "startChar": 0,
+        "endLine": 153,
+        "endChar": 24
       },
       "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
