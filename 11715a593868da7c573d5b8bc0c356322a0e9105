@@ -24,6 +24,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "108577c3_32d38ad1",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-22T22:36:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4455f4a7_34cf58f2",
+      "range": {
+        "startLine": 62,
+        "startChar": 13,
+        "endLine": 62,
+        "endChar": 42
+      },
+      "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "dfb1ec65_d590c163",
@@ -64,6 +88,48 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "49d52739_74e813b1",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-22T22:36:40Z",
+      "side": 1,
+      "message": "Not necessarily focused on online migration, but more on avoiding migrating all the nodes at once.\n\nHowever, considering there are no changes in the replica\u0027s behaviour in this release, the migration should be easier.",
+      "parentUuid": "10b0f99b_dfc9d4b7",
+      "range": {
+        "startLine": 73,
+        "startChar": 19,
+        "endLine": 73,
+        "endChar": 30
+      },
+      "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e55fe969_39b5ea21",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-22T22:36:40Z",
+      "side": 1,
+      "message": "see below comment",
+      "parentUuid": "dfb1ec65_d590c163",
+      "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5bd3af0e_6558f93f",
@@ -77,6 +143,24 @@
       "writtenOn": "2023-08-18T12:37:53Z",
       "side": 1,
       "message": "should we stop first and after that configure those properties?",
+      "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fee5a648_50858d6b",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-22T22:36:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5bd3af0e_6558f93f",
       "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
@@ -116,6 +200,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f51b1468_0aa5e01a",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-22T22:36:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "34d1dc45_f2959296",
+      "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ec0649ed_cb25e9af",
@@ -135,6 +237,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "c6ba6a58_ba7ea46d",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-22T22:36:40Z",
+      "side": 1,
+      "message": "It was just a way of showing them how to cherry-pick the plugin they needed in case they are not installing all the core plugins.",
+      "parentUuid": "ec0649ed_cb25e9af",
+      "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "78409320_921a934e",
         "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
         "patchSetId": 10
@@ -146,6 +266,30 @@
       "writtenOn": "2023-08-22T15:27:23Z",
       "side": 1,
       "message": "Where do you see that the projects index requires an offline reindex?",
+      "range": {
+        "startLine": 102,
+        "startChar": 3,
+        "endLine": 102,
+        "endChar": 31
+      },
+      "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f659db0e_b32f2193",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-22T22:36:40Z",
+      "side": 1,
+      "message": "I meant all the changes for all the the projects",
+      "parentUuid": "78409320_921a934e",
       "range": {
         "startLine": 102,
         "startChar": 3,
@@ -179,6 +323,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9d0bda45_71399208",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-22T22:36:40Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "f74e06fe_6fc87326",
+      "range": {
+        "startLine": 114,
+        "startChar": 56,
+        "endLine": 114,
+        "endChar": 89
+      },
+      "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1759799c_e6b30788",
@@ -202,6 +370,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "98805742_9915a3b0",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-22T22:36:40Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "1759799c_e6b30788",
+      "range": {
+        "startLine": 117,
+        "startChar": 0,
+        "endLine": 117,
+        "endChar": 149
+      },
+      "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4ab94e9d_42d38d7d",
@@ -215,6 +407,30 @@
       "writtenOn": "2023-08-22T15:27:23Z",
       "side": 1,
       "message": "I would just mention the `changes_0061` to `changes_0071` upgrade, all the others remain the same.",
+      "range": {
+        "startLine": 120,
+        "startChar": 0,
+        "endLine": 142,
+        "endChar": 5
+      },
+      "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "61531154_137babc5",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-22T22:36:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4ab94e9d_42d38d7d",
       "range": {
         "startLine": 120,
         "startChar": 0,
@@ -250,6 +466,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ca6325df_f450bc9b",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-22T22:36:40Z",
+      "side": 1,
+      "message": "Is there any cons of doing it here?",
+      "parentUuid": "8755977e_4ae74830",
+      "range": {
+        "startLine": 146,
+        "startChar": 0,
+        "endLine": 153,
+        "endChar": 24
+      },
+      "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "2e0fa8f4_eec4ad29",
         "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
         "patchSetId": 10
@@ -261,6 +501,24 @@
       "writtenOn": "2023-08-18T12:37:53Z",
       "side": 1,
       "message": "Dont you want to provide some use cases to test by the client to be able to ensure that everything works correctly?",
+      "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f8f1d9f7_3cc52aea",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-22T22:36:40Z",
+      "side": 1,
+      "message": "I pointed to the gatling test suite when talking about testing",
+      "parentUuid": "2e0fa8f4_eec4ad29",
       "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
@@ -288,6 +546,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a4b900a9_0f4e2d90",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-22T22:36:40Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "5a6699bb_650bc977",
+      "range": {
+        "startLine": 159,
+        "startChar": 173,
+        "endLine": 159,
+        "endChar": 212
+      },
+      "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b74020bf_d247e226",
@@ -301,6 +583,30 @@
       "writtenOn": "2023-08-22T14:40:42Z",
       "side": 1,
       "message": "If they make a backup of the indexes, they can just restore the indexes from the backup, otherwise the off-line reindex of everything would require hours for rolling back.",
+      "range": {
+        "startLine": 187,
+        "startChar": 0,
+        "endLine": 188,
+        "endChar": 53
+      },
+      "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3bbcc440_36cdb4ce",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 188,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-22T22:36:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b74020bf_d247e226",
       "range": {
         "startLine": 187,
         "startChar": 0,
