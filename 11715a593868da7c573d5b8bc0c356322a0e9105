@@ -3,6 +3,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "4455f4a7_34cf58f2",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-08-22T14:40:42Z",
+      "side": 1,
+      "message": "I would say to rebuild them anyway, because even though they *may* load you cannot guarantee that they would still work.\n\nThey should:\n- Rebuild the plugins from source against Gerrit stable-3.5\n- Re-run all the acceptance tests",
+      "range": {
+        "startLine": 62,
+        "startChar": 13,
+        "endLine": 62,
+        "endChar": 42
+      },
+      "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "dfb1ec65_d590c163",
         "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
         "patchSetId": 10
@@ -14,6 +37,29 @@
       "writtenOn": "2023-08-18T12:37:53Z",
       "side": 1,
       "message": "I dont see any guide to migrate the replicas.",
+      "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "10b0f99b_dfc9d4b7",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-08-22T14:40:42Z",
+      "side": 1,
+      "message": "Well, that is way too generic. AFAIK they don\u0027t have the high-availability plugin, therefore this statement is incorrect.\n\nThe whole rollout looks focused on on-line migration with high-availability plugin\u0027s features, however, that\u0027s not the case for them.",
+      "range": {
+        "startLine": 73,
+        "startChar": 19,
+        "endLine": 73,
+        "endChar": 30
+      },
       "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
@@ -71,6 +117,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f74e06fe_6fc87326",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-08-22T14:40:42Z",
+      "side": 1,
+      "message": "This would reindex *everything* and not just the projects index.",
+      "range": {
+        "startLine": 114,
+        "startChar": 56,
+        "endLine": 114,
+        "endChar": 89
+      },
+      "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "2e0fa8f4_eec4ad29",
         "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
         "patchSetId": 10
@@ -82,6 +151,52 @@
       "writtenOn": "2023-08-18T12:37:53Z",
       "side": 1,
       "message": "Dont you want to provide some use cases to test by the client to be able to ensure that everything works correctly?",
+      "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5a6699bb_650bc977",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-08-22T14:40:42Z",
+      "side": 1,
+      "message": "They are not in HA AFAIK, that\u0027s not an option then.\n\nThey should:\n- Define a test-plan for the acceptance criteria of the rollout success\n- Create a baseline before the migration\n- Test after the migration, comparing the results\n  (functionality, client-side performance, server-side metrics)\n- If all is fine \u003d\u003e perform the final cleanups and the replicas upgrade\n- If there are concerns \u003d\u003e rollback and plan for the changes and the new migration attempt",
+      "range": {
+        "startLine": 159,
+        "startChar": 173,
+        "endLine": 159,
+        "endChar": 212
+      },
+      "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b74020bf_d247e226",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 188,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-08-22T14:40:42Z",
+      "side": 1,
+      "message": "If they make a backup of the indexes, they can just restore the indexes from the backup, otherwise the off-line reindex of everything would require hours for rolling back.",
+      "range": {
+        "startLine": 187,
+        "startChar": 0,
+        "endLine": 188,
+        "endChar": 53
+      },
       "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
