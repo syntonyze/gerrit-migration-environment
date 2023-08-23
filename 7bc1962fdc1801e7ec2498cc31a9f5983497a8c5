@@ -156,6 +156,24 @@
       "message": "in the migration, dont we ignore the non-core plugins? are they not supposed to upgrade them once the migration has been done?",
       "revId": "7bc1962fdc1801e7ec2498cc31a9f5983497a8c5",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a831b5b1_e57479bd",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-23T10:55:51Z",
+      "side": 1,
+      "message": "When the nodes come up, it has to have the new versions of the plugins installed otherwise some functionalities might not work.",
+      "parentUuid": "3692d229_3426c9d7",
+      "revId": "7bc1962fdc1801e7ec2498cc31a9f5983497a8c5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
   ]
 }
