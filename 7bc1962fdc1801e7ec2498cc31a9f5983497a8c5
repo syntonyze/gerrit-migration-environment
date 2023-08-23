@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "70bbffd6_5cf557de",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-08-23T10:31:18Z",
+      "side": 1,
+      "message": "Question for my own knoledge: while the primary is unreachable, what is going to read from the replicas?",
+      "revId": "7bc1962fdc1801e7ec2498cc31a9f5983497a8c5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5fda6987_15a5b3ef",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-08-23T10:31:18Z",
+      "side": 1,
+      "message": "\u003e The system will be in readonly while the primary instance won\u0027t be reachable.\n\nDo you mean that only replicas are running?",
+      "revId": "7bc1962fdc1801e7ec2498cc31a9f5983497a8c5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "28e67464_8cdfbe58",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-08-23T10:31:18Z",
+      "side": 1,
+      "message": "probably you can mention that if you execute the command:\n```\njava -jar 3.5.6-46-gbeae5f2021.war ls\n```\nthey can see that list of plugins.",
+      "revId": "7bc1962fdc1801e7ec2498cc31a9f5983497a8c5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "45807fae_7924cf6b",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-08-23T10:31:18Z",
+      "side": 1,
+      "message": "I miss a step where you explain how to proceed with the replicas. and when replicas are migrated what happens with the traffic in the primary, is it read/write? what happens with the replication?",
+      "revId": "7bc1962fdc1801e7ec2498cc31a9f5983497a8c5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
