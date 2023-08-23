@@ -35,6 +35,42 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "01cb23db_736a7d03",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-23T10:54:07Z",
+      "side": 1,
+      "message": "Correct",
+      "parentUuid": "5fda6987_15a5b3ef",
+      "revId": "7bc1962fdc1801e7ec2498cc31a9f5983497a8c5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e5311bb4_542f1806",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-23T10:54:07Z",
+      "side": 1,
+      "message": "Doesn\u0027t matter, the replicas are independent from the primary node.",
+      "parentUuid": "70bbffd6_5cf557de",
+      "revId": "7bc1962fdc1801e7ec2498cc31a9f5983497a8c5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "28e67464_8cdfbe58",
@@ -52,6 +88,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a3673779_515baf69",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-23T10:54:07Z",
+      "side": 1,
+      "message": "I wouldn\u0027t bother too much TBH. This customer for sure knows how to extract the list of available plugins since they sent me theirs.",
+      "parentUuid": "28e67464_8cdfbe58",
+      "revId": "7bc1962fdc1801e7ec2498cc31a9f5983497a8c5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "45807fae_7924cf6b",
@@ -65,6 +119,24 @@
       "writtenOn": "2023-08-23T10:31:18Z",
       "side": 1,
       "message": "I miss a step where you explain how to proceed with the replicas. and when replicas are migrated what happens with the traffic in the primary, is it read/write? what happens with the replication?",
+      "revId": "7bc1962fdc1801e7ec2498cc31a9f5983497a8c5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3c940318_af41c9b6",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-23T10:54:07Z",
+      "side": 1,
+      "message": "Traffic on the primary in only write. They will need a downtime of the master, hence degradation of service.",
+      "parentUuid": "45807fae_7924cf6b",
       "revId": "7bc1962fdc1801e7ec2498cc31a9f5983497a8c5",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
