@@ -506,6 +506,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9b3ab81b_626dad17",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-28T21:22:52Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "ca6325df_f450bc9b",
+      "range": {
+        "startLine": 146,
+        "startChar": 0,
+        "endLine": 153,
+        "endChar": 24
+      },
+      "revId": "11715a593868da7c573d5b8bc0c356322a0e9105",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2e0fa8f4_eec4ad29",

@@ -129,6 +129,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "56d36a4f_c4b387a1",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-28T21:22:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d9e11608_c0ec4505",
+      "range": {
+        "startLine": 60,
+        "startChar": 3,
+        "endLine": 60,
+        "endChar": 71
+      },
+      "revId": "7bc1962fdc1801e7ec2498cc31a9f5983497a8c5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "521e88c4_6084d299",
@@ -152,6 +176,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b29807eb_4a5a367b",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-28T21:22:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "521e88c4_6084d299",
+      "range": {
+        "startLine": 71,
+        "startChar": 17,
+        "endLine": 71,
+        "endChar": 28
+      },
+      "revId": "7bc1962fdc1801e7ec2498cc31a9f5983497a8c5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e64af9bf_da897ff1",
@@ -165,6 +213,24 @@
       "writtenOn": "2023-08-25T10:34:17Z",
       "side": 1,
       "message": "Ww also suggest Prometheus to collect server side metrics",
+      "revId": "7bc1962fdc1801e7ec2498cc31a9f5983497a8c5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ca673b94_b0c2f9a2",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-28T21:22:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e64af9bf_da897ff1",
       "revId": "7bc1962fdc1801e7ec2498cc31a9f5983497a8c5",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
@@ -280,6 +346,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e3103f54_7e25f25e",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-28T21:22:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6b0547e8_b8f1f670",
+      "range": {
+        "startLine": 110,
+        "startChar": 60,
+        "endLine": 110,
+        "endChar": 61
+      },
+      "revId": "7bc1962fdc1801e7ec2498cc31a9f5983497a8c5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "511b5e59_c8242047",
@@ -293,6 +383,30 @@
       "writtenOn": "2023-08-25T10:34:17Z",
       "side": 1,
       "message": "Move to post-migration step to get ready to next migration",
+      "range": {
+        "startLine": 134,
+        "startChar": 0,
+        "endLine": 134,
+        "endChar": 24
+      },
+      "revId": "7bc1962fdc1801e7ec2498cc31a9f5983497a8c5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "04974d9c_54526002",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-28T21:22:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "511b5e59_c8242047",
       "range": {
         "startLine": 134,
         "startChar": 0,
@@ -320,6 +434,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "eb062fe2_1b8a9386",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-28T21:22:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6ddba409_50c5fcc8",
+      "revId": "7bc1962fdc1801e7ec2498cc31a9f5983497a8c5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9a035550_970cc7c3",
@@ -343,6 +475,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee6fd8df_c6f5cdb0",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-28T21:22:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a035550_970cc7c3",
+      "range": {
+        "startLine": 174,
+        "startChar": 11,
+        "endLine": 174,
+        "endChar": 18
+      },
+      "revId": "7bc1962fdc1801e7ec2498cc31a9f5983497a8c5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ce6315c8_fa8d5cf1",
@@ -356,6 +512,24 @@
       "writtenOn": "2023-08-25T10:34:17Z",
       "side": 1,
       "message": "New section with copy-approval",
+      "revId": "7bc1962fdc1801e7ec2498cc31a9f5983497a8c5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c9982542_578d227b",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-08-28T21:22:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ce6315c8_fa8d5cf1",
       "revId": "7bc1962fdc1801e7ec2498cc31a9f5983497a8c5",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
