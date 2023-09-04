@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4ae3ddb5_03a13310",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.5_to_3.6.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-09-04T14:06:52Z",
+      "side": 1,
+      "message": "why online reindexing instead of offline?",
+      "revId": "1565f0843b0a9907bb1885984c8dd2be871eb387",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b073cf30_0a02da3e",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.5_to_3.6.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-09-04T14:06:52Z",
+      "side": 1,
+      "message": "Gerrit already started in the step 5.",
+      "revId": "1565f0843b0a9907bb1885984c8dd2be871eb387",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "79918969_67bb8451",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.5_to_3.6.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-09-04T14:06:52Z",
+      "side": 1,
+      "message": "when we do the migration in the replicas, are we still in readonly mode which means that the primary is unreachable?",
+      "revId": "1565f0843b0a9907bb1885984c8dd2be871eb387",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f4bc6e74_757c612c",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.5_to_3.6.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 169,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-09-04T14:06:52Z",
+      "side": 1,
+      "message": "`will be the same`",
+      "revId": "1565f0843b0a9907bb1885984c8dd2be871eb387",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
