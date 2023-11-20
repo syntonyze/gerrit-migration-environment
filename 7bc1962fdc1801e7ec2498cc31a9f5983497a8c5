@@ -501,6 +501,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "af5f0813_5e6f8067",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 1020677
+      },
+      "writtenOn": "2023-11-20T21:19:06Z",
+      "side": 1,
+      "message": "What happens to changes created since the last backup?",
+      "range": {
+        "startLine": 174,
+        "startChar": 3,
+        "endLine": 174,
+        "endChar": 51
+      },
+      "revId": "7bc1962fdc1801e7ec2498cc31a9f5983497a8c5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "ce6315c8_fa8d5cf1",
         "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
         "patchSetId": 12
@@ -530,6 +553,29 @@
       "side": 1,
       "message": "Done",
       "parentUuid": "ce6315c8_fa8d5cf1",
+      "revId": "7bc1962fdc1801e7ec2498cc31a9f5983497a8c5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c902c450_bfff7541",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.5.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 184,
+      "author": {
+        "id": 1020677
+      },
+      "writtenOn": "2023-11-20T21:19:06Z",
+      "side": 1,
+      "message": "Why does there *NEEDS* to be traffic on the system?",
+      "range": {
+        "startLine": 184,
+        "startChar": 2,
+        "endLine": 184,
+        "endChar": 62
+      },
       "revId": "7bc1962fdc1801e7ec2498cc31a9f5983497a8c5",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
