@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "beb6f7d1_79b06390",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.9-streamline.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2024-04-08T16:57:07Z",
+      "side": 1,
+      "message": "specify correct version",
+      "range": {
+        "startLine": 126,
+        "startChar": 32,
+        "endLine": 126,
+        "endChar": 46
+      },
+      "revId": "c70c4334d5234557abdded66c6c34aeb81d5887f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "28a63f69_55d62f94",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.9-streamline.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2024-04-08T16:57:07Z",
+      "side": 1,
+      "message": "specify correct version",
+      "range": {
+        "startLine": 162,
+        "startChar": 38,
+        "endLine": 162,
+        "endChar": 58
+      },
+      "revId": "c70c4334d5234557abdded66c6c34aeb81d5887f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4777389e_efea7d7d",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.9-streamline.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 177,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2024-04-08T16:57:07Z",
+      "side": 1,
+      "message": "specify correct version",
+      "range": {
+        "startLine": 177,
+        "startChar": 32,
+        "endLine": 177,
+        "endChar": 46
+      },
+      "revId": "c70c4334d5234557abdded66c6c34aeb81d5887f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2e4140f7_2f31b463",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.9-streamline.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2024-04-08T16:57:07Z",
+      "side": 1,
+      "message": "specify correct version",
+      "range": {
+        "startLine": 186,
+        "startChar": 31,
+        "endLine": 186,
+        "endChar": 48
+      },
+      "revId": "c70c4334d5234557abdded66c6c34aeb81d5887f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
