@@ -1,0 +1,417 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0f2c58b0_e37a378e",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.9-streamline.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-08T14:57:00Z",
+      "side": 1,
+      "message": "Maybe should we be more explicit about plugins to be removed / disabled before starting the cutover?",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 65
+      },
+      "revId": "e37ab387e95e6f890b58f79e18d6e9dbe932999c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "328da7f0_f633c2a1",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.9-streamline.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-08T14:57:00Z",
+      "side": 1,
+      "message": "Add new section `Breaking changes and important notes`",
+      "revId": "e37ab387e95e6f890b58f79e18d6e9dbe932999c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c15b8382_364b417b",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.9-streamline.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-08T14:57:00Z",
+      "side": 1,
+      "message": "Pre-cutover preparation tasks",
+      "revId": "e37ab387e95e6f890b58f79e18d6e9dbe932999c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "480907f3_3314dd59",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.9-streamline.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-08T14:57:00Z",
+      "side": 1,
+      "message": "To be moved to the `Breaking changes and important notes` section?",
+      "range": {
+        "startLine": 38,
+        "startChar": 0,
+        "endLine": 38,
+        "endChar": 109
+      },
+      "revId": "e37ab387e95e6f890b58f79e18d6e9dbe932999c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6be501b6_8398bf53",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.9-streamline.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-08T14:57:00Z",
+      "side": 1,
+      "message": "These are needed only for v3.9.x",
+      "range": {
+        "startLine": 44,
+        "startChar": 0,
+        "endLine": 55,
+        "endChar": 18
+      },
+      "revId": "e37ab387e95e6f890b58f79e18d6e9dbe932999c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cb207769_3a07649f",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.9-streamline.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-08T14:57:00Z",
+      "side": 1,
+      "message": "We would need these but on v3.9 once the migration is complete",
+      "range": {
+        "startLine": 57,
+        "startChar": 0,
+        "endLine": 62,
+        "endChar": 79
+      },
+      "revId": "e37ab387e95e6f890b58f79e18d6e9dbe932999c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f48669a2_10aac070",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.9-streamline.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-08T14:57:00Z",
+      "side": 1,
+      "message": "Best to swap then: first backup and then make changes",
+      "range": {
+        "startLine": 87,
+        "startChar": 0,
+        "endLine": 91,
+        "endChar": 46
+      },
+      "revId": "e37ab387e95e6f890b58f79e18d6e9dbe932999c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a7b90e8f_f8c2032f",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.9-streamline.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-08T14:57:00Z",
+      "side": 1,
+      "message": "Disable them, upgrade and then enable them again.",
+      "range": {
+        "startLine": 91,
+        "startChar": 0,
+        "endLine": 92,
+        "endChar": 63
+      },
+      "revId": "e37ab387e95e6f890b58f79e18d6e9dbe932999c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "27416d8e_e1adce23",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.9-streamline.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-08T14:57:00Z",
+      "side": 1,
+      "message": "Need to get the latest on stable-3.5, as @diego.sessona@gmail.com fixed the searching with NONE pagination",
+      "range": {
+        "startLine": 96,
+        "startChar": 31,
+        "endLine": 96,
+        "endChar": 62
+      },
+      "revId": "e37ab387e95e6f890b58f79e18d6e9dbe932999c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c4627481_05288aac",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.9-streamline.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-08T14:57:00Z",
+      "side": 1,
+      "message": "No plugins install here.",
+      "range": {
+        "startLine": 97,
+        "startChar": 0,
+        "endLine": 106,
+        "endChar": 29
+      },
+      "revId": "e37ab387e95e6f890b58f79e18d6e9dbe932999c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3bb7407f_cad08e34",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.9-streamline.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-08T14:57:00Z",
+      "side": 1,
+      "message": "To be moved / consolidated with the `Breaking changes and important notes` section above.",
+      "revId": "e37ab387e95e6f890b58f79e18d6e9dbe932999c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c8e17f3d_400e9e81",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.9-streamline.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-08T14:57:00Z",
+      "side": 1,
+      "message": "plugins not needed here",
+      "range": {
+        "startLine": 170,
+        "startChar": 0,
+        "endLine": 180,
+        "endChar": 18
+      },
+      "revId": "e37ab387e95e6f890b58f79e18d6e9dbe932999c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c6b30f5f_e9405585",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.9-streamline.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-08T14:57:00Z",
+      "side": 1,
+      "message": "Not needed here, but only on v3.9",
+      "range": {
+        "startLine": 182,
+        "startChar": 0,
+        "endLine": 186,
+        "endChar": 79
+      },
+      "revId": "e37ab387e95e6f890b58f79e18d6e9dbe932999c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "768c59f4_b4539258",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.9-streamline.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 294,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-08T14:57:00Z",
+      "side": 1,
+      "message": "For the replicas, you just need to update the war and reindex at the end, once in v3.9",
+      "range": {
+        "startLine": 294,
+        "startChar": 0,
+        "endLine": 294,
+        "endChar": 45
+      },
+      "revId": "e37ab387e95e6f890b58f79e18d6e9dbe932999c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "057081c3_bbb01fed",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.9-streamline.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 391,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-08T14:57:00Z",
+      "side": 1,
+      "message": "This is good and should be kept, as you do need the plugins in v3.9",
+      "range": {
+        "startLine": 380,
+        "startChar": 0,
+        "endLine": 391,
+        "endChar": 18
+      },
+      "revId": "e37ab387e95e6f890b58f79e18d6e9dbe932999c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "887ee59f_79826e93",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.9-streamline.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 393,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-08T14:57:00Z",
+      "side": 1,
+      "message": "This isn\u0027t accessible anymore, they should use the plugin-manager:\n`https://gerrit-ci.gerritforge.com/plugin-manager/`",
+      "range": {
+        "startLine": 393,
+        "startChar": 70,
+        "endLine": 393,
+        "endChar": 128
+      },
+      "revId": "e37ab387e95e6f890b58f79e18d6e9dbe932999c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "673b4ea6_97becd7f",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.9-streamline.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 420,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-08T14:57:00Z",
+      "side": 1,
+      "message": "Extra note: add the non-core plugins, especially the `owners` that influences the overall submit requirements results.",
+      "revId": "e37ab387e95e6f890b58f79e18d6e9dbe932999c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0b25c817_41e3ccd8",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.9-streamline.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 426,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-08T14:57:00Z",
+      "side": 1,
+      "message": "3.9.2",
+      "range": {
+        "startLine": 426,
+        "startChar": 36,
+        "endLine": 426,
+        "endChar": 39
+      },
+      "revId": "e37ab387e95e6f890b58f79e18d6e9dbe932999c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6192769f_0ea5b80a",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.9-streamline.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 482,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-08T14:57:00Z",
+      "side": 1,
+      "message": "There is no rollback, just restore from backups.",
+      "range": {
+        "startLine": 461,
+        "startChar": 0,
+        "endLine": 482,
+        "endChar": 17
+      },
+      "revId": "e37ab387e95e6f890b58f79e18d6e9dbe932999c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
