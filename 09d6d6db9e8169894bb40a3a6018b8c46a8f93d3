@@ -1,0 +1,199 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1fa0befb_96f645ff",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.8-streamline.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-15T21:34:31Z",
+      "side": 1,
+      "message": "Do you want to mention that any additional package and/or modification added in the Dockerfile to the base Gerrit image needs to be adapted and tested?",
+      "revId": "09d6d6db9e8169894bb40a3a6018b8c46a8f93d3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7b4891f8_60b8e6db",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.8-streamline.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-15T21:34:31Z",
+      "side": 1,
+      "message": "*will need to be ported*. Do you also want to mention the introduction of Typescript?",
+      "range": {
+        "startLine": 74,
+        "startChar": 2,
+        "endLine": 74,
+        "endChar": 26
+      },
+      "revId": "09d6d6db9e8169894bb40a3a6018b8c46a8f93d3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "45a336b1_108d1e21",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.8-streamline.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 194,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-15T21:34:31Z",
+      "side": 1,
+      "message": "```suggestion\nPre-cutover preparation tasks 3.8.5\n```",
+      "range": {
+        "startLine": 194,
+        "startChar": 30,
+        "endLine": 194,
+        "endChar": 35
+      },
+      "revId": "09d6d6db9e8169894bb40a3a6018b8c46a8f93d3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "444dd5e5_35b452a8",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.8-streamline.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 197,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-15T21:34:31Z",
+      "side": 1,
+      "message": "```suggestion\n* Download new Gerrit 3.8.5 war file from the\n```",
+      "range": {
+        "startLine": 197,
+        "startChar": 22,
+        "endLine": 197,
+        "endChar": 27
+      },
+      "revId": "09d6d6db9e8169894bb40a3a6018b8c46a8f93d3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "afd2109b_10cf04bd",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.8-streamline.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 198,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-15T21:34:31Z",
+      "side": 1,
+      "message": "```suggestion\n  [Gerrit Code Review 3.8 official website](https://gerrit-releases.storage.googleapis.com/gerrit-3.8.5.war).\n```",
+      "range": {
+        "startLine": 198,
+        "startChar": 102,
+        "endLine": 198,
+        "endChar": 103
+      },
+      "revId": "09d6d6db9e8169894bb40a3a6018b8c46a8f93d3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "81d95190_939219ba",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.8-streamline.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 224,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-15T21:34:31Z",
+      "side": 1,
+      "message": "nit: empty char at the end of line",
+      "range": {
+        "startLine": 224,
+        "startChar": 52,
+        "endLine": 224,
+        "endChar": 54
+      },
+      "revId": "09d6d6db9e8169894bb40a3a6018b8c46a8f93d3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e46f85c2_f14cb3d6",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.8-streamline.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 228,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-15T21:34:31Z",
+      "side": 1,
+      "message": "```suggestion\n  java -jar \u003cpath-to-war-file\u003e/gerrit-3.8.5.war init -d $GERRIT_SITE \\\n```",
+      "range": {
+        "startLine": 228,
+        "startChar": 42,
+        "endLine": 228,
+        "endChar": 43
+      },
+      "revId": "09d6d6db9e8169894bb40a3a6018b8c46a8f93d3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4b5740a8_fe75d969",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.8-streamline.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 241,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-15T21:34:31Z",
+      "side": 1,
+      "message": "Do you also want to mention to add their non-core plugins? (e.g. owners)",
+      "revId": "09d6d6db9e8169894bb40a3a6018b8c46a8f93d3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "748b1161_ed97205d",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.8-streamline.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 248,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-15T21:34:31Z",
+      "side": 1,
+      "message": "```suggestion\njava -jar \u003cpath-to-war-file\u003e/gerrit-3.8.5.war reindex -d .\n```",
+      "range": {
+        "startLine": 248,
+        "startChar": 40,
+        "endLine": 248,
+        "endChar": 41
+      },
+      "revId": "09d6d6db9e8169894bb40a3a6018b8c46a8f93d3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
