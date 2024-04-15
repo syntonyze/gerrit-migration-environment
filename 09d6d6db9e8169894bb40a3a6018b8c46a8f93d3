@@ -18,6 +18,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3bbb7de4_d97c898f",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.8-streamline.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2024-04-15T21:48:13Z",
+      "side": 1,
+      "message": "good point! Done",
+      "parentUuid": "1fa0befb_96f645ff",
+      "revId": "09d6d6db9e8169894bb40a3a6018b8c46a8f93d3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7b4891f8_60b8e6db",
@@ -31,6 +49,30 @@
       "writtenOn": "2024-04-15T21:34:31Z",
       "side": 1,
       "message": "*will need to be ported*. Do you also want to mention the introduction of Typescript?",
+      "range": {
+        "startLine": 74,
+        "startChar": 2,
+        "endLine": 74,
+        "endChar": 26
+      },
+      "revId": "09d6d6db9e8169894bb40a3a6018b8c46a8f93d3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "464247f7_cd7b80c9",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.8-streamline.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2024-04-15T21:48:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7b4891f8_60b8e6db",
       "range": {
         "startLine": 74,
         "startChar": 2,
@@ -64,6 +106,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e96404db_f495658f",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.8-streamline.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 194,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2024-04-15T21:48:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "45a336b1_108d1e21",
+      "range": {
+        "startLine": 194,
+        "startChar": 30,
+        "endLine": 194,
+        "endChar": 35
+      },
+      "revId": "09d6d6db9e8169894bb40a3a6018b8c46a8f93d3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "444dd5e5_35b452a8",
@@ -77,6 +143,30 @@
       "writtenOn": "2024-04-15T21:34:31Z",
       "side": 1,
       "message": "```suggestion\n* Download new Gerrit 3.8.5 war file from the\n```",
+      "range": {
+        "startLine": 197,
+        "startChar": 22,
+        "endLine": 197,
+        "endChar": 27
+      },
+      "revId": "09d6d6db9e8169894bb40a3a6018b8c46a8f93d3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ba949d4f_0e3a44a3",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.8-streamline.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 197,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2024-04-15T21:48:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "444dd5e5_35b452a8",
       "range": {
         "startLine": 197,
         "startChar": 22,
@@ -110,6 +200,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "aafbad16_c985fb41",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.8-streamline.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 198,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2024-04-15T21:48:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "afd2109b_10cf04bd",
+      "range": {
+        "startLine": 198,
+        "startChar": 102,
+        "endLine": 198,
+        "endChar": 103
+      },
+      "revId": "09d6d6db9e8169894bb40a3a6018b8c46a8f93d3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "81d95190_939219ba",
@@ -123,6 +237,30 @@
       "writtenOn": "2024-04-15T21:34:31Z",
       "side": 1,
       "message": "nit: empty char at the end of line",
+      "range": {
+        "startLine": 224,
+        "startChar": 52,
+        "endLine": 224,
+        "endChar": 54
+      },
+      "revId": "09d6d6db9e8169894bb40a3a6018b8c46a8f93d3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "08b4d10d_afe8fbef",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.8-streamline.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 224,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2024-04-15T21:48:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "81d95190_939219ba",
       "range": {
         "startLine": 224,
         "startChar": 52,
@@ -156,6 +294,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e2038a23_478be750",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.8-streamline.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 228,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2024-04-15T21:48:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e46f85c2_f14cb3d6",
+      "range": {
+        "startLine": 228,
+        "startChar": 42,
+        "endLine": 228,
+        "endChar": 43
+      },
+      "revId": "09d6d6db9e8169894bb40a3a6018b8c46a8f93d3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4b5740a8_fe75d969",
@@ -175,6 +337,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "dbd64f22_a6b00a8d",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.8-streamline.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 241,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2024-04-15T21:48:13Z",
+      "side": 1,
+      "message": "Already mentioned at point 2",
+      "parentUuid": "4b5740a8_fe75d969",
+      "revId": "09d6d6db9e8169894bb40a3a6018b8c46a8f93d3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "748b1161_ed97205d",
         "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.8-streamline.md",
         "patchSetId": 5
@@ -186,6 +366,30 @@
       "writtenOn": "2024-04-15T21:34:31Z",
       "side": 1,
       "message": "```suggestion\njava -jar \u003cpath-to-war-file\u003e/gerrit-3.8.5.war reindex -d .\n```",
+      "range": {
+        "startLine": 248,
+        "startChar": 40,
+        "endLine": 248,
+        "endChar": 41
+      },
+      "revId": "09d6d6db9e8169894bb40a3a6018b8c46a8f93d3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9e6f7bc6_a7507526",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.8-streamline.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 248,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2024-04-15T21:48:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "748b1161_ed97205d",
       "range": {
         "startLine": 248,
         "startChar": 40,
