@@ -271,7 +271,14 @@ cd $GERRIT_SITE && \
 ./bin/gerrit.sh start
 ```
 
-5. On all the replicas:
+5. Run an [online re-indexing]([1] https://gerrit-documentation.storage.googleapis.com/Documentation/3.5.6/cmd-index-changes-in-project.html)
+for those projects having prolog rules with owners:
+
+```shell
+ssh -p <port> <host> gerrit index changes-in-project <PROJECT> [<PROJECT> ...]
+```
+
+6. On all the replicas:
   * replace the Gerrit war file
   * run an offline reindex:
 ```shell
@@ -285,7 +292,7 @@ cd $GERRIT_SITE && \
 ```
   * replicate the git data for all the repositories from master to the replica
 
-6. Run the "acceptance tests" against Gerrit 3.8 and compare the results:
+7. Run the "acceptance tests" against Gerrit 3.8 and compare the results:
  * If everything is ok, continue with the replicas migration
  * If there are concerns:
   * consider rolling back
