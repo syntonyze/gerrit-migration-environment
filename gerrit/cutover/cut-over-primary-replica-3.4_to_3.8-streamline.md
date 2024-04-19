@@ -271,7 +271,37 @@ cd $GERRIT_SITE && \
 ./bin/gerrit.sh start
 ```
 
-5. On all the replicas:
+5. Run an [online re-indexing]([1] https://gerrit-documentation.storage.googleapis.com/Documentation/3.5.6/cmd-index-changes-in-project.html)
+for those projects having prolog rules with owners:
+
+```shell
+ssh -p <port> <host> gerrit index changes-in-project <PROJECT> [<PROJECT> ...]
+```
+
+You could check the following metric to see the progress of the online reindex:
+`queue_index_batch_total_scheduled_tasks_count - queue_index_batch_total_completed_tasks_count`
+
+Also the show-queue command will give an overview of indexing operation queued up, i.e.:
+
+```
+> ssh -p <port> <host> gerrit show-queue -w
+
+Task     State  StartTime         Command
+------------------------------------------------------------------------------
+...
+...
+4b840e06        15:54:34.022  Index change 525924 for project <your-project> produced by instance <instanceId>
+...
+...
+```
+
+You can check for indexing error as follow:
+
+```
+> grep "OnlineReindexer : Error" logs/error_log
+```
+
+6. On all the replicas:
   * replace the Gerrit war file
   * run an offline reindex:
 ```shell
@@ -285,7 +315,7 @@ cd $GERRIT_SITE && \
 ```
   * replicate the git data for all the repositories from master to the replica
 
-6. Run the "acceptance tests" against Gerrit 3.8 and compare the results:
+7. Run the "acceptance tests" against Gerrit 3.8 and compare the results:
  * If everything is ok, continue with the replicas migration
  * If there are concerns:
   * consider rolling back
