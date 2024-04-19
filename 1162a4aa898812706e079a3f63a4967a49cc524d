@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aa6d32e1_e6bfc28e",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.8-streamline.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 280,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-19T23:35:31Z",
+      "side": 1,
+      "message": "Maybe we need also to indicate a way to:\n- Graph on the metrics the status of the reindex (it should trigger reindexing tasks that can be monitored with show-queue)\n- Give some hints on how to spot errors on the error_log",
+      "revId": "1162a4aa898812706e079a3f63a4967a49cc524d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
