@@ -220,11 +220,8 @@ Migration
 
 This cutover plan will first migrate the primary instance and then the replicas.
 
-1. Upgrade non-core plugins, lib and war file on Gerrit primary
-2. Make sure all the plugins (core and non-core) are correctly enabled
- *NOTE:* The [owners plugin](https://gerrit.googlesource.com/plugins/owners/) in particular
-   influences the overall submit requirements result
-3. Run init on Gerrit:
+1. Upgrade non-core plugins, lib and war file on Gerrit primary (wihout enabling the plugins yet)
+2. Run init on Gerrit:
 
 ```shell
   java -jar <path-to-war-file>/gerrit-3.8.5.war init -d $GERRIT_SITE \
@@ -264,14 +261,68 @@ you should have the following:
 	ready = true
   ```
 
-4. Restart Gerrit
+4. Make sure all the plugins (core and non-core) are correctly enabled
+ *NOTE:* The [owners plugin](https://gerrit.googlesource.com/plugins/owners/) in particular
+   influences the overall submit requirements result.
+   Make sure to add:
+   * the latest `owners-api.jar` version is in the `$GERRIT_SITE/lib` folder
+   * `com.googlesource.gerrit.owners.api.OwnersApiModule ` to `gerrit.installModule`
+
+Here an example of configuration:
+```
+[gerrit]
+	basePath = git
+	canonicalWebUrl = http://localhost:8080/
+	serverId = b309b168-f09b-4a61-a3b8-60f652c85e1c
+  installModule = com.googlesource.gerrit.owners.api.OwnersApiModule
+...
+...
+```
+
+5. Restart Gerrit
 
 ```shell
 cd $GERRIT_SITE && \
 ./bin/gerrit.sh start
 ```
 
-5. On all the replicas:
+6. Run an [online re-indexing]([1] https://gerrit-documentation.storage.googleapis.com/Documentation/3.5.6/cmd-index-changes-in-project.html)
+for those projects having prolog rules with owners:
+
+```shell
+ssh -p <port> <host> gerrit index changes-in-project <PROJECT> [<PROJECT> ...]
+```
+
+Or for all the changes:
+
+```shell
+ssh -p <port> <host> gerrit index start changes --force
+```
+
+You could check the following metric to see the progress of the online reindex:
+`queue_index_batch_total_scheduled_tasks_count - queue_index_batch_total_completed_tasks_count`
+
+Also the show-queue command will give an overview of indexing operation queued up, i.e.:
+
+```
+> ssh -p <port> <host> gerrit show-queue -w
+
+Task     State  StartTime         Command
+------------------------------------------------------------------------------
+...
+...
+4b840e06        15:54:34.022  Index change 525924 for project <your-project> produced by instance <instanceId>
+...
+...
+```
+
+You can check for indexing error as follow:
+
+```
+> grep "OnlineReindexer : Error" logs/error_log
+```
+
+7. On all the replicas:
   * replace the Gerrit war file
   * run an offline reindex:
 ```shell
@@ -285,7 +336,7 @@ cd $GERRIT_SITE && \
 ```
   * replicate the git data for all the repositories from master to the replica
 
-6. Run the "acceptance tests" against Gerrit 3.8 and compare the results:
+8. Run the "acceptance tests" against Gerrit 3.8 and compare the results:
  * If everything is ok, continue with the replicas migration
  * If there are concerns:
   * consider rolling back
