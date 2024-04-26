@@ -1,4 +1,4 @@
-Cut over plan: migration from Gerrit version 3.4.5 to 3.8.5
+Cut over plan: migration from Gerrit version 3.4.5 to 3.9.5
 ==
 
 This migration is intended for a single primary and multiple Gerrit replicas.
@@ -6,7 +6,7 @@ This migration is intended for a single primary and multiple Gerrit replicas.
 **NOTE:**
 * The cutover will require a downtime of the system that will have to be assessed
 during the testing in staging
-* It won't be possible to roll back from 3.8 to 3.4
+* It won't be possible to roll back from 3.9 to 3.4
 
 Glossary
 ==
@@ -101,6 +101,17 @@ to be adapted and tested.
 * Disallow uploading new prolog rules files. Clients should use
 submit-requirements instead. Please note that modifications and deletions of
 existing rules.pl files are still allowed.
+
+* There are new limit definitions which can be used to protect Gerrit from improper client activity:
+ * `change.topicLimit`: defines the maximum number of changes in the same topic
+ * `change.maxFileSizeDownload`: prevents memory overload caused by clients
+ downloading large files from REST-API
+ * `change.maxFileSizeDiff`: prevents memory overload caused by rendering large
+ files diffs in a browser
+
+* `index.indexChangesAsync`:  reindex changes with an asynchronous process when a
+change is updated from the UI. The new option yields a much more responsive user-experience
+by releasing UI elements without waiting for the backend reindex execution to complete
 
 * `core.usePerRequestRefCache` setting, true by default, introduced a per request
 (currently per request thread) ref cache, helping reduce the overhead of checking
@@ -198,22 +209,40 @@ Pre-cutover preparation tasks 3.8.5
 
 * Download new Gerrit 3.8.5 war file from the
   [Gerrit Code Review 3.8 official website](https://gerrit-releases.storage.googleapis.com/gerrit-3.8.5.war).
+
+Migration
+==
+
+1. Upgrade war file on Gerrit primary
+2. Run init on Gerrit:
+
+```shell
+  java -jar <path-to-war-file>/gerrit-3.8.5.war init -d $GERRIT_SITE --batch
+```
+
+Pre-cutover preparation tasks 3.9.4
+==
+
+* Java 17 is the JVM version for running Gerrit in production
+
+* Download new Gerrit 3.9.4 war file from the
+  [Gerrit Code Review 3.8 official website](https://gerrit-releases.storage.googleapis.com/gerrit-3.9.4.war).
   This war file contains also all core plugins:
-        * codemirror-editor
-        * commit-message-length-validator
-        * delete-project
-        * download-commands
-        * gitiles
-        * hooks
-        * plugin-manager
-        * replication
-        * reviewnotes
-        * singleusergroup
-        * webhooks
+      * codemirror-editor
+      * commit-message-length-validator
+      * delete-project
+      * download-commands
+      * gitiles
+      * hooks
+      * plugin-manager
+      * replication
+      * reviewnotes
+      * singleusergroup
+      * webhooks
 
     - Download additional plugins and libraries from [GerritForge CI](https://gerrit-ci.gerritforge.com/plugin-manager/)
 
- * Make sure custom plugins are compatible with the new Gerrit version
+ * Make sure custom plugins are compatible with the new Gerrit version (they will need to be compiled against Java 17)
 
 Migration
 ==
@@ -224,7 +253,7 @@ This cutover plan will first migrate the primary instance and then the replicas.
 2. Run init on Gerrit:
 
 ```shell
-  java -jar <path-to-war-file>/gerrit-3.8.5.war init -d $GERRIT_SITE \
+  java -jar <path-to-war-file>/gerrit-3.9.4.war init -d $GERRIT_SITE \
   --install-plugin codemirror-editor \
   --install-plugin commit-message-length-validator \
   --install-plugin delete-project \
@@ -244,20 +273,20 @@ This cutover plan will first migrate the primary instance and then the replicas.
 
 ```shell
 cd $GERRIT_SITE && \
-java -jar <path-to-war-file>/gerrit-3.8.5.war reindex -d .
+java -jar <path-to-war-file>/gerrit-3.9.4.war reindex -d .
 ```
 
 Once reindexing will be over, in the `$GERRIT_SITE/index/gerrit_index.config`
 you should have the following:
 
   ```shell
-[index "accounts_0012"]
+[index "accounts_0013"]
 	ready = true
-[index "changes_0082"]
+[index "changes_0084"]
 	ready = true
-[index "groups_0009"]
+[index "groups_0010"]
 	ready = true
-[index "projects_0005"]
+[index "projects_0008"]
 	ready = true
   ```
 
@@ -327,7 +356,7 @@ You can check for indexing error as follow:
   * run an offline reindex:
 ```shell
 cd $GERRIT_SITE && \
-java -jar <path-to-war-file>/gerrit-3.8.5.war reindex -d .
+java -jar <path-to-war-file>/gerrit-3.9.4.war reindex -d .
 ```
   * restart Gerrit
 ```shell
@@ -336,7 +365,7 @@ cd $GERRIT_SITE && \
 ```
   * replicate the git data for all the repositories from master to the replica
 
-8. Run the "acceptance tests" against Gerrit 3.8 and compare the results:
+8. Run the "acceptance tests" against Gerrit 3.9 and compare the results:
  * If everything is ok, continue with the replicas migration
  * If there are concerns:
   * consider rolling back
@@ -362,3 +391,4 @@ Notes
   * https://www.gerritcodereview.com/3.6.html
   * https://www.gerritcodereview.com/3.7.html
   * https://www.gerritcodereview.com/3.8.html
+  * https://www.gerritcodereview.com/3.9.html
