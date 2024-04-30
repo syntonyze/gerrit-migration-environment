@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cf9d88fd_3705fc03",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.8-streamline.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 300,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-30T18:04:56Z",
+      "side": 1,
+      "message": "They said that 80% of the changes use the owners plugin: why not just suggesting to run the whole reindex online then?",
+      "range": {
+        "startLine": 292,
+        "startChar": 0,
+        "endLine": 300,
+        "endChar": 3
+      },
+      "revId": "dafefd640a26d4827b443ae436ecb6fb78f9cc3f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
