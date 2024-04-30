@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "36339887_13b95ed9",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.9-streamline.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 279,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-30T14:35:25Z",
+      "side": 1,
+      "message": "If 80% of their projects use the owners plugin, the off-line reindex may not be useful at all.",
+      "range": {
+        "startLine": 279,
+        "startChar": 0,
+        "endLine": 279,
+        "endChar": 58
+      },
+      "revId": "6d3a8da3028f99e634fc700e2149ea1ecfc39a91",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
