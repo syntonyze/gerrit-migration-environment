@@ -22,6 +22,30 @@
       },
       "revId": "6d3a8da3028f99e634fc700e2149ea1ecfc39a91",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "446f4719_e8835db7",
+        "filename": "gerrit/cutover/cut-over-primary-replica-3.4_to_3.9-streamline.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 279,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2024-04-30T16:10:37Z",
+      "side": 1,
+      "message": "As discussed if needed we can suggest to just use empty indexes instead.",
+      "parentUuid": "36339887_13b95ed9",
+      "range": {
+        "startLine": 279,
+        "startChar": 0,
+        "endLine": 279,
+        "endChar": 58
+      },
+      "revId": "6d3a8da3028f99e634fc700e2149ea1ecfc39a91",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
   ]
 }
